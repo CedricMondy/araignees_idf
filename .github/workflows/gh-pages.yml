@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -22,6 +25,11 @@ jobs:
       run: |
         Rscript -e "install.packages(c('openxlsx2', 'purrr', 'janitor', 'dplyr', 'tidyr', 'brew', 'stringr', 'yaml'))"
 
+    - name: Install Quarto
+      run: |
+        wget https://quarto.org/download/latest/quarto-linux-amd64.deb
+        sudo dpkg -i quarto-linux-amd64.deb
+
     - name: Run pre-render script
       run: |
         Rscript generer_structure_site.R
@@ -30,12 +38,15 @@ jobs:
       run: |
         quarto render
 
+    - name: Set correct permissions for the site directory
+      run: sudo chmod -R 755 _site
+
     - name: Move site to docs
       run: |
         mv _site docs
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.6.3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+        branch: gh-pages
+        folder: docs
