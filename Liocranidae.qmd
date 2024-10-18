@@ -16,7 +16,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/49-li
 
 ![Carte de distribution de *Agroeca brunnea*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Liocranidae_Agroeca%20brunnea_2022-03-10.jpeg)
 
-![Photo de *Agroeca brunnea*](chemin/vers/photo.jpg)
+
 
 
 
@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/49-li
 
 ![Carte de distribution de *Agroeca inopina*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Liocranidae_Agroeca%20inopina_2022-03-10.jpeg)
 
-![Photo de *Agroeca inopina*](chemin/vers/photo.jpg)
+
 
 
 
@@ -32,7 +32,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/49-li
 
 ![Carte de distribution de *Agroeca lusatica*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Liocranidae_Agroeca%20lusatica_2022-03-10.jpeg)
 
-![Photo de *Agroeca lusatica*](chemin/vers/photo.jpg)
+
 
 
 
@@ -40,7 +40,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/49-li
 
 ![Carte de distribution de *Agroeca proxima*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Liocranidae_Agroeca%20proxima_2022-03-10.jpeg)
 
-![Photo de *Agroeca proxima*](chemin/vers/photo.jpg)
+
 
 
 
@@ -54,7 +54,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/49-li
 
 ![Carte de distribution de *Apostenus fuscus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Liocranidae_Apostenus%20fuscus_2022-03-10.jpeg)
 
-![Photo de *Apostenus fuscus*](chemin/vers/photo.jpg)
+
 
 
 
@@ -68,7 +68,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/49-li
 
 ![Carte de distribution de *Liocranoeca striata*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Liocranidae_Liocranoeca%20striata_2022-03-10.jpeg)
 
-![Photo de *Liocranoeca striata*](chemin/vers/photo.jpg)
+
 
 
 

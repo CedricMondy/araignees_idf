@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/40-an
 
 ![Carte de distribution de *Anyphaena numida*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20numida_2022-03-10.jpeg)
 
-![Photo de *Anyphaena numida*](chemin/vers/photo.jpg)
+
 
 
 
@@ -32,7 +32,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/40-an
 
 ![Carte de distribution de *Anyphaena sabina*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20sabina_2022-03-10.jpeg)
 
-![Photo de *Anyphaena sabina*](chemin/vers/photo.jpg)
+
 
 
 

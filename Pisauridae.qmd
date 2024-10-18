@@ -16,7 +16,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/56-pi
 
 ![Carte de distribution de *Dolomedes fimbriatus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Dolomedes%20fimbriatus_2022-03-10.jpeg)
 
-![Photo de *Dolomedes fimbriatus*](chemin/vers/photo.jpg)
+
 
 
 
@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/56-pi
 
 ![Carte de distribution de *Dolomedes plantarius*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Dolomedes%20plantarius_2022-03-10.jpeg)
 
-![Photo de *Dolomedes plantarius*](chemin/vers/photo.jpg)
+
 
 
 

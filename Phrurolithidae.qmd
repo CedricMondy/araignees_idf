@@ -16,7 +16,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1386-
 
 ![Carte de distribution de *Phrurolithus festivus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Phrurolithidae_Phrurolithus%20festivus_2022-03-10.jpeg)
 
-![Photo de *Phrurolithus festivus*](chemin/vers/photo.jpg)
+
 
 
 
@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1386-
 
 ![Carte de distribution de *Phrurolithus minimus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Phrurolithidae_Phrurolithus%20minimus_2022-03-10.jpeg)
 
-![Photo de *Phrurolithus minimus*](chemin/vers/photo.jpg)
+
 
 
 
@@ -32,7 +32,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1386-
 
 ![Carte de distribution de *Phrurolithus nigrinus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Phrurolithidae_Phrurolithus%20nigrinus_2022-03-10.jpeg)
 
-![Photo de *Phrurolithus nigrinus*](chemin/vers/photo.jpg)
+
 
 
 

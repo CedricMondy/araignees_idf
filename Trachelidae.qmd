@@ -30,7 +30,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1385-
 
 ![Carte de distribution de *Paratrachelas maculatus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Paratrachelas%20maculatus_2022-03-10.jpeg)
 
-![Photo de *Paratrachelas maculatus*](chemin/vers/photo.jpg)
+
 
 
 

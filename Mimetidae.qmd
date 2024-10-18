@@ -16,7 +16,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/51-mi
 
 ![Carte de distribution de *Ero aphana*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Mimetidae_Ero%20aphana_2022-03-10.jpeg)
 
-![Photo de *Ero aphana*](chemin/vers/photo.jpg)
+
 
 
 
@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/51-mi
 
 ![Carte de distribution de *Ero cambridgei*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Mimetidae_Ero%20cambridgei_2022-03-10.jpeg)
 
-![Photo de *Ero cambridgei*](chemin/vers/photo.jpg)
+
 
 
 
@@ -32,7 +32,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/51-mi
 
 ![Carte de distribution de *Ero furcata*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Mimetidae_Ero%20furcata_2022-03-10.jpeg)
 
-![Photo de *Ero furcata*](chemin/vers/photo.jpg)
+
 
 
 
@@ -40,7 +40,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/51-mi
 
 ![Carte de distribution de *Ero tuberculata*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Mimetidae_Ero%20tuberculata_2022-03-10.jpeg)
 
-![Photo de *Ero tuberculata*](chemin/vers/photo.jpg)
+
 
 
 

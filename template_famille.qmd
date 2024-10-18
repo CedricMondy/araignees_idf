@@ -73,7 +73,7 @@ for (genus in genera) {
             '_2022-03-10.jpeg'
             ),
             ")\n\n",
-          "![Photo de *", species, "*](chemin/vers/photo.jpg)\n\n"
+          ifelse(!is.na(difficulte), paste0("![Photo de *", species, "*](chemin/vers/photo.jpg)\n\n"), "\n\n")
           )
       )   
 

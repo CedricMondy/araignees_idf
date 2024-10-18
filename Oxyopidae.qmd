@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/oxyop
 
 ![Carte de distribution de *Oxyopes lineatus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20lineatus_2022-03-10.jpeg)
 
-![Photo de *Oxyopes lineatus*](chemin/vers/photo.jpg)
+
 
 
 
@@ -32,7 +32,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/oxyop
 
 ![Carte de distribution de *Oxyopes nigripalpis*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20nigripalpis_2022-03-10.jpeg)
 
-![Photo de *Oxyopes nigripalpis*](chemin/vers/photo.jpg)
+
 
 
 

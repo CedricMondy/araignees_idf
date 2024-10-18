@@ -16,7 +16,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/52-mi
 
 ![Carte de distribution de *Zora armillata*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Miturgidae_Zora%20armillata_2022-03-10.jpeg)
 
-![Photo de *Zora armillata*](chemin/vers/photo.jpg)
+
 
 
 
@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/52-mi
 
 ![Carte de distribution de *Zora manicata*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Miturgidae_Zora%20manicata_2022-03-10.jpeg)
 
-![Photo de *Zora manicata*](chemin/vers/photo.jpg)
+
 
 
 
@@ -40,7 +40,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/52-mi
 
 ![Carte de distribution de *Zora silvestris*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Miturgidae_Zora%20silvestris_2022-03-10.jpeg)
 
-![Photo de *Zora silvestris*](chemin/vers/photo.jpg)
+
 
 
 
@@ -48,7 +48,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/52-mi
 
 ![Carte de distribution de *Zora spinimana*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Miturgidae_Zora%20spinimana_2022-03-10.jpeg)
 
-![Photo de *Zora spinimana*](chemin/vers/photo.jpg)
+
 
 
 

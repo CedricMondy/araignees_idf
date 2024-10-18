@@ -16,7 +16,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/64-ul
 
 ![Carte de distribution de *Hyptiotes flavidus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Uloboridae_Hyptiotes%20flavidus_2022-03-10.jpeg)
 
-![Photo de *Hyptiotes flavidus*](chemin/vers/photo.jpg)
+
 
 
 
@@ -24,7 +24,7 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/64-ul
 
 ![Carte de distribution de *Hyptiotes paradoxus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Uloboridae_Hyptiotes%20paradoxus_2022-03-10.jpeg)
 
-![Photo de *Hyptiotes paradoxus*](chemin/vers/photo.jpg)
+
 
 
 
