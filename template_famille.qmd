@@ -1,0 +1,54 @@
+---
+title: "<%=family%>"
+---
+
+<%=
+for (genus in genera) {
+  especes <- liste_esp |> 
+    dplyr::filter(stringr::str_starts(taxon, pattern = genus))
+
+  nb_sp <- nrow(especes)
+  
+  nb_sp_id <- especes |> 
+    dplyr::filter(id_vue == 'oui') |> 
+    nrow()
+    
+  cat(paste0(
+    "\n\n## ", genus, "\n\n",
+    nb_sp, " espèce", ifelse(nb_sp > 1, "s", ""), " en Île-de-France", 
+    dplyr::case_when(
+      nb_sp == 1 & nb_sp_id == 1 ~ " identifiable à vue",
+      nb_sp == 1 & nb_sp_id == 0 ~ " non identifiable à vue",
+      nb_sp > 1 & nb_sp_id == 0 ~ " dont aucune identifiable à vue",
+      nb_sp > 1 & nb_sp_id == nb_sp ~ " toutes identifiables à vue",
+      TRUE ~ paste0(" dont ", nb_sp_id, " identifiables à vue")
+    ),
+    "\n\n"
+  ))
+  
+  sapply(
+      especes$taxon,
+      function(species) {
+      difficulte <- especes |> 
+        dplyr::filter(taxon == species) |> 
+        dplyr::pull(difficulte_id)
+      cat(
+        paste0(
+          "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ")\n\n",
+          "![Carte de distribution de *", species, "*](", 
+          paste0(
+            'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 
+            family, '_', 
+            stringr::str_replace(species, pattern = '\\s', replacement = '%20'),
+            '_2022-03-10.jpeg'
+            ),
+            ")\n\n",
+          "![Photo de *", species, "*](chemin/vers/photo.jpg)\n\n"
+          )
+      )   
+
+      }
+  )
+}
+%>
+

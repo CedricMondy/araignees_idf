@@ -1,0 +1,95 @@
+project:
+  type: website
+website:
+  title: Araignées d'Île-de-France
+  navbar:
+    left:
+    - href: index.qmd
+      text: Accueil
+  sidebar:
+  - text: Familles
+    contents:
+    - text: Agelenidae
+      href: Agelenidae.html
+    - text: Amaurobiidae
+      href: Amaurobiidae.html
+    - text: Anyphaenidae
+      href: Anyphaenidae.html
+    - text: Araneidae
+      href: Araneidae.html
+    - text: Atypidae
+      href: Atypidae.html
+    - text: Cheiracanthiidae
+      href: Cheiracanthiidae.html
+    - text: Clubionidae
+      href: Clubionidae.html
+    - text: Cybaeidae
+      href: Cybaeidae.html
+    - text: Dictynidae
+      href: Dictynidae.html
+    - text: Dysderidae
+      href: Dysderidae.html
+    - text: Eresidae
+      href: Eresidae.html
+    - text: Gnaphosidae
+      href: Gnaphosidae.html
+    - text: Hahniidae
+      href: Hahniidae.html
+    - text: Leptonetidae
+      href: Leptonetidae.html
+    - text: Linyphiidae
+      href: Linyphiidae.html
+    - text: Liocranidae
+      href: Liocranidae.html
+    - text: Lycosidae
+      href: Lycosidae.html
+    - text: Macrothelidae
+      href: Macrothelidae.html
+    - text: Mimetidae
+      href: Mimetidae.html
+    - text: Miturgidae
+      href: Miturgidae.html
+    - text: Nesticidae
+      href: Nesticidae.html
+    - text: Oonopidae
+      href: Oonopidae.html
+    - text: Oxyopidae
+      href: Oxyopidae.html
+    - text: Philodromidae
+      href: Philodromidae.html
+    - text: Pholcidae
+      href: Pholcidae.html
+    - text: Phrurolithidae
+      href: Phrurolithidae.html
+    - text: Pisauridae
+      href: Pisauridae.html
+    - text: Salticidae
+      href: Salticidae.html
+    - text: Scytodidae
+      href: Scytodidae.html
+    - text: Segestriidae
+      href: Segestriidae.html
+    - text: Sparassidae
+      href: Sparassidae.html
+    - text: Tetragnathidae
+      href: Tetragnathidae.html
+    - text: Theridiidae
+      href: Theridiidae.html
+    - text: Theridiosomatidae
+      href: Theridiosomatidae.html
+    - text: Thomisidae
+      href: Thomisidae.html
+    - text: Trachelidae
+      href: Trachelidae.html
+    - text: Uloboridae
+      href: Uloboridae.html
+    - text: Zodariidae
+      href: Zodariidae.html
+    - text: Zoropsidae
+      href: Zoropsidae.html
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+editor: visual
