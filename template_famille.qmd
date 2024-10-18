@@ -50,6 +50,7 @@ for (genus in genera) {
       nb_sp == 1 & nb_sp_id == 1 ~ " identifiable à vue",
       nb_sp == 1 & nb_sp_id == 0 ~ " non identifiable à vue",
       nb_sp > 1 & nb_sp_id == 0 ~ ", aucune identifiable à vue",
+      nb_sp > 1 & nb_sp_id == 1 ~ " dont 1 identifiable à vue",
       nb_sp > 1 & nb_sp_id == nb_sp ~ ", toutes identifiables à vue",
       TRUE ~ paste0(" dont ", nb_sp_id, " identifiables à vue")
     ),
@@ -65,6 +66,7 @@ for (genus in genera) {
       cat(
         paste0(
           "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ")\n\n",
+          ifelse(!is.na(difficulte), paste0("![Photo de *", species, "*](chemin/vers/photo.jpg)\n\n"), "\n\n"),
           "![Carte de distribution de *", species, "*](", 
           paste0(
             'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 
@@ -72,8 +74,7 @@ for (genus in genera) {
             stringr::str_replace(species, pattern = '\\s', replacement = '%20'),
             '_2022-03-10.jpeg'
             ),
-            ")\n\n",
-          ifelse(!is.na(difficulte), paste0("![Photo de *", species, "*](chemin/vers/photo.jpg)\n\n"), "\n\n")
+            ")\n\n"
           )
       )   
 

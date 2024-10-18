@@ -14,9 +14,9 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1385-
 
 ### *Cetonana laticeps* (difficulté 3)
 
-![Carte de distribution de *Cetonana laticeps*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Cetonana%20laticeps_2022-03-10.jpeg)
-
 ![Photo de *Cetonana laticeps*](chemin/vers/photo.jpg)
+
+![Carte de distribution de *Cetonana laticeps*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Cetonana%20laticeps_2022-03-10.jpeg)
 
 
 
@@ -28,9 +28,9 @@ Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1385-
 
 ### *Paratrachelas maculatus* (non identifiable à vue)
 
+
+
 ![Carte de distribution de *Paratrachelas maculatus*](https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Paratrachelas%20maculatus_2022-03-10.jpeg)
-
-
 
 
 
