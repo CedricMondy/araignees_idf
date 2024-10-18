@@ -1,7 +1,7 @@
-donnees_importees <- openxlsx2::wb_get_sheet_names(openxlsx2::wb_load("C:/Users/cedri/Documents/Identification/Araneae/Documents Stagiaires Perf Arachno/Ressources/liste-especes-araignées-id-vue-IdF.xlsx")) |>
+donnees_importees <- openxlsx2::wb_get_sheet_names(openxlsx2::wb_load("liste-especes-araignées-id-vue-IdF.xlsx")) |>
   purrr::map(
     function(sheet_name) {
-      openxlsx2::read_xlsx(file = "C:/Users/cedri/Documents/Identification/Araneae/Documents Stagiaires Perf Arachno/Ressources/liste-especes-araignées-id-vue-IdF.xlsx", sheet = sheet_name)
+      openxlsx2::read_xlsx(file = "liste-especes-araignées-id-vue-IdF.xlsx", sheet = sheet_name)
     }
   )
 
