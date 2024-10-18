@@ -2,6 +2,8 @@
 title: "Thomisidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/62-thomisidae), [genitalias mâle](https://arachno.piwigo.com/index?/tags/1438-_thomisidae_m) , [genitalias femelle](https://arachno.piwigo.com/index?/tags/1437-_thomisidae_f)
+
 
 
 ## Bassaniodes
@@ -48,7 +50,7 @@ title: "Thomisidae"
 
 ## Diaea
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 
@@ -120,7 +122,7 @@ title: "Thomisidae"
 
 ## Ozyptila
 
-8 espèces en Île-de-France dont aucune identifiable à vue
+8 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -260,7 +262,7 @@ title: "Thomisidae"
 
 ## Tmarus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 

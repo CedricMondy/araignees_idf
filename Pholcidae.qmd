@@ -2,6 +2,8 @@
 title: "Pholcidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/55-pholcidae), [genitalias](https://arachno.piwigo.com/index?/tags/1490-_pholcidae)
+
 
 
 ## Holocnemus
@@ -20,7 +22,7 @@ title: "Pholcidae"
 
 ## Pholcus
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 

@@ -2,6 +2,8 @@
 title: "Philodromidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/54-philodromidae), [genitalias mâle](https://arachno.piwigo.com/index?/tags/1447-_philodromidae_m) , [genitalias femelle](https://arachno.piwigo.com/index?/tags/1448-_philodromidae_f)
+
 
 
 ## Philodromus
@@ -124,7 +126,7 @@ title: "Philodromidae"
 
 ## Pulchellodromus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -214,7 +216,7 @@ title: "Philodromidae"
 
 ## Tibellus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 

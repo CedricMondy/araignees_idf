@@ -2,6 +2,8 @@
 title: "Salticidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/salticidae), [genitalias mâle](https://arachno.piwigo.com/index?/tags/1449-_salticidae_m) , [genitalias femelle](https://arachno.piwigo.com/index?/tags/1450-_salticidae_f)
+
 
 
 ## Aelurillus
@@ -72,7 +74,7 @@ title: "Salticidae"
 
 ## Ballus
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 
@@ -356,7 +358,7 @@ title: "Salticidae"
 
 ## Neon
 
-4 espèces en Île-de-France dont aucune identifiable à vue
+4 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -408,7 +410,7 @@ title: "Salticidae"
 
 ## Pellenes
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 
@@ -472,7 +474,7 @@ title: "Salticidae"
 
 ## Pseudeuophrys
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -568,7 +570,7 @@ title: "Salticidae"
 
 ## Sibianor
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -590,7 +592,7 @@ title: "Salticidae"
 
 ## Synageles
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 

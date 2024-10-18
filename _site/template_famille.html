@@ -379,10 +379,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>&lt;%= cat( paste0( “[Site de Pierre Oger: espèces](”, pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))], “)” ) ) %&gt;</p>
+<p>&lt;%= {liens_genitalia &lt;- pages_genitalia[stringr::str_detect(pages_genitalia, stringr::str_to_lower(family))]</p>
+<p>cat( sapply( liens_genitalia, function(x) { if (stringr::str_detect(x, “dae_f”)) { paste0(“<a href="&quot;, x," title=")\n\n">Site de Pierre Oger: genitalias femelle</a> } else { if (stringr::str_detect(x,”dae_m”)) { paste0(“<a href="&quot;, x," title=")\n\n">Site de Pierre Oger: genitalias mâle</a> } else { paste0(”<a href="&quot;, x," title=")\n\n">Site de Pierre Oger: genitalias</a> } } } ) ) } %&gt;</p>
 <p>&lt;%= for (genus in genera) { especes &lt;- liste_esp |&gt; dplyr::filter(stringr::str_starts(taxon, pattern = genus))</p>
 <p>nb_sp &lt;- nrow(especes)</p>
 <p>nb_sp_id &lt;- especes |&gt; dplyr::filter(id_vue == ‘oui’) |&gt; nrow()</p>
-<p>cat(paste0( “##”, genus, “”, nb_sp, ” espèce”, ifelse(nb_sp &gt; 1, “s”, ““),” en Île-de-France”, dplyr::case_when( nb_sp == 1 &amp; nb_sp_id == 1 ~ ” identifiable à vue”, nb_sp == 1 &amp; nb_sp_id == 0 ~ ” non identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 0 ~ ” dont aucune identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == nb_sp ~ ” toutes identifiables à vue”, TRUE ~ paste0(” dont “, nb_sp_id,” identifiables à vue”) ), “” ))</p>
+<p>cat(paste0( “##”, genus, “”, nb_sp, ” espèce”, ifelse(nb_sp &gt; 1, “s”, ““),” en Île-de-France”, dplyr::case_when( nb_sp == 1 &amp; nb_sp_id == 1 ~ ” identifiable à vue”, nb_sp == 1 &amp; nb_sp_id == 0 ~ ” non identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 0 ~ “, aucune identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == nb_sp ~ “, toutes identifiables à vue”, TRUE ~ paste0(” dont “, nb_sp_id,” identifiables à vue”) ), “” ))</p>
 <p>sapply( especes$taxon, function(species) { difficulte &lt;- especes |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(difficulte_id) cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “![Carte de distribution de <em>”, species, ”</em>](”, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)”, “<img src="chemin/vers/photo.jpg" class="img-fluid" alt="Photo de ”, species, ”">” ) )</p>
 <pre><code>  }</code></pre>
 <p>) } %&gt;</p>

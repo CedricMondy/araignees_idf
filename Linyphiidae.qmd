@@ -2,6 +2,8 @@
 title: "Linyphiidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/1283-linyphiidae_a_d) [espèces](https://arachno.piwigo.com/index?/category/1284-linyphiidae_e_ma) [espèces](https://arachno.piwigo.com/index?/category/1285-linyphiidae_me_p) [espèces](https://arachno.piwigo.com/index?/category/1286-linyphiidae_q_z) [espèces](https://arachno.piwigo.com/index?/category/897-linyphiidae_cles), [genitalias femelle](https://arachno.piwigo.com/index?/tags/1456-_linyphiidae_f) , [genitalias mâle](https://arachno.piwigo.com/index?/tags/1455-_linyphiidae_m)
+
 
 
 ## Acartauchenius
@@ -20,7 +22,7 @@ title: "Linyphiidae"
 
 ## Agyneta
 
-10 espèces en Île-de-France dont aucune identifiable à vue
+10 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -162,7 +164,7 @@ title: "Linyphiidae"
 
 ## Bathyphantes
 
-4 espèces en Île-de-France dont aucune identifiable à vue
+4 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -200,7 +202,7 @@ title: "Linyphiidae"
 
 ## Centromerita
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -222,7 +224,7 @@ title: "Linyphiidae"
 
 ## Centromerus
 
-7 espèces en Île-de-France dont aucune identifiable à vue
+7 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -284,7 +286,7 @@ title: "Linyphiidae"
 
 ## Ceratinella
 
-4 espèces en Île-de-France dont aucune identifiable à vue
+4 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -350,7 +352,7 @@ title: "Linyphiidae"
 
 ## Dicymbium
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -372,7 +374,7 @@ title: "Linyphiidae"
 
 ## Diplocephalus
 
-5 espèces en Île-de-France dont aucune identifiable à vue
+5 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -432,7 +434,7 @@ title: "Linyphiidae"
 
 ## Dismodicus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -482,7 +484,7 @@ title: "Linyphiidae"
 
 ## Entelecara
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -512,7 +514,7 @@ title: "Linyphiidae"
 
 ## Erigone
 
-4 espèces en Île-de-France dont aucune identifiable à vue
+4 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -550,7 +552,7 @@ title: "Linyphiidae"
 
 ## Erigonella
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -628,7 +630,7 @@ title: "Linyphiidae"
 
 ## Gonatium
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -658,7 +660,7 @@ title: "Linyphiidae"
 
 ## Gongylidiellum
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -718,7 +720,7 @@ title: "Linyphiidae"
 
 ## Hylyphantes
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -740,7 +742,7 @@ title: "Linyphiidae"
 
 ## Hypomma
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -784,7 +786,7 @@ title: "Linyphiidae"
 
 ## Kaestneria
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -834,7 +836,7 @@ title: "Linyphiidae"
 
 ## Lepthyphantes
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -934,7 +936,7 @@ title: "Linyphiidae"
 
 ## Maso
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1012,7 +1014,7 @@ title: "Linyphiidae"
 
 ## Micrargus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1048,7 +1050,7 @@ title: "Linyphiidae"
 
 ## Microlinyphia
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1154,7 +1156,7 @@ title: "Linyphiidae"
 
 ## Monocephalus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1266,7 +1268,7 @@ title: "Linyphiidae"
 
 ## Oedothorax
 
-5 espèces en Île-de-France dont aucune identifiable à vue
+5 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1326,7 +1328,7 @@ title: "Linyphiidae"
 
 ## Palliduphantes
 
-6 espèces en Île-de-France dont aucune identifiable à vue
+6 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1408,7 +1410,7 @@ title: "Linyphiidae"
 
 ## Pelecopsis
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1458,7 +1460,7 @@ title: "Linyphiidae"
 
 ## Pocadicnemis
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1494,7 +1496,7 @@ title: "Linyphiidae"
 
 ## Porrhomma
 
-5 espèces en Île-de-France dont aucune identifiable à vue
+5 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1610,7 +1612,7 @@ title: "Linyphiidae"
 
 ## Silometopus
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1632,7 +1634,7 @@ title: "Linyphiidae"
 
 ## Sintula
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1668,7 +1670,7 @@ title: "Linyphiidae"
 
 ## Styloctetor
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1718,7 +1720,7 @@ title: "Linyphiidae"
 
 ## Tapinocyba
 
-4 espèces en Île-de-France dont aucune identifiable à vue
+4 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1784,7 +1786,7 @@ title: "Linyphiidae"
 
 ## Tenuiphantes
 
-6 espèces en Île-de-France dont aucune identifiable à vue
+6 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -1910,7 +1912,7 @@ title: "Linyphiidae"
 
 ## Trichoncus
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 

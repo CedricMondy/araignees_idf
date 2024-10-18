@@ -2,6 +2,8 @@
 title: "Araneidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/41-araneidae), [genitalias femelle](https://arachno.piwigo.com/index?/tags/1442-_araneidae_f) , [genitalias mâle](https://arachno.piwigo.com/index?/tags/1441-_araneidae_m)
+
 
 
 ## Aculepeira
@@ -96,7 +98,7 @@ title: "Araneidae"
 
 ## Araniella
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -154,7 +156,7 @@ title: "Araneidae"
 
 ## Cyclosa
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 
@@ -274,7 +276,7 @@ title: "Araneidae"
 
 ## Leviellus
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -346,7 +348,7 @@ title: "Araneidae"
 
 ## Singa
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 
@@ -382,7 +384,7 @@ title: "Araneidae"
 
 ## Zygiella
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 

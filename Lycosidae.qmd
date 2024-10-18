@@ -2,6 +2,8 @@
 title: "Lycosidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/50-lycosidae), [genitalias mâle](https://arachno.piwigo.com/index?/tags/1445-_lycosidae_m) , [genitalias femelle](https://arachno.piwigo.com/index?/tags/1446-_lycosidae_f)
+
 
 
 ## Alopecosa
@@ -304,7 +306,7 @@ title: "Lycosidae"
 
 ## Piratula
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -334,7 +336,7 @@ title: "Lycosidae"
 
 ## Trochosa
 
-4 espèces en Île-de-France dont aucune identifiable à vue
+4 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -372,7 +374,7 @@ title: "Lycosidae"
 
 ## Xerolycosa
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 

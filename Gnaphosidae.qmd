@@ -2,6 +2,8 @@
 title: "Gnaphosidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/46-gnaphosidae), [genitalias mâle](https://arachno.piwigo.com/index?/tags/1443-_gnaphosidae_m) , [genitalias femelle](https://arachno.piwigo.com/index?/tags/1444-_gnaphosidae_f)
+
 
 
 ## Berlandina
@@ -48,7 +50,7 @@ title: "Gnaphosidae"
 
 ## Drassodes
 
-3 espèces en Île-de-France dont aucune identifiable à vue
+3 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -78,7 +80,7 @@ title: "Gnaphosidae"
 
 ## Drassodex
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -100,7 +102,7 @@ title: "Gnaphosidae"
 
 ## Drassyllus
 
-5 espèces en Île-de-France dont aucune identifiable à vue
+5 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -146,7 +148,7 @@ title: "Gnaphosidae"
 
 ## Gnaphosa
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -168,7 +170,7 @@ title: "Gnaphosidae"
 
 ## Haplodrassus
 
-7 espèces en Île-de-France dont aucune identifiable à vue
+7 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -350,7 +352,7 @@ title: "Gnaphosidae"
 
 ## Poecilochroa
 
-2 espèces en Île-de-France toutes identifiables à vue
+2 espèces en Île-de-France, toutes identifiables à vue
 
 
 
@@ -422,7 +424,7 @@ title: "Gnaphosidae"
 
 ## Zelotes
 
-7 espèces en Île-de-France dont aucune identifiable à vue
+7 espèces en Île-de-France, aucune identifiable à vue
 
 
 

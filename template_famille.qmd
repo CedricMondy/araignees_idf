@@ -2,6 +2,36 @@
 title: "<%=family%>"
 ---
 
+Site de Pierre Oger: <%=
+{
+  liens_genitalia <- pages_genitalia[stringr::str_detect(pages_genitalia, stringr::str_to_lower(family))]
+  cat(
+    paste0(
+      "[espèces](",
+      pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))],
+      ")"
+      )
+    )
+  cat(
+    sapply(
+      liens_genitalia,
+        function(x) {
+          if (stringr::str_detect(x, "dae_f")) {
+              paste0(", [genitalias femelle](", x, ")")
+            } else {
+              if (stringr::str_detect(x, "dae_m")) {
+                paste0(", [genitalias mâle](", x, ")")
+              } else {
+                paste0(", [genitalias](", x, ")")
+              }
+            }
+          }
+        )
+      )
+}
+  
+%>
+
 <%=
 for (genus in genera) {
   especes <- liste_esp |> 

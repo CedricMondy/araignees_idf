@@ -23,7 +23,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        Rscript -e "install.packages(c('openxlsx2', 'purrr', 'janitor', 'dplyr', 'tidyr', 'brew', 'stringr', 'yaml'))"
+        Rscript -e "install.packages(c('openxlsx2', 'purrr', 'janitor', 'dplyr', 'tidyr', 'brew', 'stringr', 'yaml', 'rvest'))"
 
     - name: Install Quarto
       run: |

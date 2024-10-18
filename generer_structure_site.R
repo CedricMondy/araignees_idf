@@ -36,6 +36,11 @@ liste_esp <- liste_esp |>
   dplyr::filter(is.na(nb_sp_idf)) |>
   tidyr::drop_na(famille, taxon)
 
+source("arachno_piwigo.R")
+
+pages_familles <- list_family_pages()
+pages_genitalia <- list_family_pages_genitalia()
+
 purrr::walk(
   liste_familles,
   function(family) {

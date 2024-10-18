@@ -2,6 +2,8 @@
 title: "Dictynidae"
 ---
 
+Site de Pierre Oger: [espèces](https://arachno.piwigo.com/index?/category/44-dictynidae), [genitalias mâle](https://arachno.piwigo.com/index?/tags/1457-_dictynidae_m) , [genitalias femelle](https://arachno.piwigo.com/index?/tags/1458-_dictynidae_f)
+
 
 
 ## Archaeodictyna
@@ -20,7 +22,7 @@ title: "Dictynidae"
 
 ## Argenna
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -78,7 +80,7 @@ title: "Dictynidae"
 
 ## Dictyna
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -114,7 +116,7 @@ title: "Dictynidae"
 
 ## Lathys
 
-2 espèces en Île-de-France dont aucune identifiable à vue
+2 espèces en Île-de-France, aucune identifiable à vue
 
 
 
@@ -136,7 +138,7 @@ title: "Dictynidae"
 
 ## Nigma
 
-3 espèces en Île-de-France toutes identifiables à vue
+3 espèces en Île-de-France, toutes identifiables à vue
 
 
 
