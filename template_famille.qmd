@@ -19,8 +19,8 @@ for (genus in genera) {
     dplyr::case_when(
       nb_sp == 1 & nb_sp_id == 1 ~ " identifiable à vue",
       nb_sp == 1 & nb_sp_id == 0 ~ " non identifiable à vue",
-      nb_sp > 1 & nb_sp_id == 0 ~ " dont aucune identifiable à vue",
-      nb_sp > 1 & nb_sp_id == nb_sp ~ " toutes identifiables à vue",
+      nb_sp > 1 & nb_sp_id == 0 ~ ", aucune identifiable à vue",
+      nb_sp > 1 & nb_sp_id == nb_sp ~ ", toutes identifiables à vue",
       TRUE ~ paste0(" dont ", nb_sp_id, " identifiables à vue")
     ),
     "\n\n"
