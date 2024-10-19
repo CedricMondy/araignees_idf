@@ -16,28 +16,16 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Install libcurl
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libcurl4-openssl-dev
-
-    - name: Set up R
-      uses: r-lib/actions/setup-r@v2
-      with:
-        r-version: '4.1.2'
-
-    - name: Install dependencies
-      run: |
-        Rscript -e "install.packages(c('openxlsx2', 'purrr', 'janitor', 'dplyr', 'tidyr', 'brew', 'stringr', 'yaml', 'rvest'))"
-
     - name: Install Quarto
       run: |
         wget https://quarto.org/download/latest/quarto-linux-amd64.deb
         sudo dpkg -i quarto-linux-amd64.deb
 
-    - name: Run pre-render script
+    - name: Run R scripts in Docker
       run: |
-        Rscript generer_structure_site.R
+        docker run --volume ${{ github.workspace }}:/workspace --workdir /workspace cedricmondy/araignees_idf bash -c "
+        Rscript 'generer_structure_site.R'
+        "
 
     - name: Render site
       run: |
@@ -54,7 +42,7 @@ jobs:
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "Github Actions"
-        git add .
+        git add docs
         git commit -m "Update site"
         git push origin -f
 
