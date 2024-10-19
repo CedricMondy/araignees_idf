@@ -41,7 +41,7 @@ jobs:
 
     - name: Render site
       run: |
-        quarto preview --render all --no-watch-inputs --no-browse
+        quarto render
 
     - name: Set correct permissions for the site directory
       run: sudo chmod -R 755 _site
