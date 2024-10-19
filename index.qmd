@@ -12,8 +12,7 @@ Enﬁn, si vous pensez avoir trouvé une espèce non présente dans cette liste 
 
 \[Message subliminal : [saisissez vos observations](https://geonature.arb-idf.fr/groupe/observatoire-des-araignees) ;-)\]
 
-**Légende :**\
-*difficulté d'identification*
+**Difficulté d'identification**
 
 |  |  |
 |-----|-------------------------------------------------------------------|

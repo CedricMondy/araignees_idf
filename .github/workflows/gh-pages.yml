@@ -36,7 +36,8 @@ jobs:
 
     - name: Move site to docs
       run: |
-        mv _site docs
+        rm -rf docs/*
+        mv _site/* docs/
 
     - name: Commit and push changes
       run: |
