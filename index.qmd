@@ -15,7 +15,7 @@ Enﬁn, si vous pensez avoir trouvé une espèce non présente dans cette liste 
 **Difficulté d'identification**
 
 |  |  |
-|-----|-------------------------------------------------------------------|
+|----|----|
 | 1 | Identification simple |
 | 2 | Identification délicate, risque de confusion |
 | 3 | Identification très délicate, espèce de petite taille, risque de confusion important |
