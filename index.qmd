@@ -12,5 +12,11 @@ Enﬁn, si vous pensez avoir trouvé une espèce non présente dans cette liste 
 
 \[Message subliminal : [saisissez vos observations](https://geonature.arb-idf.fr/groupe/observatoire-des-araignees) ;-)\]
 
-Légende :\
-difficulté id. 1 identification simple 2 identification délicate, risque de confusion 3 identification très délicate, espèce de petite taille, risque de confusion important, critère spécifique à observer condition Indique si une condition nécessaire pour être certain de l’identiﬁcation Ex. Amaurobius fenestralis est présente uniquement en forêt « ancienne », avec de vieux arbres (Fontainebleau par exemple), en milieu urbain et péri-urbain, il s’agit d’Amaurobius similis confusion possible Indique les principales espèces ou genres avec lesquelles l'espèce peut être confondue commentaire date de la dernière observation si très ancienne, mention d’un problème taxonomique
+**Légende :**\
+*difficulté d'identification*
+
+|  |  |
+|-----|-------------------------------------------------------------------|
+| 1 | Identification simple |
+| 2 | Identification délicate, risque de confusion |
+| 3 | Identification très délicate, espèce de petite taille, risque de confusion important |
