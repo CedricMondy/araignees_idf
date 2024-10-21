@@ -23,11 +23,10 @@
 /* Bouton pour fermer la modale */
 .close {
   position: absolute;
-  top: 15px;
+  top: 75px;
   right: 35px;
   color: white;
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
-  padding-top: 60px; /* Ajoute un espace de 60px en haut pour compenser le bandeau */
 }
