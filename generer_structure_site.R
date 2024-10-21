@@ -1,3 +1,6 @@
+install.packages("pak")
+pak::pkg_install("CedricMondy/taxref4R")
+
 donnees_importees <- openxlsx2::wb_get_sheet_names(openxlsx2::wb_load("liste-especes-araignées-id-vue-IdF.xlsx")) |>
   purrr::map(
     function(sheet_name) {
