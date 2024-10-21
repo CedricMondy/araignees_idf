@@ -66,9 +66,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="modal.css">
-<script src="modal.js"></script>
+<link rel="stylesheet" href="www/modal.css">
+<script src="www/modal.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -387,7 +416,12 @@ ul.task-list li input[type="checkbox"] {
 <p>nb_sp &lt;- nrow(especes)</p>
 <p>nb_sp_id &lt;- especes |&gt; dplyr::filter(id_vue == ‘oui’) |&gt; nrow()</p>
 <p>cat(paste0( “##”, genus, “”, nb_sp, ” espèce”, ifelse(nb_sp &gt; 1, “s”, ““),” en Île-de-France”, dplyr::case_when( nb_sp == 1 &amp; nb_sp_id == 1 ~ ” identifiable à vue”, nb_sp == 1 &amp; nb_sp_id == 0 ~ ” non identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 0 ~ “, aucune identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 1 ~ ” dont 1 identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == nb_sp ~ “, toutes identifiables à vue”, TRUE ~ paste0(” dont “, nb_sp_id,” identifiables à vue”) ), “” ))</p>
-sapply( especes$taxon, function(species) { difficulte &lt;- especes |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(difficulte_id) photo_male &lt;- liste_esp |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(male) photo_femelle &lt;- liste_esp |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(femelle) cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
+sapply( especes<span class="math inline">\(taxon,
+      function(species) {
+      info_species &lt;- especes |&gt;
+        dplyr::filter(taxon == species)
+      difficulte &lt;- info_species\)</span>difficulte_id photo_male &lt;- info_species<span class="math inline">\(male
+      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species$cd_ref cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
 <div style="display: flex; justify-content: space-between; gap: 20px;">
 “, ifelse(!is.na(photo_male), paste0(”
 <div>
@@ -399,7 +433,7 @@ sapply( especes$taxon, function(species) { difficulte &lt;- especes |&gt; dplyr:
 </div>
 “), ’’),”
 </div>
-<p>“, # Fin du conteneur flex pour les images”<br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)” ) )</p>
+<p>“, # Fin du conteneur flex pour les images”<br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)”, “<br>”, paste0( “<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="_blank">Observations dans GéoNat’IdF</a>” ) ) )</p>
 <pre><code>  }</code></pre>
 <p>) } %&gt;</p>
 <div id="myModal" class="modal">
