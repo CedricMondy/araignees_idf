@@ -1,8 +1,8 @@
 ---
 title: "<%=family%>"
 header-includes:
-  - <link rel="stylesheet" href="modal.css">
-  - <script src="modal.js"></script>
+  - <link rel="stylesheet" href="www/modal.css">
+  - <script src="www/modal.js"></script>
 ---
 
 Site de Pierre Oger: <%=
@@ -63,15 +63,12 @@ for (genus in genera) {
   sapply(
       especes$taxon,
       function(species) {
-      difficulte <- especes |> 
-        dplyr::filter(taxon == species) |> 
-        dplyr::pull(difficulte_id)
-      photo_male <- liste_esp |> 
-        dplyr::filter(taxon == species) |> 
-        dplyr::pull(male)
-      photo_femelle <- liste_esp |> 
-        dplyr::filter(taxon == species) |> 
-        dplyr::pull(femelle)
+      info_species <- especes |> 
+        dplyr::filter(taxon == species)
+      difficulte <- info_species$difficulte_id
+      photo_male <- info_species$male
+      photo_femelle <- info_species$femelle
+      cd_ref <- info_species$cd_ref
       cat(
         paste0(
           "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ")\n\n",
@@ -86,7 +83,11 @@ for (genus in genera) {
             stringr::str_replace(species, pattern = '\\s', replacement = '%20'),
             '_2022-03-10.jpeg'
             ),
-            ")\n\n"
+            ")\n\n",
+            "<br>",
+            paste0(
+              "<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target='_blank'>Observations dans GéoNat'IdF</a>"
+            )
           )
       )   
 

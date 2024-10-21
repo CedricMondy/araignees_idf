@@ -39,7 +39,8 @@ liste_genre <- liste_esp |>
 
 liste_esp <- liste_esp |>
   dplyr::filter(is.na(nb_sp_idf)) |>
-  tidyr::drop_na(famille, taxon)
+  tidyr::drop_na(famille, taxon) |>
+  dplyr::mutate(cd_ref = sapply(taxon, function(x) {unique(taxref4R::search_taxa(scientificNames=x)$referenceId)}))
 
 source("arachno_piwigo.R")
 
