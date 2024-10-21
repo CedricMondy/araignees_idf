@@ -22,7 +22,12 @@ liste_esp <- donnees_importees[-1] |>
   purrr::set_names(
     c("famille", "taxon", "nb_sp_idf", "id_vue", "difficulte_id", "condition", "condition_2", "confusions", "confusions_2", "commentaires")
   ) |>
-  tidyr::drop_na(famille, taxon)
+  tidyr::drop_na(famille, taxon) |>
+  dplyr::left_join(
+    openxlsx2::read_xlsx("photos.xlsx") |>
+      dplyr::filter(!dplyr::if_all(c(male, femelle), is.na)),
+    by =  "taxon"
+  )
 
 liste_familles <- liste_esp |>
   dplyr::distinct(famille) |>

@@ -1,5 +1,8 @@
 ---
 title: "<%=family%>"
+header-includes:
+  - <link rel="stylesheet" href="modal.css">
+  - <script src="modal.js"></script>
 ---
 
 Site de Pierre Oger: <%=
@@ -63,11 +66,20 @@ for (genus in genera) {
       difficulte <- especes |> 
         dplyr::filter(taxon == species) |> 
         dplyr::pull(difficulte_id)
+      photo_male <- liste_esp |> 
+        dplyr::filter(taxon == species) |> 
+        dplyr::pull(male)
+      photo_femelle <- liste_esp |> 
+        dplyr::filter(taxon == species) |> 
+        dplyr::pull(femelle)
       cat(
         paste0(
           "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ")\n\n",
-          ifelse(!is.na(difficulte), paste0("![Photo de *", species, "*](chemin/vers/photo.jpg)\n\n"), "\n\n"),
-          "![Carte de distribution de *", species, "*](", 
+          "<div style='display: flex; justify-content: space-between; gap: 20px;'>",
+        ifelse(!is.na(photo_male), paste0("<div><strong>Mâle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_male, "')\"><img src='", photo_male, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
+        ifelse(!is.na(photo_femelle), paste0("<div><strong>Femelle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_femelle, "')\"><img src='", photo_femelle, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
+        "</div>\n\n",  # Fin du conteneur flex pour les images
+        "<br>![Carte de distribution de *", species, "*](", 
           paste0(
             'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 
             family, '_', 
@@ -83,3 +95,7 @@ for (genus in genera) {
 }
 %>
 
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
