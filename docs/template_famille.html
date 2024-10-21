@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -385,9 +387,24 @@ ul.task-list li input[type="checkbox"] {
 <p>nb_sp &lt;- nrow(especes)</p>
 <p>nb_sp_id &lt;- especes |&gt; dplyr::filter(id_vue == ‘oui’) |&gt; nrow()</p>
 <p>cat(paste0( “##”, genus, “”, nb_sp, ” espèce”, ifelse(nb_sp &gt; 1, “s”, ““),” en Île-de-France”, dplyr::case_when( nb_sp == 1 &amp; nb_sp_id == 1 ~ ” identifiable à vue”, nb_sp == 1 &amp; nb_sp_id == 0 ~ ” non identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 0 ~ “, aucune identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 1 ~ ” dont 1 identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == nb_sp ~ “, toutes identifiables à vue”, TRUE ~ paste0(” dont “, nb_sp_id,” identifiables à vue”) ), “” ))</p>
-<p>sapply( especes$taxon, function(species) { difficulte &lt;- especes |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(difficulte_id) cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse(!is.na(difficulte), paste0(“<img src="chemin/vers/photo.jpg" class="img-fluid" alt="Photo de ”, species, ”">”), “”), “![Carte de distribution de <em>”, species, ”</em>](”, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)” ) )</p>
+sapply( especes$taxon, function(species) { difficulte &lt;- especes |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(difficulte_id) photo_male &lt;- liste_esp |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(male) photo_femelle &lt;- liste_esp |&gt; dplyr::filter(taxon == species) |&gt; dplyr::pull(femelle) cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+“, ifelse(!is.na(photo_male), paste0(”
+<div>
+<strong>Mâle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_male,”’)"&gt;<img src="&quot;, photo_male, &quot;" style="height: 200px; cursor: pointer;">
+</div>
+“), ’’), ifelse(!is.na(photo_femelle), paste0(”
+<div>
+<strong>Femelle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_femelle,”’)"&gt;<img src="&quot;, photo_femelle, &quot;" style="height: 200px; cursor: pointer;">
+</div>
+“), ’’),”
+</div>
+<p>“, # Fin du conteneur flex pour les images”<br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)” ) )</p>
 <pre><code>  }</code></pre>
 <p>) } %&gt;</p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
+</div>
 
 
 

@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -398,18 +400,10 @@ ul.task-list li input[type="checkbox"] {
 <p>1 espèce en Île-de-France identifiable à vue</p>
 <section id="cetonana-laticeps-difficulté-3" class="level3">
 <h3 class="anchored" data-anchor-id="cetonana-laticeps-difficulté-3"><em>Cetonana laticeps</em> (difficulté 3)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Cetonana laticeps</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Cetonana%20laticeps_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Cetonana laticeps</em></figcaption>
-</figure>
-</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Cetonana%20laticeps_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Cetonana laticeps"></p>
 </section>
 </section>
 <section id="paratrachelas" class="level2">
@@ -417,11 +411,12 @@ ul.task-list li input[type="checkbox"] {
 <p>1 espèce en Île-de-France non identifiable à vue</p>
 <section id="paratrachelas-maculatus-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="paratrachelas-maculatus-non-identifiable-à-vue"><em>Paratrachelas maculatus</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Paratrachelas%20maculatus_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Paratrachelas maculatus</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
+</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Trachelidae_Paratrachelas%20maculatus_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Paratrachelas maculatus"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 

@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -397,50 +399,33 @@ ul.task-list li input[type="checkbox"] {
 <p>4 espèces en Île-de-France dont 2 identifiables à vue</p>
 <section id="oxyopes-difficulté-2" class="level3">
 <h3 class="anchored" data-anchor-id="oxyopes-difficulté-2"><em>Oxyopes</em> (difficulté 2)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Oxyopes</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Oxyopes</em></figcaption>
-</figure>
-</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Oxyopes"></p>
 </section>
 <section id="oxyopes-lineatus-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="oxyopes-lineatus-non-identifiable-à-vue"><em>Oxyopes lineatus</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20lineatus_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Oxyopes lineatus</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20lineatus_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Oxyopes lineatus"></p>
 </section>
 <section id="oxyopes-nigripalpis-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="oxyopes-nigripalpis-non-identifiable-à-vue"><em>Oxyopes nigripalpis</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20nigripalpis_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Oxyopes nigripalpis</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20nigripalpis_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Oxyopes nigripalpis"></p>
 </section>
 <section id="oxyopes-ramosus-difficulté-2" class="level3">
 <h3 class="anchored" data-anchor-id="oxyopes-ramosus-difficulté-2"><em>Oxyopes ramosus</em> (difficulté 2)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Oxyopes ramosus</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20ramosus_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Oxyopes ramosus</em></figcaption>
-</figure>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Oxyopidae_Oxyopes%20ramosus_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Oxyopes ramosus"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 
