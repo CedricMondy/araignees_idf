@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -396,35 +398,30 @@ ul.task-list li input[type="checkbox"] {
 <p>3 espèces en Île-de-France dont 1 identifiable à vue</p>
 <section id="anyphaena-accentuata-difficulté-1" class="level3">
 <h3 class="anchored" data-anchor-id="anyphaena-accentuata-difficulté-1"><em>Anyphaena accentuata</em> (difficulté 1)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Anyphaena accentuata</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+<div>
+<strong>Femelle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://geonature.arb-idf.fr/geonature/api//media/attachments/4/57837_P1661468.jpg')"><img src="https://geonature.arb-idf.fr/geonature/api//media/attachments/4/57837_P1661468.jpg" style="height: 200px; cursor: pointer;"></a>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20accentuata_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Anyphaena accentuata</em></figcaption>
-</figure>
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20accentuata_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Anyphaena accentuata"></p>
 </section>
 <section id="anyphaena-numida-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="anyphaena-numida-non-identifiable-à-vue"><em>Anyphaena numida</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20numida_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Anyphaena numida</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20numida_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Anyphaena numida"></p>
 </section>
 <section id="anyphaena-sabina-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="anyphaena-sabina-non-identifiable-à-vue"><em>Anyphaena sabina</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20sabina_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Anyphaena sabina</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+<div>
+<strong>Femelle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://geonature.arb-idf.fr/geonature/api//media/attachments/4/87632_P1710683.jpg')"><img src="https://geonature.arb-idf.fr/geonature/api//media/attachments/4/87632_P1710683.jpg" style="height: 200px; cursor: pointer;"></a>
+</div>
+</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Anyphaenidae_Anyphaena%20sabina_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Anyphaena sabina"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 

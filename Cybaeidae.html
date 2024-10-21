@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -394,11 +396,12 @@ ul.task-list li input[type="checkbox"] {
 <p>1 espèce en Île-de-France non identifiable à vue</p>
 <section id="cryphoeca-silvicola-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="cryphoeca-silvicola-non-identifiable-à-vue"><em>Cryphoeca silvicola</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Cybaeidae_Cryphoeca%20silvicola_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Cryphoeca silvicola</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
+</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Cybaeidae_Cryphoeca%20silvicola_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Cryphoeca silvicola"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 

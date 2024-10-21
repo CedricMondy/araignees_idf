@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -396,47 +398,33 @@ ul.task-list li input[type="checkbox"] {
 <p>3 espèces en Île-de-France, toutes identifiables à vue</p>
 <section id="segestria-bavarica-difficulté-2" class="level3">
 <h3 class="anchored" data-anchor-id="segestria-bavarica-difficulté-2"><em>Segestria bavarica</em> (difficulté 2)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Segestria bavarica</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+<div>
+<strong>Femelle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://cardobs.mnhn.fr/cardObs/photos/download/15369_15072023152500_segestria_bavarica_dorsal.jpg')"><img src="https://cardobs.mnhn.fr/cardObs/photos/download/15369_15072023152500_segestria_bavarica_dorsal.jpg" style="height: 200px; cursor: pointer;"></a>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Segestriidae_Segestria%20bavarica_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Segestria bavarica</em></figcaption>
-</figure>
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Segestriidae_Segestria%20bavarica_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Segestria bavarica"></p>
 </section>
 <section id="segestria-florentina-difficulté-1" class="level3">
 <h3 class="anchored" data-anchor-id="segestria-florentina-difficulté-1"><em>Segestria florentina</em> (difficulté 1)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Segestria florentina</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+<div>
+<strong>Mâle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://inaturalist-open-data.s3.amazonaws.com/photos/101235971/original.jpeg')"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/101235971/original.jpeg" style="height: 200px; cursor: pointer;"></a>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Segestriidae_Segestria%20florentina_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Segestria florentina</em></figcaption>
-</figure>
+<div>
+<strong>Femelle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://geonature.arb-idf.fr/geonature/api//media/attachments/4/89753_P1755516.jpg')"><img src="https://geonature.arb-idf.fr/geonature/api//media/attachments/4/89753_P1755516.jpg" style="height: 200px; cursor: pointer;"></a>
 </div>
+</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Segestriidae_Segestria%20florentina_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Segestria florentina"></p>
 </section>
 <section id="segestria-senoculata-difficulté-2" class="level3">
 <h3 class="anchored" data-anchor-id="segestria-senoculata-difficulté-2"><em>Segestria senoculata</em> (difficulté 2)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Segestria senoculata</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Segestriidae_Segestria%20senoculata_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Segestria senoculata</em></figcaption>
-</figure>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Segestriidae_Segestria%20senoculata_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Segestria senoculata"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 

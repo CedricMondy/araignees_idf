@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -394,17 +396,12 @@ ul.task-list li input[type="checkbox"] {
 <p>1 espèce en Île-de-France identifiable à vue</p>
 <section id="macrothele-calpeiana-difficulté-1" class="level3">
 <h3 class="anchored" data-anchor-id="macrothele-calpeiana-difficulté-1"><em>Macrothele calpeiana</em> (difficulté 1)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Macrothele calpeiana</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Macrothelidae_Macrothele%20calpeiana_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Macrothele calpeiana</em></figcaption>
-</figure>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Macrothelidae_Macrothele%20calpeiana_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Macrothele calpeiana"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 

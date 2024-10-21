@@ -66,6 +66,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="modal.css">
+<script src="modal.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -399,21 +401,17 @@ ul.task-list li input[type="checkbox"] {
 <p>2 espèces en Île-de-France, aucune identifiable à vue</p>
 <section id="dolomedes-fimbriatus-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="dolomedes-fimbriatus-non-identifiable-à-vue"><em>Dolomedes fimbriatus</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Dolomedes%20fimbriatus_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Dolomedes fimbriatus</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Dolomedes%20fimbriatus_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Dolomedes fimbriatus"></p>
 </section>
 <section id="dolomedes-plantarius-non-identifiable-à-vue" class="level3">
 <h3 class="anchored" data-anchor-id="dolomedes-plantarius-non-identifiable-à-vue"><em>Dolomedes plantarius</em> (non identifiable à vue)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Dolomedes%20plantarius_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Dolomedes plantarius</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
 </div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Dolomedes%20plantarius_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Dolomedes plantarius"></p>
 </section>
 </section>
 <section id="pisaura" class="level2">
@@ -421,17 +419,17 @@ ul.task-list li input[type="checkbox"] {
 <p>1 espèce en Île-de-France identifiable à vue</p>
 <section id="pisaura-mirabilis-difficulté-1" class="level3">
 <h3 class="anchored" data-anchor-id="pisaura-mirabilis-difficulté-1"><em>Pisaura mirabilis</em> (difficulté 1)</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="chemin/vers/photo.jpg" class="img-fluid figure-img"></p>
-<figcaption>Photo de <em>Pisaura mirabilis</em></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+<div>
+<strong>Mâle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://geonature.arb-idf.fr/geonature/api//media/attachments/4/46022_P1640491.jpg')"><img src="https://geonature.arb-idf.fr/geonature/api//media/attachments/4/46022_P1640491.jpg" style="height: 200px; cursor: pointer;"></a>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Pisaura%20mirabilis_2022-03-10.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Carte de distribution de <em>Pisaura mirabilis</em></figcaption>
-</figure>
+<div>
+<strong>Femelle :</strong><br><a href="javascript:void(0)" onclick="openModal('https://geonature.arb-idf.fr/geonature/api//media/attachments/4/57388_P1660307_cr.jpg')"><img src="https://geonature.arb-idf.fr/geonature/api//media/attachments/4/57388_P1660307_cr.jpg" style="height: 200px; cursor: pointer;"></a>
+</div>
+</div>
+<p><br><img src="https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_Pisauridae_Pisaura%20mirabilis_2022-03-10.jpeg" class="img-fluid" alt="Carte de distribution de Pisaura mirabilis"></p>
+<div id="myModal" class="modal">
+<p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
 
 
