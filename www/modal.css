@@ -30,3 +30,23 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.confusion-box {
+  background-color: #FFDDDD;
+  padding: 10px;
+  border-radius: 10px;
+  width: 48%; /* Ajustez la taille selon vos besoins */
+}
+
+.condition-box {
+  background-color: #DDEEFF;
+  padding: 10px;
+  border-radius: 10px;
+  width: 48%;
+}

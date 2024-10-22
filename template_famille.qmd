@@ -69,13 +69,34 @@ for (genus in genera) {
       photo_male <- info_species$male
       photo_femelle <- info_species$femelle
       cd_ref <- info_species$cd_ref
+      condition <- info_species$condition
+      confusions <- info_species$confusions
       cat(
         paste0(
           "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ")\n\n",
-          "<div style='display: flex; justify-content: space-between; gap: 20px;'>",
+          "<div class='flex-container'>",
         ifelse(!is.na(photo_male), paste0("<div><strong>Mâle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_male, "')\"><img src='", photo_male, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
         ifelse(!is.na(photo_femelle), paste0("<div><strong>Femelle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_femelle, "')\"><img src='", photo_femelle, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
         "</div>\n\n",  # Fin du conteneur flex pour les images
+        "<br>",
+        "<div class='flex-container'>",
+        ifelse(!is.na(condition), 
+          paste0(
+            "<div class='condition-box'>",
+            "<strong>Condition :</strong><br>", 
+            condition, 
+            "</div>"
+          ), 
+        ''),
+                ifelse(!is.na(confusions), 
+          paste0(
+            "<div class='confusion-box'>",
+            "<strong>Confusions possibles :</strong><br>", 
+            confusions, 
+            "</div>"
+          ), 
+        ''),
+        "</div>" ,
         "<br>![Carte de distribution de *", species, "*](", 
           paste0(
             'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 

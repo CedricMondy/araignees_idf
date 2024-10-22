@@ -1,4 +1,4 @@
-install.packages("pak")
+if (!require("pak")) install.packages("pak")
 pak::pkg_install("CedricMondy/taxref4R")
 
 donnees_importees <- openxlsx2::wb_get_sheet_names(openxlsx2::wb_load("liste-especes-araignées-id-vue-IdF.xlsx")) |>
@@ -43,7 +43,26 @@ liste_genre <- liste_esp |>
 liste_esp <- liste_esp |>
   dplyr::filter(is.na(nb_sp_idf)) |>
   tidyr::drop_na(famille, taxon) |>
-  dplyr::mutate(cd_ref = sapply(taxon, function(x) {unique(taxref4R::search_taxa(scientificNames=x)$referenceId)}))
+  dplyr::mutate(
+    cd_ref = sapply(
+      taxon,
+      function(x) {
+        unique(taxref4R::search_taxa(scientificNames=x)$referenceId[1])
+        }),
+    condition = dplyr::case_when(
+      is.na(condition) & is.na(condition_2) ~ NA_character_,
+      !is.na(condition) & is.na(condition_2) ~ condition,
+      is.na(condition) & !is.na(condition_2) ~ condition_2,
+      !is.na(condition) & !is.na(condition_2) ~ paste0(condition, ", ", condition_2)
+    ),
+    confusions = dplyr::case_when(
+      is.na(confusions) & is.na(confusions_2) ~ NA_character_,
+      !is.na(confusions) & is.na(confusions_2) ~ confusions,
+      is.na(confusions) & !is.na(confusions_2) ~ confusions_2,
+      !is.na(confusions) & !is.na(confusions_2) ~ paste0(confusions, ", ", confusions_2)
+    )
+    ) |>
+  dplyr::select(-c(condition_2, confusions_2))
 
 source("arachno_piwigo.R")
 
