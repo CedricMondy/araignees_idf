@@ -421,8 +421,9 @@ sapply( especes<span class="math inline">\(taxon,
       info_species &lt;- especes |&gt;
         dplyr::filter(taxon == species)
       difficulte &lt;- info_species\)</span>difficulte_id photo_male &lt;- info_species<span class="math inline">\(male
-      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species$cd_ref cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
-<div style="display: flex; justify-content: space-between; gap: 20px;">
+      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species<span class="math inline">\(cd_ref
+      condition &lt;- info_species\)</span>condition confusions &lt;- info_species$confusions cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
+<div class="flex-container">
 “, ifelse(!is.na(photo_male), paste0(”
 <div>
 <strong>Mâle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_male,”’)"&gt;<img src="&quot;, photo_male, &quot;" style="height: 200px; cursor: pointer;">
@@ -433,7 +434,19 @@ sapply( especes<span class="math inline">\(taxon,
 </div>
 “), ’’),”
 </div>
-<p>“, # Fin du conteneur flex pour les images”<br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)”, “<br>”, paste0( “<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="_blank">Observations dans GéoNat’IdF</a>” ) ) )</p>
+“, # Fin du conteneur flex pour les images”<br>“,”
+<div class="flex-container">
+“, ifelse(!is.na(condition), paste0(”
+<div class="condition-box">
+“,”<strong>Condition :</strong><br>“, condition,”
+</div>
+” ), ’’), ifelse(!is.na(confusions), paste0( “
+<div class="confusion-box">
+“,”<strong>Confusions possibles :</strong><br>“, confusions,”
+</div>
+” ), ’’), “
+</div>
+<p>” , “<br>![Carte de distribution de <em>”, species, ”</em>](”, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)”, “<br>”, paste0( “<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="_blank">Observations dans GéoNat’IdF</a>” ) ) )</p>
 <pre><code>  }</code></pre>
 <p>) } %&gt;</p>
 <div id="myModal" class="modal">
