@@ -412,7 +412,7 @@ window.Quarto = {
 
 <p>Site de Pierre Oger: &lt;%= { liens_genitalia &lt;- pages_genitalia[stringr::str_detect(pages_genitalia, stringr::str_to_lower(family))] cat( paste0( “[espèces](”, pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))], “)” ) ) cat( sapply( liens_genitalia, function(x) { if (stringr::str_detect(x, “dae_f”)) { paste0(“, <a href="&quot;, x," title=")">genitalias femelle</a> } else { if (stringr::str_detect(x,”dae_m”)) { paste0(“, <a href="&quot;, x," title=")">genitalias mâle</a> } else { paste0(”, <a href="&quot;, x," title=")">genitalias</a> } } } ) ) }</p>
 <p>%&gt;</p>
-<p>&lt;%= for (genus in genera) { especes &lt;- liste_esp |&gt; dplyr::filter(stringr::str_starts(taxon, pattern = genus))</p>
+<p>&lt;%= for (genus in genera) { especes &lt;- liste_espece |&gt; dplyr::filter(stringr::str_starts(taxon, pattern = genus))</p>
 <p>nb_sp &lt;- nrow(especes)</p>
 <p>nb_sp_id &lt;- especes |&gt; dplyr::filter(id_vue == ‘oui’) |&gt; nrow()</p>
 <p>cat(paste0( “##”, genus, “”, nb_sp, ” espèce”, ifelse(nb_sp &gt; 1, “s”, ““),” en Île-de-France”, dplyr::case_when( nb_sp == 1 &amp; nb_sp_id == 1 ~ ” identifiable à vue”, nb_sp == 1 &amp; nb_sp_id == 0 ~ ” non identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 0 ~ “, aucune identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 1 ~ ” dont 1 identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == nb_sp ~ “, toutes identifiables à vue”, TRUE ~ paste0(” dont “, nb_sp_id,” identifiables à vue”) ), “” ))</p>
@@ -421,8 +421,9 @@ sapply( especes<span class="math inline">\(taxon,
       info_species &lt;- especes |&gt;
         dplyr::filter(taxon == species)
       difficulte &lt;- info_species\)</span>difficulte_id photo_male &lt;- info_species<span class="math inline">\(male
-      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species<span class="math inline">\(cd_ref
-      condition &lt;- info_species\)</span>condition confusions &lt;- info_species$confusions cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
+      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species<span class="math inline">\(CD_REF
+      condition &lt;- info_species\)</span>condition confusions &lt;- info_species<span class="math inline">\(confusions
+      statut_lr &lt;- info_species\)</span>CODE_STATUT cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span><br>”), “” ), “”, “
 <div class="flex-container">
 “, ifelse(!is.na(photo_male), paste0(”
 <div>

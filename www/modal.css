@@ -50,3 +50,39 @@
   border-radius: 10px;
   width: 48%;
 }
+
+.dd{
+  background-color: #d3d4d4;
+  color: black;
+  font-weight: bold;
+}
+
+.lc{
+  background-color: #74b94c;
+  color: black;
+  font-weight: bold;
+}
+
+.nt{
+  background-color: #fbf2cb;
+  color: black;
+  font-weight: bold;
+}
+
+.vu{
+  background-color: #ffed00;
+  color: black;
+  font-weight: bold;
+}
+
+.en{
+  background-color: #fcbd00;
+  color: black;
+  font-weight: bold;
+}
+
+.cr{
+  background-color: #d3050c;
+  color: black;
+  font-weight: bold;
+}
