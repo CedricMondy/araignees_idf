@@ -1,29 +1,15 @@
 if (!require("pak")) install.packages("pak")
 pak::pkg_install("CedricMondy/taxref4R")
 
-donnees_importees <- openxlsx2::wb_get_sheet_names(openxlsx2::wb_load("liste-especes-araignées-id-vue-IdF.xlsx")) |>
-  purrr::map(
-    function(sheet_name) {
-      openxlsx2::read_xlsx(file = "liste-especes-araignées-id-vue-IdF.xlsx", sheet = sheet_name)
-    }
-  )
+liste_rouge <- readRDS("lrn.RDS")
 
-liste_esp <- donnees_importees[-1] |>
-  purrr::map(
-    function(df) {
-      df[-seq(5),] |>
-        janitor::clean_names() |>
-        dplyr::mutate(
-          dplyr::across(dplyr::everything(), as.character)
-        )
-    }
-  ) |>
-  purrr::list_rbind() |>
-  dplyr::select(
-    -paste0("na", c("", "_3", "_4", "_6", "_7", "_8", "_9", "_10", "_11", "_13", "_17", "_19", "_20", "_22"))
-  ) |>
+donnees_importees <- openxlsx2::read_xlsx("liste-sp-idf-identif-a-vue-v2024-1.xlsx", sheet = "diffusion-v1") |>
+  tibble::as_tibble() |>
+  janitor::clean_names()
+
+liste_esp <- donnees_importees |>
   purrr::set_names(
-    c("famille", "taxon", "nb_sp_idf", "id_vue", "difficulte_id", "condition", "condition_2", "confusions", "confusions_2", "commentaires")
+    c("famille", "taxon", "nb_sp_idf", "id_vue", "difficulte_id", "condition", "confusions", "commentaires")
   ) |>
   tidyr::drop_na(famille, taxon) |>
   dplyr::left_join(
@@ -40,29 +26,16 @@ liste_genre <- liste_esp |>
   dplyr::filter(!is.na(nb_sp_idf)) |>
   dplyr::select(famille, genre = taxon, nb_sp_idf)
 
-liste_esp <- liste_esp |>
+liste_espece <- liste_esp |>
   dplyr::filter(is.na(nb_sp_idf)) |>
   tidyr::drop_na(famille, taxon) |>
-  dplyr::mutate(
-    cd_ref = sapply(
-      taxon,
-      function(x) {
-        unique(taxref4R::search_taxa(scientificNames=x)$referenceId[1])
-        }),
-    condition = dplyr::case_when(
-      is.na(condition) & is.na(condition_2) ~ NA_character_,
-      !is.na(condition) & is.na(condition_2) ~ condition,
-      is.na(condition) & !is.na(condition_2) ~ condition_2,
-      !is.na(condition) & !is.na(condition_2) ~ paste0(condition, ", ", condition_2)
-    ),
-    confusions = dplyr::case_when(
-      is.na(confusions) & is.na(confusions_2) ~ NA_character_,
-      !is.na(confusions) & is.na(confusions_2) ~ confusions,
-      is.na(confusions) & !is.na(confusions_2) ~ confusions_2,
-      !is.na(confusions) & !is.na(confusions_2) ~ paste0(confusions, ", ", confusions_2)
-    )
-    ) |>
-  dplyr::select(-c(condition_2, confusions_2))
+  dplyr::left_join(liste_rouge, by = c("taxon" = "LB_NOM"))
+liste_espece$CD_REF[is.na(liste_espece$CD_REF)] <- sapply(
+  liste_espece$taxon[is.na(liste_espece$CD_REF)],
+  function(x) {
+    taxref4R::search_taxa(scientificNames = x)$referenceId[1]
+  }
+)
 
 source("arachno_piwigo.R")
 

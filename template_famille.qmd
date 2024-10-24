@@ -37,7 +37,7 @@ Site de Pierre Oger: <%=
 
 <%=
 for (genus in genera) {
-  especes <- liste_esp |> 
+  especes <- liste_espece |> 
     dplyr::filter(stringr::str_starts(taxon, pattern = genus))
 
   nb_sp <- nrow(especes)
@@ -68,12 +68,19 @@ for (genus in genera) {
       difficulte <- info_species$difficulte_id
       photo_male <- info_species$male
       photo_femelle <- info_species$femelle
-      cd_ref <- info_species$cd_ref
+      cd_ref <- info_species$CD_REF
       condition <- info_species$condition
       confusions <- info_species$confusions
+      statut_lr <- info_species$CODE_STATUT
       cat(
         paste0(
-          "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ")\n\n",
+          "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ") ", 
+          ifelse(
+            !is.na(statut_lr),
+            paste0("<span class=", tolower(statut_lr), ">&nbsp;", statut_lr, "&nbsp;</span><br>"),
+            ""
+          ), 
+          "\n\n",
           "<div class='flex-container'>",
         ifelse(!is.na(photo_male), paste0("<div><strong>Mâle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_male, "')\"><img src='", photo_male, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
         ifelse(!is.na(photo_femelle), paste0("<div><strong>Femelle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_femelle, "')\"><img src='", photo_femelle, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
