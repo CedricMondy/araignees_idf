@@ -8,14 +8,18 @@ Cette liste est le fruit de la concertation de plusieurs arachnologues et de leu
 
 Cette liste va évoluer au fur et à mesure de l’amélioration des connaissances de la faune arachnologique de la région.
 
-Enﬁn, si vous pensez avoir trouvé une espèce non présente dans cette liste voici la démarche à suivre : 1) photo et capture, 2) contactez les auteurs pour faire valider l’observation (et le cas échéant mettre à jour ce document)
-
-\[Message subliminal : [saisissez vos observations](https://geonature.arb-idf.fr/groupe/observatoire-des-araignees) ;-)\]
-
 **Difficulté d'identification**
 
 |  |  |
-|----|----|
+|-------|------------------------------------|
 | 1 | Identification simple |
 | 2 | Identification délicate, risque de confusion |
 | 3 | Identification très délicate, espèce de petite taille, risque de confusion important |
+
+<br>
+
+En cas de doutes, ou pour partager vos connaissances et observations, n'hésitez pas à contribuer au forum [Le Monde des Insectes](https://www.insecte.org/forum/viewforum.php?f=42) ! ![](www/media/lmdi.png){width="35"}
+
+Enﬁn, si vous pensez avoir trouvé une espèce non présente dans cette liste voici la démarche à suivre : 1) photo et capture, 2) contactez les auteurs pour faire valider l’observation (et le cas échéant mettre à jour ce document)
+
+Et n'oubliez pas, [saisissez vos observations](https://geonature.arb-idf.fr/groupe/observatoire-des-araignees) !
