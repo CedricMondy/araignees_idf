@@ -2,6 +2,7 @@ if (!require("pak")) install.packages("pak")
 pak::pkg_install("CedricMondy/taxref4R")
 
 liste_rouge <- readRDS("lrn.RDS")
+load("urls.rda")
 
 donnees_importees <- openxlsx2::read_xlsx("liste-sp-idf-identif-a-vue-v2024-1.xlsx", sheet = "diffusion-v1") |>
   tibble::as_tibble() |>
@@ -29,7 +30,10 @@ liste_genre <- liste_esp |>
 liste_espece <- liste_esp |>
   dplyr::filter(is.na(nb_sp_idf)) |>
   tidyr::drop_na(famille, taxon) |>
-  dplyr::left_join(liste_rouge, by = c("taxon" = "LB_NOM"))
+  dplyr::left_join(liste_rouge, by = c("taxon" = "LB_NOM")) |>
+  dplyr::left_join(especes_piwigo, by = c("taxon" = "espece")) |>
+  dplyr::left_join(especes_nmbe, by = c("taxon" = "espece"), suffix = c("_piwigo", "_nmbe"))
+
 liste_espece$CD_REF[is.na(liste_espece$CD_REF)] <- sapply(
   liste_espece$taxon[is.na(liste_espece$CD_REF)],
   function(x) {
@@ -37,10 +41,6 @@ liste_espece$CD_REF[is.na(liste_espece$CD_REF)] <- sapply(
   }
 )
 
-source("arachno_piwigo.R")
-
-pages_familles <- list_family_pages()
-pages_genitalia <- list_family_pages_genitalia()
 
 purrr::walk(
   liste_familles,

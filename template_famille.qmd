@@ -5,15 +5,30 @@ header-includes:
   - <script src="www/modal.js"></script>
 ---
 
-Site de Pierre Oger: <%=
+<img src="www/media/piwigo.png"  title="Site de Pierre Oger" style="width: auto; height: 40px;"> <%=
 {
   liens_genitalia <- pages_genitalia[stringr::str_detect(pages_genitalia, stringr::str_to_lower(family))]
   cat(
     paste0(
-      "[espèces](",
+      "[espèces", 
+      {
+      pages <- pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))]
+      if (length(pages) > 1) {
+      paste0(
+      " (",
+      pages |> 
+        stringr::str_extract_all("dae_.*$") |> 
+        stringr::str_remove_all("dae_") |> 
+        stringr::str_replace_all("_", "-"),
+        ")"
+        )
+        }
+        }
+      ,"](",
       pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))],
       ")"
-      )
+      ) |> 
+        paste(collapse = ", ")
     )
   cat(
     sapply(
@@ -81,7 +96,12 @@ for (genus in genera) {
             ""
           ), 
           "\n\n",
-        "<div class='flex-container'>",
+          paste0("<a href=https://www.galerie-insecte.org/galerie/",
+          stringr::str_replace(species, pattern = " ", replacement = "_"), ".html target=\"_blank\"><img src=\"www/media/lmdi.png\" title=\"Galerie du site Le Monde des Insectes\" style=\"width: 50px; height: auto;\"></a>"),
+          paste0("&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target=\"_blank\"><img src=\"www/media/piwigo.png\" title=\"Site de Pierre Oger\" style=\"width: auto; height: 40px;\"></a>&nbsp;"),
+          paste0("&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target=\"_blank\"><img src=\"www/media/nmbe.jpg\" title=\"araneae Spiders of Europe\" style=\"width: auto; height: 50px;\"></a>&nbsp;"),
+          paste0("<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target=\"_blank\"><img src=\"www/media/geonatidf.png\" title=\"Observations dans GéoNat'IdF\" style=\"width: auto; height: 50px;\"></a><br>"),
+          "<br><div class='flex-container'>",
         ifelse(!is.na(condition), 
           paste0(
             "<div class='condition-box'>",
@@ -99,24 +119,20 @@ for (genus in genera) {
           ), 
         ''),
         "</div>" ,
-        ifelse(!is.na(photo_male)||!is.na(photo_femelle), "<br>", ""),
+        ifelse(!is.na(condition)||!is.na(confusions), "<br>", ""),
         "<div class='flex-container'>",
         ifelse(!is.na(photo_male), paste0("<div><strong>Mâle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_male, "')\"><img src='", photo_male, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
         ifelse(!is.na(photo_femelle), paste0("<div><strong>Femelle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_femelle, "')\"><img src='", photo_femelle, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
-        "</div><br>",
-        paste0("<a href=https://www.galerie-insecte.org/galerie/", stringr::str_replace(species, pattern = " ", replacement = "_"), ".html target=\"_blank\"><img src=\"www/media/lmdi.png\" title=\"Galerie du site Le Monde des Insectes\" style=\"width: 50px; height: auto;\"></a><br>"),
-        "<br>![Carte de distribution de *", species, "*](", 
+        "</div>",
+        ifelse(!is.na(photo_male)||!is.na(photo_femelle), "<br>", ""),
+        "![Carte de distribution de *", species, "*](", 
           paste0(
             'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 
             family, '_', 
             stringr::str_replace(species, pattern = '\\s', replacement = '%20'),
             '_2022-03-10.jpeg'
             ),
-            ")\n\n",
-            "<br>",
-            paste0(
-              "<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target='_blank'>Observations dans GéoNat'IdF</a>"
-            )
+            ")"
           )
       )   
 

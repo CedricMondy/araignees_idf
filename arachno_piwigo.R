@@ -26,3 +26,28 @@ list_family_pages <- function() {
   )
 }
 
+list_species_pages <- function() {
+  list_family_pages() |>
+    purrr::map(
+      function(url) {
+        url_specs <- url |>
+          httr::GET() |>
+          rvest::read_html() |>
+          rvest::html_elements("body > div > div > ul > li > div > div.description > h3 > a")
+
+        tibble::tibble(
+          espece = url_specs |>
+            rvest::html_text(),
+          url = paste0(
+            "https://arachno.piwigo.com/",
+            url_specs |>
+              rvest::html_attr("href")
+          )
+        )
+      },
+      .progress = TRUE
+    ) |>
+    purrr::list_rbind()
+}
+
+#content > ul > li:nth-child(1) > div > div.description > h3 > a
