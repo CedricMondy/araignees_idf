@@ -410,9 +410,9 @@ window.Quarto = {
 </header>
 
 
-<p>Site de Pierre Oger: &lt;%= { liens_genitalia &lt;- pages_genitalia[stringr::str_detect(pages_genitalia, stringr::str_to_lower(family))] cat( paste0( “[espèces](”, pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))], “)” ) ) cat( sapply( liens_genitalia, function(x) { if (stringr::str_detect(x, “dae_f”)) { paste0(“, <a href="&quot;, x," title=")">genitalias femelle</a> } else { if (stringr::str_detect(x,”dae_m”)) { paste0(“, <a href="&quot;, x," title=")">genitalias mâle</a> } else { paste0(”, <a href="&quot;, x," title=")">genitalias</a> } } } ) ) }</p>
+<p><img src="www/media/piwigo.png" title="Site de Pierre Oger" style="width: auto; height: 40px;"> &lt;%= { liens_genitalia &lt;- pages_genitalia[stringr::str_detect(pages_genitalia, stringr::str_to_lower(family))] cat( paste0( “[espèces”, { pages &lt;- pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))] if (length(pages) &gt; 1) { paste0( ” (”, pages |&gt; stringr::str_extract_all(”dae_.*$”) |&gt; stringr::str_remove_all(”dae_”) |&gt; stringr::str_replace_all(”_”, ”-”), ”)” ) } } ,”](”, pages_familles[stringr::str_detect(pages_familles, stringr::str_to_lower(family))], “)” ) |&gt; paste(collapse = “,”) ) cat( sapply( liens_genitalia, function(x) { if (stringr::str_detect(x, “dae_f”)) { paste0(“, <a href="&quot;, x," title=")">genitalias femelle</a> } else { if (stringr::str_detect(x,”dae_m”)) { paste0(“, <a href="&quot;, x," title=")">genitalias mâle</a> } else { paste0(”, <a href="&quot;, x," title=")">genitalias</a> } } } ) ) }</p>
 <p>%&gt;</p>
-<p>&lt;%= for (genus in genera) { especes &lt;- liste_esp |&gt; dplyr::filter(stringr::str_starts(taxon, pattern = genus))</p>
+<p>&lt;%= for (genus in genera) { especes &lt;- liste_espece |&gt; dplyr::filter(stringr::str_starts(taxon, pattern = genus))</p>
 <p>nb_sp &lt;- nrow(especes)</p>
 <p>nb_sp_id &lt;- especes |&gt; dplyr::filter(id_vue == ‘oui’) |&gt; nrow()</p>
 <p>cat(paste0( “##”, genus, “”, nb_sp, ” espèce”, ifelse(nb_sp &gt; 1, “s”, ““),” en Île-de-France”, dplyr::case_when( nb_sp == 1 &amp; nb_sp_id == 1 ~ ” identifiable à vue”, nb_sp == 1 &amp; nb_sp_id == 0 ~ ” non identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 0 ~ “, aucune identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == 1 ~ ” dont 1 identifiable à vue”, nb_sp &gt; 1 &amp; nb_sp_id == nb_sp ~ “, toutes identifiables à vue”, TRUE ~ paste0(” dont “, nb_sp_id,” identifiables à vue”) ), “” ))</p>
@@ -421,8 +421,22 @@ sapply( especes<span class="math inline">\(taxon,
       info_species &lt;- especes |&gt;
         dplyr::filter(taxon == species)
       difficulte &lt;- info_species\)</span>difficulte_id photo_male &lt;- info_species<span class="math inline">\(male
-      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species$cd_ref cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, “
-<div style="display: flex; justify-content: space-between; gap: 20px;">
+      photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species<span class="math inline">\(CD_REF
+      condition &lt;- info_species\)</span>condition confusions &lt;- info_species<span class="math inline">\(confusions
+      statut_lr &lt;- info_species\)</span>CODE_STATUT cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, paste0(“&lt;a href=https://www.galerie-insecte.org/galerie/”, stringr::str_replace(species, pattern = ” “, replacement =”_“),”.html target="_blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;“), paste0(”&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/piwigo.png" title="Site de Pierre Oger" style="width: auto; height: 40px;"&gt;</a>&nbsp;“), paste0(”&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/nmbe.jpg" title="araneae Spiders of Europe" style="width: auto; height: 50px;"&gt;</a>&nbsp;“), paste0(”<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="\&quot;_blank\&quot;">&lt;img src="www/media/geonatidf.png" title="Observations dans GéoNat’IdF" style="width: auto; height: 50px;"&gt;</a><br>“),”<br>
+<div class="flex-container">
+“, ifelse(!is.na(condition), paste0(”
+<div class="condition-box">
+“,”<strong>Condition :</strong><br>“, condition,”
+</div>
+” ), ’’), ifelse(!is.na(confusions), paste0( “
+<div class="confusion-box">
+“,”<strong>Confusions possibles :</strong><br>“, confusions,”
+</div>
+” ), ’’), “
+</div>
+” , ifelse(!is.na(condition)||!is.na(confusions), “<br>”, ““),”
+<div class="flex-container">
 “, ifelse(!is.na(photo_male), paste0(”
 <div>
 <strong>Mâle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_male,”’)"&gt;<img src="&quot;, photo_male, &quot;" style="height: 200px; cursor: pointer;">
@@ -433,7 +447,7 @@ sapply( especes<span class="math inline">\(taxon,
 </div>
 “), ’’),”
 </div>
-<p>“, # Fin du conteneur flex pour les images”<br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)”, “<br>”, paste0( “<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="_blank">Observations dans GéoNat’IdF</a>” ) ) )</p>
+<p>“, ifelse(!is.na(photo_male)||!is.na(photo_femelle),”<br>“,”“),”![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)” ) )</p>
 <pre><code>  }</code></pre>
 <p>) } %&gt;</p>
 <div id="myModal" class="modal">
