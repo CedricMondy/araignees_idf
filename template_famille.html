@@ -423,7 +423,7 @@ sapply( especes<span class="math inline">\(taxon,
       difficulte &lt;- info_species\)</span>difficulte_id photo_male &lt;- info_species<span class="math inline">\(male
       photo_femelle &lt;- info_species\)</span>femelle cd_ref &lt;- info_species<span class="math inline">\(CD_REF
       condition &lt;- info_species\)</span>condition confusions &lt;- info_species<span class="math inline">\(confusions
-      statut_lr &lt;- info_species\)</span>CODE_STATUT cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, “
+      statut_lr &lt;- info_species\)</span>CODE_STATUT cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, paste0(“&lt;a href=https://www.galerie-insecte.org/galerie/”, stringr::str_replace(species, pattern = ” “, replacement =”_“),”.html target="_blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;“), paste0(”&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/piwigo.png" title="Les araignées de Belgique et de France" style="width: auto; height: 40px;"&gt;</a>&nbsp;“), paste0(”&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/nmbe.jpg" title="araneae Spiders of Europe" style="width: auto; height: 50px;"&gt;</a>&nbsp;“), paste0(”<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="\&quot;_blank\&quot;">&lt;img src="www/media/geonatidf.png" title="Observations dans GéoNat’IdF" style="width: auto; height: 50px;"&gt;</a><br>“),”<br>
 <div class="flex-container">
 “, ifelse(!is.na(condition), paste0(”
 <div class="condition-box">
@@ -447,7 +447,7 @@ sapply( especes<span class="math inline">\(taxon,
 </div>
 “), ’’),”
 </div>
-<p><br>“, paste0(”&lt;a href=https://www.galerie-insecte.org/galerie/“, stringr::str_replace(species, pattern =” “, replacement =”_“),”.html target="<em>blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;<br>“),”<br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’</em>’, stringr::str_replace(species, pattern = ‘\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)”, “<br>”, paste0( “<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="_blank">Observations dans GéoNat’IdF</a>” ) ) )</p>
+<p>“,”<br><br>![Carte de distribution de <em>“, species,”</em>](“, paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “)” ) )</p>
 <pre><code>  }</code></pre>
 <p>) } %&gt;</p>
 <div id="myModal" class="modal">
