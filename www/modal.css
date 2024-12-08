@@ -6,7 +6,7 @@
   left: 0;
   top: 0;
   width: auto;
-  height: 100%;
+  height: 900px;
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
   padding-top: 60px; /* Ajoute un espace de 60px en haut pour compenser le bandeau */
