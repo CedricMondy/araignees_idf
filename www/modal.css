@@ -16,8 +16,8 @@
 .modal-content {
   margin: auto;
   display: block;
-  max-width: auto;
-  max-height: 900px;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 /* Bouton pour fermer la modale */
