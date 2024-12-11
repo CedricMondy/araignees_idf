@@ -4,3 +4,7 @@
 .Ruserdata
 
 /.quarto/
+_site
+www/media/fiches_svg
+~$*.xlsx
+www/media/fiches/.tmp.drivedownload/
