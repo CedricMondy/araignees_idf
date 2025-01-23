@@ -84,7 +84,8 @@ for (genus in genera) {
       photo_male <- info_species$male
       photo_femelle <- info_species$femelle
       cd_ref <- info_species$CD_REF
-      photo_inpn <- taxref4R::get_taxa_photo(cd_ref)
+      #photo_inpn <- taxref4R::get_taxa_photo(cd_ref)
+      photo_inpn <- NA
       condition <- info_species$condition
       confusions <- info_species$confusions
       statut_lr <- info_species$CODE_STATUT
