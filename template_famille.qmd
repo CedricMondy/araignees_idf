@@ -128,14 +128,24 @@ for (genus in genera) {
         ifelse(is.na(photo_femelle) & is.na(photo_male) & !is.na(photo_inpn), paste0("<div><a href='javascript:void(0)' onclick=\"openModal('", photo_inpn, "')\"><img src='", photo_inpn, "' style='height: 200px; cursor: pointer;'></a></div>"), ''),
         "</div>",
         ifelse(!is.na(photo_male)||!is.na(photo_femelle)||!is.na(photo_inpn), "<br>", ""),
-        "![Carte de distribution de *", species, "*](", 
+        "![](", 
           paste0(
             'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 
             family, '_', 
             stringr::str_replace(species, pattern = '\\s', replacement = '%20'),
             '_2022-03-10.jpeg'
             ),
-            ")"
+            ")",
+            ifelse(
+              file.exists(paste0('www/media/plots/', cd_ref, '.webp')),
+              paste0(
+              "![](", 
+              paste0('www/media/plots/', cd_ref, '.webp'),
+              ")"
+              ),
+              ""
+              )
+          
           )
       )   
 
