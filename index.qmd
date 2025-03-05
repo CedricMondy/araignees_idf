@@ -1,4 +1,6 @@
-Ce site est la version enrichie de la [liste des araignées d'Île-de-France identifiables à vue](https://geonature.arb-idf.fr/node/256) élaborées par Claire Jacquet et Yvan Montardi. Il reprend le travail sur les cartes de distribution des espèces françaises réalisé par [l'Association Française d'Arachnologie (AsFrA)](https://asfra.fr/Site/Main_public.html) dans le cadre de l'établissement de la [liste rouge nationale](https://inpn.mnhn.fr/docs/LR_FCE/Liste_rouge_araignees_metropole_2023_fascicule.pdf). Les photos commentées de critères utiles à l'identification ont bénéficié des informations provenant de diverses sources dont les principales sont: le [Guide photo des araignées et arachnides d'Europe](https://www.delachauxetniestle.com/livre/guide-photo-des-araignees-et-arachnides-deurope-1/9782603019542), le site [Le Monde des insectes](https://www.insecte.org/forum/viewforum.php?f=42), le site [Les carnets nature de Jessica](https://jessica-joachim.com/arachnides-2/arachnides/), le site [www.diplode-vie.net](http://www.dipode-vie.net/Arachnides/Index.html), les dossiers constitués par le [groupe des Araignées dans Faune-PACA](https://www.faune-paca.org/index.php?m_id=20109) et le site [Regard d'araignée](https://araignee-sauteuse.fr/). 
+Ce site est la version enrichie de la [liste des araignées d'Île-de-France identifiables à vue](https://geonature.arb-idf.fr/node/256) élaborées par Claire Jacquet et Yvan Montardi. Il le complète en reprenant le travail sur les cartes de distribution des espèces françaises réalisé par [l'Association Française d'Arachnologie (AsFrA)](https://asfra.fr/Site/Main_public.html) dans le cadre de l'établissement de la [liste rouge nationale](https://inpn.mnhn.fr/docs/LR_FCE/Liste_rouge_araignees_metropole_2023_fascicule.pdf). Les graphiques de distribution temporelle sont issus du traitement d'une extraction des données de l'INPN, plateforme nationale du SINP, au niveau national complété par les données de la plateforme régionale (Géonat'IdF) réalisée le 3 mars 2025.
+
+Les photos commentées de critères utiles à l'identification ont bénéficié d'informations provenant de diverses sources dont les principales sont: le [Guide photo des araignées et arachnides d'Europe](https://www.delachauxetniestle.com/livre/guide-photo-des-araignees-et-arachnides-deurope-1/9782603019542), le site [Le Monde des insectes](https://www.insecte.org/forum/viewforum.php?f=42), le site [Les carnets nature de Jessica](https://jessica-joachim.com/arachnides-2/arachnides/), le site [www.diplode-vie.net](http://www.dipode-vie.net/Arachnides/Index.html), les dossiers constitués par le [groupe des Araignées dans Faune-PACA](https://www.faune-paca.org/index.php?m_id=20109) et le site [Regard d'araignée](https://araignee-sauteuse.fr/).
 
 **Liste des araignées d'Île-de-France identifiables à vue (Claire Jacquet et Yvan Montardi, V2024-1)**
 
@@ -11,7 +13,7 @@ Cette liste va évoluer au fur et à mesure de l’amélioration des connaissanc
 **Difficulté d'identification**
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | 1 | Identification simple |
 | 2 | Identification délicate, risque de confusion |
 | 3 | Identification très délicate, espèce de petite taille, risque de confusion important |
