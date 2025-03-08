@@ -86,3 +86,26 @@
   color: black;
   font-weight: bold;
 }
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.graph {
+  float: left;
+}
+
+.large {
+  width: 66.67%;
+}
+
+.small {
+  width: 33.33%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+

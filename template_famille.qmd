@@ -136,6 +136,8 @@ for (genus in genera) {
             '_2022-03-10.jpeg'
             ),
             ")",
+            "<div class = 'container'>",
+            "<div class = 'graph large'>",
             ifelse(
               file.exists(paste0('www/media/plots/', cd_ref, '.webp')),
               paste0(
@@ -144,7 +146,19 @@ for (genus in genera) {
               ")"
               ),
               ""
-              )
+              ),
+              "</div>",
+              "<div class = 'graph small'>",
+              ifelse(
+              file.exists(paste0('www/media/plots/os_', cd_ref, '.webp')),
+              paste0(
+              "![](", 
+              paste0('www/media/plots/os_', cd_ref, '.webp'),
+              ")"
+              ),
+              ""
+              ),
+              "</div>"
           
           )
       )   
