@@ -8,3 +8,7 @@ _site
 www/media/fiches_svg
 ~$*.xlsx
 www/media/fiches/.tmp.drivedownload/
+
+data/*.gpkg
+data/*.zip
+data/*.csv
