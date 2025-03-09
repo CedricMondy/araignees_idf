@@ -16,7 +16,7 @@
 .modal-content {
   margin: auto;
   display: block;
-  padding: 70px 0;
+  padding-top: 70px;
   max-width: 100%;
   max-height: auto;
 }
