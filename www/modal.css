@@ -9,7 +9,6 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
-  padding-top: 150px; /* Ajoute un espace de 60px en haut pour compenser le bandeau */
 }
 
 /* Style de l'image dans la modale */
@@ -18,6 +17,8 @@
   display: block;
   max-width: 100%;
   max-height: auto;
+  align-content: center;
+  align-items: center;
 }
 
 /* Bouton pour fermer la modale */
