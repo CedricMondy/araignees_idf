@@ -17,7 +17,7 @@
   margin: auto;
   display: block;
   max-width: 90%;
-  max-height: auto;
+  max-height: 90%;
 }
 
 /* Bouton pour fermer la modale */
