@@ -161,7 +161,7 @@ os_by_taxon <- sf::st_read("data/obs_point.gpkg", layer = "os") |>
       stringr::str_trim() |>
       stringr::str_replace(
         pattern = "Surfaces essentiellement agricoles, interrompues par des espaces naturels importants",
-        replacement = "Surfaces essentiellement agricoles,\ninterrompues par des espaces naturels importants"
+        replacement = "Surfaces essentiellement agricoles avec des espaces naturels"
       ) |>
       factor(
         levels = c(
@@ -169,7 +169,7 @@ os_by_taxon <- sf::st_read("data/obs_point.gpkg", layer = "os") |>
           "Forêts", "Forêts de conifères", "Forêts de feuillus", "Forêts et végétation arbustive en mutation", "Forêts mélangées",
           "Landes et broussailles", "Pelouses et pâturages naturels", "Prairies", "Roches nues", "Végétation clairsemée",
           "Milieux semi-naturels",
-          "Surfaces essentiellement agricoles,\ninterrompues par des espaces naturels importants", "Systèmes culturaux et parcellaires complexes",  "Vergers et petits fruits",
+          "Surfaces essentiellement agricoles avec des espaces naturels", "Systèmes culturaux et parcellaires complexes",  "Vergers et petits fruits",
           "Espaces agricoles",
           "Espaces ouverts artificialisés",
           "Habitat individuel",
@@ -202,17 +202,28 @@ os_by_taxon|>
           ),
           show.legend = FALSE
         ) +
+        ggplot2::geom_text(
+          x = 0,
+          hjust = 0,
+          size = 4,
+          mapping = ggplot2::aes(
+            y = code,
+            label = code
+          )
+        ) +
         ggplot2::theme_light() +
         ggplot2::theme(
           panel.grid = ggplot2::element_blank(),
-          axis.text.x = ggplot2::element_blank(),
-          axis.text.y = ggplot2::element_text(hjust = 0),
-          axis.title = ggplot2::element_blank(),
+          axis.text.y = ggplot2::element_blank(),
+          axis.title.y = ggplot2::element_blank(),
+          axis.title.x = ggplot2::element_text(hjust = 1),
           axis.ticks = ggplot2::element_blank(),
           panel.border = ggplot2::element_blank()
         ) +
         ggplot2::scale_x_continuous(
-          limits = c(0,100)
+          name = "Pourcentage d'occupation du sol dans\nun rayon de 25m autour des observations",
+          limits = c(0,100),
+          breaks = c(0, 25, 50, 75, 100)
         ) +
         ggplot2::scale_fill_manual(
           values = c(
@@ -230,7 +241,7 @@ os_by_taxon|>
             `Roches nues` = "grey",
             `Végétation clairsemée` = "#A9AB3A",
             `Milieux semi-naturels` = "#A9AB3A",
-            `Surfaces essentiellement agricoles,\ninterrompues par des espaces naturels importants` = "#EBFF66",
+            `Surfaces essentiellement agricoles avec des espaces naturels` = "#EBFF66",
             `Systèmes culturaux et parcellaires complexes` = "#EBFF66",
             `Vergers et petits fruits` = "#EBFF66",
             `Espaces agricoles` = "#EBFF66",
@@ -249,7 +260,7 @@ os_by_taxon|>
         filename = paste0(
           "www/media/plots/os_", unique(df_i$cd_ref), ".webp"
         ),
-        width = 6, height = 9
+        width = 1500, height = 2000, units = "px"
       )
     },
     .progress = TRUE
