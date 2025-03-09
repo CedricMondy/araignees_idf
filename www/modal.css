@@ -9,15 +9,15 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
-  padding-top: 100px;
+  padding-top: 65px;
 }
 
 /* Style de l'image dans la modale */
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 90%;
-  max-height: 90%;
+  width: auto;
+  max-height: 650px;
 }
 
 /* Bouton pour fermer la modale */
@@ -32,6 +32,22 @@
   cursor: pointer;
 }
 
+/* Media query pour les appareils mobiles */
+@media screen and (max-width: 768px) {
+  .modal-content {
+    max-width: 100%; /* Utilise toute la largeur disponible sur mobile */
+    width: 100%; /* Force la largeur à 100% sur mobile */
+    height: auto; /* Maintient le ratio d'aspect */
+  }
+
+  /* Ajustez la position du bouton de fermeture pour les petits écrans */
+  .close {
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+  }
+
+}
 .flex-container {
   display: flex;
   justify-content: space-between;
