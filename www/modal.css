@@ -1,6 +1,8 @@
 /* Style de la boîte modale */
 .modal {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   z-index: 1000;
   left: 0;
@@ -15,7 +17,6 @@
 /* Style de l'image dans la modale */
 .modal-content {
   margin: auto;
-  display: block;
   max-width: 80%;
   max-height: 80%;
   width: auto;
@@ -36,8 +37,10 @@
 @media screen and (max-width: 768px) {
   .modal-content {
     max-width: 100%; /* Utilise toute la largeur disponible sur mobile */
+    max-height: calc(100% - 20px);
     width: 100%; /* Force la largeur à 100% sur mobile */
     height: auto; /* Maintient le ratio d'aspect */
+    object-fit: contain;
   }
 
   /* Ajustez la position du bouton de fermeture pour les petits écrans */
@@ -49,7 +52,7 @@
 
   /* Réduisez le padding-top de la modale sur mobile */
   .modal {
-    padding-top: 30px;
+    padding-top: 60px;
   }
 }
 
