@@ -23,6 +23,7 @@
 /* Bouton pour fermer la modale */
 .close {
   position: absolute;
+  z-index: 2000;
   top: 65px;
   right: 25px;
   color: white;
