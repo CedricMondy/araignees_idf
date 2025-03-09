@@ -14,6 +14,56 @@ idf <- COGiter::regions_metro_geo |>
   sf::st_buffer(dist = 1000) |>
   sf::st_transform(crs = 4326)
 
+geonat |>
+  dplyr::filter(
+    niveau_precision_diffusion != "Maille"
+  ) |>
+  dplyr::select(
+    uuid = uuid_perm_sinp,
+    cd_ref, geom = geometrie_wkt_4326
+  ) |>
+  dplyr::bind_rows(
+    openobs |>
+      dplyr::filter(
+        ! id_sinp_occ_tax %in% geonat$uuid_perm_sinp,
+        ! precision_localisation %in% c(paste0("XY centroïde", c("maille", "commune")), "pas de XY (département)"),
+        region == "Île-de-France"
+      ) |>
+      dplyr::select(
+        uuid = id_sinp_occ_tax,
+        cd_ref, geom = objet_geo_wkt
+      )
+  ) |>
+  dplyr::filter(
+    !is.na(geom),
+    stringr::str_detect(geom, "POINT")
+  ) |>
+  sf::st_as_sf(wkt = "geom", crs = 4326) |>
+  sf::st_transform(crs = 2154) |>
+  sf::st_buffer(dist = 25) |>
+  sf::st_write("data/obs_point.gpkg")
+
+sf::st_read("data/mos_ecomos.gpkg") |>
+  dplyr::mutate(
+    source = ifelse(layer == "Différence", "mos", "ecomos"),
+    code = dplyr::case_when(
+      code == 1 ~ "1 Forêts",
+      code == 2 ~ "2 Milieux semi-naturels",
+      code == 3 ~ "3 Espaces agricoles",
+      code == 4 ~ "4 Eau",
+      code == 5 ~ "5 Espaces ouverts artificialisés",
+      code == 6 ~ "6 Habitat individuel",
+      code == 7 ~ "7 Habitat collectif",
+      code == 8 ~ "8 Activités",
+      code == 9 ~ "9 Equipements",
+      code == 10 ~ "10 Transports",
+      code == 11 ~ "11 Carrières, décharges et chantiers",
+      TRUE ~ code
+    )
+  ) |>
+  sf::st_write("data/mos_ecomos.gpkg", delete_layer = TRUE)
+
+
 synthese <- geonat |>
   dplyr::select(
     uuid = uuid_perm_sinp,
@@ -56,7 +106,6 @@ synthese <- geonat |>
       factor(levels = c( "adulte", "juvénile", "inconnu"))
     )
 
-
 synthese |>
   dplyr::group_by(cd_ref) |>
   dplyr::group_split(.keep = TRUE) |>
@@ -69,10 +118,11 @@ synthese |>
             x = mois, y = p, fill = stade_vie
           )
         ) +
-        ggplot2::theme_minimal() +
+        ggplot2::theme_light() +
         ggplot2::theme(
           panel.grid = ggplot2::element_blank(),
           axis.text.y = ggplot2::element_blank(),
+          axis.ticks = ggplot2::element_blank(),
           axis.title = ggplot2::element_blank(),
           panel.background = ggplot2::element_rect(fill = "white"),
           plot.background = ggplot2::element_rect(fill = "white"),
@@ -85,6 +135,9 @@ synthese |>
             juvénile = "lightblue",
             adulte = "darkblue"
           )
+        ) +
+        ggplot2::labs(
+          title = "Temporalité des observations en France"
         )
 
       webpea::webpea(
@@ -97,56 +150,6 @@ synthese |>
     },
     .progress = TRUE
   )
-
-
-geonat |>
-  dplyr::filter(
-    niveau_precision_diffusion != "Maille"
-  ) |>
-  dplyr::select(
-    uuid = uuid_perm_sinp,
-    cd_ref, geom = geometrie_wkt_4326
-  ) |>
-  dplyr::bind_rows(
-    openobs |>
-      dplyr::filter(
-        ! id_sinp_occ_tax %in% geonat$uuid_perm_sinp,
-        ! precision_localisation %in% c(paste0("XY centroïde", c("maille", "commune")), "pas de XY (département)"),
-        region == "Île-de-France"
-      ) |>
-      dplyr::select(
-        uuid = id_sinp_occ_tax,
-        cd_ref, geom = objet_geo_wkt
-      )
-  ) |>
-  dplyr::filter(
-    !is.na(geom),
-    stringr::str_detect(geom, "POINT")
-    ) |>
-  sf::st_as_sf(wkt = "geom", crs = 4326) |>
-  sf::st_transform(crs = 2154) |>
-  sf::st_buffer(dist = 25) |>
-  sf::st_write("data/obs_point.gpkg")
-
-sf::st_read("data/mos_ecomos.gpkg") |>
-  dplyr::mutate(
-    source = ifelse(layer == "Différence", "mos", "ecomos"),
-    code = dplyr::case_when(
-      code == 1 ~ "1 Forêts",
-      code == 2 ~ "2 Milieux semi-naturels",
-      code == 3 ~ "3 Espaces agricoles",
-      code == 4 ~ "4 Eau",
-      code == 5 ~ "5 Espaces ouverts artificialisés",
-      code == 6 ~ "6 Habitat individuel",
-      code == 7 ~ "7 Habitat collectif",
-      code == 8 ~ "8 Activités",
-      code == 9 ~ "9 Equipements",
-      code == 10 ~ "10 Transports",
-      code == 11 ~ "11 Carrières, décharges et chantiers",
-      TRUE ~ code
-    )
-  ) |>
-  sf::st_write("data/mos_ecomos.gpkg", delete_layer = TRUE)
 
 os_by_taxon <- sf::st_read("data/obs_point.gpkg", layer = "os") |>
   dplyr::group_by(cd_ref, code) |>
@@ -253,6 +256,9 @@ os_by_taxon|>
             `Transports` = "grey40",
             `Carrières, décharges et chantiers` = "grey40"
           )
+        ) +
+        ggplot2::labs(
+          title = "Contexte paysager des observations franciliennes"
         )
 
       webpea::webpea(

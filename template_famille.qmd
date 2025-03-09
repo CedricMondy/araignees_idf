@@ -133,16 +133,16 @@ for (genus in genera) {
             family, '_', 
             stringr::str_replace(species, pattern = '\\s', replacement = '%20'),
             '_2022-03-10.jpeg'
-          ), "' style='width: 100%; height: auto; '>"),
-          "<br>",
+          ), "' style='width: 100%; height: auto; margin-bottom: 20px;'>"),
+          "<div></div>",
         ifelse(
           file.exists(paste0('www/media/plots/', cd_ref, '.webp')),
-          paste0("<img src='", paste0('www/media/plots/', cd_ref, '.webp'), "' style='width: 100%; height: auto;'>"),
+          paste0("<img src='", paste0('www/media/plots/', cd_ref, '.webp'), "' style='width: 100%; height: auto; margin-bottom: 20px;'>"),
           ""
         ),
         ifelse(
           file.exists(paste0('www/media/plots/os_', cd_ref, '.webp')), 
-          paste0("<img src='", paste0('www/media/plots/os_', cd_ref, '.webp'), "' style='width: auto; height: 500px; '>"),
+          paste0("<img src='", paste0('www/media/plots/os_', cd_ref, '.webp'), "' style='width: 100%; max-width: 350px; height: auto; margin-bottom: 20px;'>"),
           ''
         )
       )
