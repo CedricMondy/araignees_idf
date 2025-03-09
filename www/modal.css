@@ -34,6 +34,10 @@
 
 /* Media query pour les appareils mobiles */
 @media screen and (max-width: 768px) {
+  .modal {
+    padding-top: 130px;
+  }
+
   .modal-content {
     max-width: 100%; /* Utilise toute la largeur disponible sur mobile */
     width: 100%; /* Force la largeur à 100% sur mobile */
