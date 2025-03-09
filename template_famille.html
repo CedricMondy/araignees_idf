@@ -441,16 +441,16 @@ sapply( especes<span class="math inline">\(taxon,
 ” , ifelse(!is.na(condition)||!is.na(confusions), “<br>”, ““),”
 <div class="flex-container">
 “, ifelse(!is.na(photo_male), paste0(”
-<div>
-<strong>Mâle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_male,”’)"&gt;<img src="&quot;, photo_male, &quot;" style="height: 200px; cursor: pointer;">
+<div class="photo-container">
+<strong>Mâle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_male,”’)"&gt;<img src="&quot;, photo_male, &quot;" style="width: 100%; height: auto; cursor: pointer;">
 </div>
 “), ’’), ifelse(!is.na(photo_femelle), paste0(”
-<div>
-<strong>Femelle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_femelle,”’)"&gt;<img src="&quot;, photo_femelle, &quot;" style="height: 200px; cursor: pointer;">
+<div class="photo-container">
+<strong>Femelle :</strong><br>&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_femelle,”’)"&gt;<img src="&quot;, photo_femelle, &quot;" style="width: 100%; height: auto; cursor: pointer;">
 </div>
 “), ’’), ifelse(is.na(photo_femelle) &amp; is.na(photo_male) &amp; !is.na(photo_inpn), paste0(”
-<div>
-&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_inpn,”’)"&gt;<img src="&quot;, photo_inpn, &quot;" style="height: 200px; cursor: pointer;">
+<div class="photo-container">
+&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, photo_inpn,”’)"&gt;<img src="&quot;, photo_inpn, &quot;" style="width: 100%; height: auto; cursor: pointer;">
 </div>
 “), ’’),”
 </div>
