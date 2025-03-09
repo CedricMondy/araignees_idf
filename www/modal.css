@@ -9,17 +9,15 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 /* Style de l'image dans la modale */
 .modal-content {
   margin: auto;
-  display: flex;
+  display: block;
   max-width: 100%;
   max-height: auto;
-  align-content: center;
-  align-items: center;
 }
 
 /* Bouton pour fermer la modale */
