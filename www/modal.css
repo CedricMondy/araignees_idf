@@ -18,6 +18,7 @@
   display: block;
   max-width: 80%;
   max-height: 80%;
+  width: auto;
 }
 
 /* Bouton pour fermer la modale */
@@ -29,6 +30,27 @@
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
+}
+
+/* Media query pour les appareils mobiles */
+@media screen and (max-width: 768px) {
+  .modal-content {
+    max-width: 100%; /* Utilise toute la largeur disponible sur mobile */
+    width: 100%; /* Force la largeur à 100% sur mobile */
+    height: auto; /* Maintient le ratio d'aspect */
+  }
+
+  /* Ajustez la position du bouton de fermeture pour les petits écrans */
+  .close {
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+  }
+
+  /* Réduisez le padding-top de la modale sur mobile */
+  .modal {
+    padding-top: 30px;
+  }
 }
 
 .flex-container {
