@@ -426,14 +426,7 @@ sapply( especes<span class="math inline">\(taxon,
       #photo_inpn &lt;- taxref4R::get_taxa_photo(cd_ref)
       photo_inpn &lt;- NA
       condition &lt;- info_species\)</span>condition confusions &lt;- info_species<span class="math inline">\(confusions
-      statut_lr &lt;- info_species\)</span>CODE_STATUT tailles &lt;- extract_size(species, especes_nmbe) cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, paste0(“&lt;a href=https://www.galerie-insecte.org/galerie/”, stringr::str_replace(species, pattern = ” “, replacement =”_“),”.html target="_blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;“), paste0(”&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/piwigo.png" title="Site de Pierre Oger" style="width: auto; height: 40px;"&gt;</a>&nbsp;“), paste0(”&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/nmbe.jpg" title="araneae Spiders of Europe" style="width: auto; height: 50px;"&gt;</a>&nbsp;“), paste0(”<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="\&quot;_blank\&quot;">&lt;img src="www/media/geonatidf.png" title="Observations dans GéoNat’IdF" style="width: auto; height: 50px;"&gt;</a><br>“),”<br>
-<p>
-“, paste(tailles, collapse =”<br>
-</p>
-<p>
-“),”
-</p>
-<br>“,”<br>
+      statut_lr &lt;- info_species\)</span>CODE_STATUT cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, paste0(“&lt;a href=https://www.galerie-insecte.org/galerie/”, stringr::str_replace(species, pattern = ” “, replacement =”_“),”.html target="_blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;“), paste0(”&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/piwigo.png" title="Site de Pierre Oger" style="width: auto; height: 40px;"&gt;</a>&nbsp;“), paste0(”&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/nmbe.jpg" title="araneae Spiders of Europe" style="width: auto; height: 50px;"&gt;</a>&nbsp;“), paste0(”<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="\&quot;_blank\&quot;">&lt;img src="www/media/geonatidf.png" title="Observations dans GéoNat’IdF" style="width: auto; height: 50px;"&gt;</a><br>“),”<br>
 <div class="flex-container">
 “, ifelse(!is.na(condition), paste0(”
 <div class="condition-box">
