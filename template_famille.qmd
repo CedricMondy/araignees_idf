@@ -50,7 +50,29 @@ header-includes:
   
 %>
 
-<%=
+<%= {
+format_size <- function(size) {
+  paste0(
+    "Taille du corps: ",
+  size |> 
+    stringr::str_split(pattern = "\\n") |> 
+    unlist() |> 
+    stringr::str_replace(pattern = "female", replacement = "&#9792;") |> 
+    stringr::str_replace(pattern = "male", replacement = "&#9794;") |> 
+    purrr::map(
+      function(x) {
+        x2 <- x |> 
+          stringr::str_split(pattern = ":")
+        if (length(x2[[1]]) == 2) {
+          paste0(stringr::str_trim(x2[[1]][2]), " (", x2[[1]][1], ")")
+        }
+      }
+    ) |> 
+    purrr::list_c() |> 
+    paste(collapse = " / ")    
+  )
+}
+
 for (genus in genera) {
   especes <- liste_espece |> 
     dplyr::filter(stringr::str_starts(taxon, pattern = genus))
@@ -89,6 +111,10 @@ for (genus in genera) {
       condition <- info_species$condition
       confusions <- info_species$confusions
       statut_lr <- info_species$CODE_STATUT
+      tailles <- especes_nmbe |> 
+        dplyr::filter(espece == species) |> 
+        dplyr::pull(size) |> 
+        format_size()
       cat(
         paste0(
           "\n\n### *", species, "* (", ifelse(is.na(difficulte), "non identifiable à vue", paste0("difficulté ", difficulte)), ") ", 
@@ -103,7 +129,8 @@ for (genus in genera) {
           paste0("&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target=\"_blank\"><img src=\"www/media/piwigo.png\" title=\"Site de Pierre Oger\" style=\"width: auto; height: 40px;\"></a>&nbsp;"),
           paste0("&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target=\"_blank\"><img src=\"www/media/nmbe.jpg\" title=\"araneae Spiders of Europe\" style=\"width: auto; height: 50px;\"></a>&nbsp;"),
           paste0("<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target=\"_blank\"><img src=\"www/media/geonatidf.png\" title=\"Observations dans GéoNat'IdF\" style=\"width: auto; height: 50px;\"></a><br>"),
-          "<br><div class='flex-container'>",
+          "<br><div><p>", tailles, "</p></div><br>",
+          "<div class='flex-container'>",
         ifelse(!is.na(condition), 
           paste0(
             "<div class='condition-box'>",
@@ -151,7 +178,7 @@ for (genus in genera) {
       }
   )
 }
-%>
+}%>
 
 <div id="myModal" class="modal">
   <span class="close" onclick="closeModal()">&times;</span>

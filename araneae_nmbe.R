@@ -33,26 +33,35 @@ list_species_pages_nmbe <- function() {
       purrr::list_c()
   )
 
-  tibble::tibble(
-    espece =  spec_urls |>
-      purrr::map(
-        function(url) {
-          if (httr::status_code(httr::GET(url)) == 200) {
-            url |>
-              httr::GET() |>
-              rvest::read_html() |>
+  spec_urls |>
+    purrr::map(
+      function(url) {
+        if (httr::status_code(httr::GET(url)) == 200) {
+          page_url <- url |>
+            httr::GET() |>
+            rvest::read_html()
+
+          tibble::tibble(
+            espece = page_url |>
               rvest::html_elements("body > div.wrapper > div.container > div.row > div.col-md-6 > h4 > em") |>
-              rvest::html_text()
-          } else {
-            NA
-          }
-          },
-        .progress = TRUE
-      ) |>
-      purrr::list_c(),
-    url = spec_urls
-  )
-
-
+              rvest::html_text(),
+            size = page_url |>
+              rvest::html_elements("div.sp_description") |>
+              rvest::html_text() |>
+              stringr::str_extract_all(pattern = "Body length.*mm") |>
+              purrr::list_c() |>
+              stringr::str_remove_all(
+                pattern = "Body length"
+              ) |>
+              stringr::str_trim()|>
+              paste(collapse = "\n"),
+            url = url
+          )
+        }
+      },
+      .progress = TRUE
+    ) |>
+    purrr::list_rbind()
 
 }
+
