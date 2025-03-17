@@ -52,7 +52,14 @@
   }
 
 }
+
 .flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+}
+.flex-container-photo {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -65,7 +72,7 @@
 
 /* Media query pour les écrans mobiles */
 @media screen and (max-width: 768px) {
-  .flex-container {
+  .flex-container-photo {
     flex-direction: column;
   }
 
