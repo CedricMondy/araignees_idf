@@ -53,7 +53,7 @@ header-includes:
 <%= {
 format_size <- function(size) {
   paste0(
-    "Taille du corps: ",
+    "Taille du corps:<br>",
   size |> 
     stringr::str_split(pattern = "\\n") |> 
     unlist() |> 
@@ -149,7 +149,7 @@ for (genus in genera) {
         ''),
         "</div>" ,
         ifelse(!is.na(condition)||!is.na(confusions), "<br>", ""),
-        "<div class='flex-container'>",
+        "<div class='flex-container-photo'>",
         ifelse(!is.na(photo_male), paste0("<div class='photo-container'><strong>Mâle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_male, "')\"><img src='", photo_male, "' style='width: 100%; height: auto; cursor: pointer;'></a></div>"), ''),
         ifelse(!is.na(photo_femelle), paste0("<div class='photo-container'><strong>Femelle :</strong><br><a href='javascript:void(0)' onclick=\"openModal('", photo_femelle, "')\"><img src='", photo_femelle, "' style='width: 100%; height: auto; cursor: pointer;'></a></div>"), ''),
         ifelse(is.na(photo_femelle) & is.na(photo_male) & !is.na(photo_inpn), paste0("<div class='photo-container'><a href='javascript:void(0)' onclick=\"openModal('", photo_inpn, "')\"><img src='", photo_inpn, "' style='width: 100%; height: auto; cursor: pointer;'></a></div>"), ''),
