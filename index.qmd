@@ -1,3 +1,9 @@
+---
+header-includes:
+  - <script data-goatcounter="https://araignee-idf.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+---
+
 Ce site est la version enrichie de la [liste des araignées d'Île-de-France identifiables à vue](https://geonature.arb-idf.fr/node/256) élaborées par Claire Jacquet et Yvan Montardi.
 
 Il la complète en reprenant le travail sur les cartes de distribution des espèces françaises réalisé par [l'Association Française d'Arachnologie (AsFrA)](https://asfra.fr/Site/Main_public.html) dans le cadre de l'établissement de la [liste rouge nationale](https://inpn.mnhn.fr/docs/LR_FCE/Liste_rouge_araignees_metropole_2023_fascicule.pdf).

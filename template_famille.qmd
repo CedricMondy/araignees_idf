@@ -3,6 +3,8 @@ title: "<%=family%>"
 header-includes:
   - <link rel="stylesheet" href="www/modal.css">
   - <script src="www/modal.js"></script>
+  - <script data-goatcounter="https://araignee-idf.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 ---
 
 <img src="www/media/piwigo.png"  title="Site de Pierre Oger" style="width: auto; height: 40px;"> <%=
