@@ -1,3 +1,4 @@
+# web analytics: https://araignee-idf.goatcounter.com
 if (!require("pak")) install.packages("pak")
 pak::pkg_install("CedricMondy/taxref4R")
 
