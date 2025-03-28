@@ -27,9 +27,12 @@ list_family_pages <- function() {
 }
 
 list_species_pages <- function() {
-  list_family_pages() |>
-    purrr::map(
-      function(url) {
+  species <- data.frame(espece = "", url = "") |>
+    dplyr::slice(0)
+  for (url_famille in list_family_pages()) {
+    species <- rbind(
+      species,
+      {
         url_specs <- url |>
           httr::GET() |>
           rvest::read_html() |>
@@ -44,10 +47,10 @@ list_species_pages <- function() {
               rvest::html_attr("href")
           )
         )
-      },
-      .progress = TRUE
-    ) |>
-    purrr::list_rbind()
+      }
+    )
+  }
+  species
 }
 
 #content > ul > li:nth-child(1) > div > div.description > h3 > a
