@@ -27,30 +27,31 @@ list_family_pages <- function() {
 }
 
 list_species_pages <- function() {
-  species <- data.frame(espece = "", url = "") |>
-    dplyr::slice(0)
-  for (url_famille in list_family_pages()) {
-    species <- rbind(
-      species,
-      {
-        url_specs <- url |>
+  url_familles <- list_family_pages()
+  species <- list()
+  for (url_famille in url_familles) {
+     url_specs <- url_famille |>
           httr::GET() |>
           rvest::read_html() |>
           rvest::html_elements("body > div > div > ul > li > div > div.description > h3 > a")
 
-        tibble::tibble(
-          espece = url_specs |>
-            rvest::html_text(),
-          url = paste0(
-            "https://arachno.piwigo.com/",
-            url_specs |>
-              rvest::html_attr("href")
-          )
-        )
-      }
-    )
+     species[[url_famille]] <- tibble::tibble(
+       famille = url_famille |>
+         stringr::str_extract(pattern = "(?<=[-/])[a-z]+dae$") |>
+         stringr::str_to_sentence(),
+       espece = url_specs |>
+         rvest::html_text(),
+       url = paste0(
+         "https://arachno.piwigo.com/",
+         url_specs |>
+           rvest::html_attr("href")
+       )
+     )
+     Sys.sleep(.5)
   }
-  species
+
+  species |>
+    purrr::list_rbind()
 }
 
 #content > ul > li:nth-child(1) > div > div.description > h3 > a
