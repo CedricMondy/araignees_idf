@@ -33,7 +33,7 @@ list_species_pages <- function() {
     species <- rbind(
       species,
       {
-        url_specs <- url |>
+        url_specs <- url_famille |>
           httr::GET() |>
           rvest::read_html() |>
           rvest::html_elements("body > div > div > ul > li > div > div.description > h3 > a")
