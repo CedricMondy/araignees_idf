@@ -153,7 +153,7 @@
 }
 
 
-.sidebar, .margin-sidebar {
+.sidebar, .margin-sidebar, .sidebar-menu-container {
   width: auto;
   min-width: fit-content;
   padding: 1px;
