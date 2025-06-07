@@ -156,8 +156,7 @@
 .sidebar, .margin-sidebar {
   width: auto;
   min-width: fit-content;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: 1px;
 }
 
 .sidebar nav[role=doc-toc] ul,
