@@ -157,6 +157,7 @@
   width: auto;
   min-width: fit-content;
   padding: 1px;
+  font-size: .75rem;
 }
 
 .sidebar nav[role=doc-toc] ul,
