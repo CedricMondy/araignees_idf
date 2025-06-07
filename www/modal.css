@@ -151,3 +151,17 @@
   height: auto;
   object-fit: contain;
 }
+
+
+.sidebar, .margin-sidebar {
+  width: auto;
+  min-width: fit-content;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.sidebar nav[role=doc-toc] ul,
+.margin-sidebar nav[role=doc-toc] ul {
+  width: auto;
+  min-width: fit-content;
+}
