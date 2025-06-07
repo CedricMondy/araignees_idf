@@ -15,7 +15,7 @@
   visibility: visible !important;
   position: fixed;
   left: 1em;
-  top: 1em;
+  top: 70px;
   z-index: 1000;
 }
 
