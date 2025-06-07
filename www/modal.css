@@ -156,11 +156,39 @@
   padding-right: 1px;
 }
 
+/* Ajout des styles pour le conteneur principal */
+.quarto-container {
+  display: flex;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Modification des styles des sidebars */
 .sidebar, .margin-sidebar {
   width: auto;
   min-width: fit-content;
   padding: 1px;
   font-size: .75rem;
+  transition: all 0.3s ease;
+}
+
+/* Style pour le contenu principal */
+.content-with-sidebar {
+  flex: 1;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Ajustement des marges quand les sidebars sont masquées */
+.sidebar.hidden,
+.margin-sidebar.hidden {
+  display: none;
+}
+
+.content-with-sidebar.full-width {
+  max-width: 100%;
 }
 
 .sidebar nav[role=doc-toc] ul,
