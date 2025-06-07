@@ -152,8 +152,11 @@
   object-fit: contain;
 }
 
+.sidebar-menu-container {
+  padding-right: 1px;
+}
 
-.sidebar, .margin-sidebar, .sidebar-menu-container {
+.sidebar, .margin-sidebar {
   width: auto;
   min-width: fit-content;
   padding: 1px;
