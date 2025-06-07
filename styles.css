@@ -1,1 +1,22 @@
 /* css styles */
+
+/* Masquer systématiquement la sidebar gauche et afficher le menu hamburger */
+.sidebar-navigation {
+  display: none !important;
+}
+
+.sidebar-toggle {
+  display: block !important;
+}
+
+/* Ajuster le contenu principal */
+.page-columns {
+  display: block;
+}
+
+.content {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
