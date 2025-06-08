@@ -1,6 +1,5 @@
 /* css styles */
 
-.sidebar-menu-container {
-    padding-left: 2px;
+#quarto-sidebar>* {
     padding-right: 2px;
 }
