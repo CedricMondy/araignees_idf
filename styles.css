@@ -20,12 +20,6 @@
 }
 
 /* Optimisation de l'espace du contenu principal */
-.page-columns {
-  display: block !important;
-  padding-left: 0 !important;
-  max-width: none !important;
-  width: 100% !important;
-}
 
 .content {
   margin-left: auto !important;
