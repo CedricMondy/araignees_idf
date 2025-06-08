@@ -1196,6 +1196,36 @@ Taille du corps:<br>8-10 mm (♂) / 9-12 mm (♀)
   });
   </script>
 </div> <!-- /content -->
+<button id="toc-button" onclick="collapseToc()">Espèces</button>
+
+<style>
+
+#toc-button {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 2px solid dodgerblue;
+}
+
+</style>
+
+<script>
+  function add_button() {
+    let sidebar = document.querySelector("#quarto-margin-sidebar");
+    let btn = document.querySelector("#toc-button");
+    sidebar.prepend(btn)
+  }
+  
+  function collapseToc() {
+    let toc = document.querySelector("#TOC");
+    if (toc.style.display === "none") {
+      toc.style.display = "block";
+    } else {
+      toc.style.display = "none";
+    }
+  }
+  
+  window.onload = add_button();
+</script>
 
 
 
