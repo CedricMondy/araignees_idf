@@ -76,4 +76,7 @@ quarto_config$website$sidebar <- panneau_gauche
 yaml::write_yaml(quarto_config, "_quarto.yml")
 readLines("_quarto.yml") |>
   stringr::str_replace(pattern = "toc: yes", replacement = "toc: true") |>
+  stringr::str_replace(pattern = "toc: no", replacement = "toc: false") |>
+  stringr::str_replace(pattern = "reader-mode: yes", replacement = "reader-mode: true") |>
+  stringr::str_replace(pattern = "reader-mode: no", replacement = "reader-mode: false") |>
   writeLines("_quarto.yml")

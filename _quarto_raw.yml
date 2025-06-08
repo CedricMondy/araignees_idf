@@ -3,6 +3,7 @@ project:
 website:
   title: Araignées d'Île-de-France
   favicon: www/favicon.png
+  reader-mode: true
   navbar:
     left:
     - href: index.qmd
