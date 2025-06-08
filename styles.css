@@ -21,7 +21,7 @@
 
 /* Optimisation de l'espace du contenu principal */
 
-.content {
+.page-columns .content {
   margin-left: auto !important;
   margin-right: auto !important;
   max-width: none !important;
