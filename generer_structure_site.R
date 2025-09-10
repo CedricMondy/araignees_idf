@@ -2,6 +2,7 @@
 if (!require("pak")) install.packages("pak")
 pak::pkg_install("CedricMondy/taxref4R")
 
+taxref_araignees <- readRDS("taxref_araignees.rds")
 liste_rouge <- readRDS("lrn.RDS")
 load("urls.rda")
 
@@ -35,13 +36,22 @@ liste_espece <- liste_esp |>
   dplyr::left_join(especes_piwigo, by = c("taxon" = "espece")) |>
   dplyr::left_join(especes_nmbe, by = c("taxon" = "espece"), suffix = c("_piwigo", "_nmbe"))
 
-liste_espece$CD_REF[is.na(liste_espece$CD_REF)] <- sapply(
-  liste_espece$taxon[is.na(liste_espece$CD_REF)],
-  function(x) {
-    taxref4R::search_taxa(scientificNames = x)$referenceId[1]
-  }
-)
+# Si nécessaire, mise à jour des CD_REF
+# liste_espece$CD_REF[is.na(liste_espece$CD_REF)] <- sapply(
+#   liste_espece$taxon[is.na(liste_espece$CD_REF)],
+#   function(x) {
+#     taxref4R::search_taxa(scientificNames = x)$referenceId[1]
+#   }
+# )
 
+liste_espece$CD_REF <- liste_espece |>
+  dplyr::select(CD_REF) |>
+  dplyr::left_join(
+    taxref_araignees |>
+      dplyr::select(CD_NOM, CD_REF),
+    by = c("CD_REF"="CD_NOM")
+    ) |>
+  dplyr::pull(CD_REF.y)
 
 purrr::walk(
   liste_familles,
