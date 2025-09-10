@@ -157,6 +157,11 @@ for (genus in genera) {
         ifelse(is.na(photo_femelle) & is.na(photo_male) & !is.na(photo_inpn), paste0("<div class='photo-container'><a href='javascript:void(0)' onclick=\"openModal('", photo_inpn, "')\"><img src='", photo_inpn, "' style='width: 100%; height: auto; cursor: pointer;'></a></div>"), ''),
         "</div>",
         ifelse(!is.na(photo_male)||!is.na(photo_femelle)||!is.na(photo_inpn), "<br>", ""),
+        ifelse(
+          file.exists(paste0('www/media/plots/', cd_ref, '.webp')),
+          paste0("<img src='", paste0('www/media/plots/', cd_ref, '.webp'), "' style='width: 100%; height: auto; margin-bottom: 20px;'>"),
+          ""
+        ),
         paste0("<img src='", paste0(
             'https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_', 
             family, '_', 
@@ -164,11 +169,6 @@ for (genus in genera) {
             '_2022-03-10.jpeg'
           ), "' style='width: 100%; height: auto; margin-bottom: 20px;'>"),
           "<div></div>",
-        ifelse(
-          file.exists(paste0('www/media/plots/', cd_ref, '.webp')),
-          paste0("<img src='", paste0('www/media/plots/', cd_ref, '.webp'), "' style='width: 100%; height: auto; margin-bottom: 20px;'>"),
-          ""
-        ),
         ifelse(
           file.exists(paste0('www/media/plots/os_', cd_ref, '.webp')), 
           paste0("<img src='", paste0('www/media/plots/os_', cd_ref, '.webp'), "' style='width: 100%; max-width: 350px; height: auto; margin-bottom: 20px;'>"),
