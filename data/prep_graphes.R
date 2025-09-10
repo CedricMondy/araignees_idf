@@ -1,3 +1,5 @@
+if (!require("webpea")) pak::pkg_install("nucleic-acid/webpea")
+
 openobs <- archive::archive_read("data/records-2025-03-04.zip", file = "records-2025-03-04.csv") |>
   vroom::vroom() |>
   janitor::clean_names() |>
@@ -41,7 +43,7 @@ geonat |>
   sf::st_as_sf(wkt = "geom", crs = 4326) |>
   sf::st_transform(crs = 2154) |>
   sf::st_buffer(dist = 25) |>
-  sf::st_write("data/obs_point.gpkg")
+  sf::st_write("data/obs_point.gpkg", delete_layer = TRUE)
 
 sf::st_read("data/mos_ecomos.gpkg") |>
   dplyr::mutate(
@@ -126,7 +128,9 @@ synthese |>
           axis.title = ggplot2::element_blank(),
           panel.background = ggplot2::element_rect(fill = "white"),
           plot.background = ggplot2::element_rect(fill = "white"),
-          panel.border = ggplot2::element_blank()
+          panel.border = ggplot2::element_blank(),
+          title = ggplot2::element_text(size = 8),
+          legend.text = ggplot2::element_text(size = 6)
         ) +
         ggplot2::scale_fill_manual(
           name = "Stade de vie",
@@ -145,7 +149,7 @@ synthese |>
         filename = paste0(
           "www/media/plots/", unique(df$cd_ref), ".webp"
         ),
-        width = 9, height = 3
+        width = 1500, height = 375, units = "px"
       )
     },
     .progress = TRUE
