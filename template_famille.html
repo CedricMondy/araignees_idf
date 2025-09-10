@@ -435,7 +435,7 @@ sapply( especes<span class="math inline">\(taxon,
       #photo_inpn &lt;- taxref4R::get_taxa_photo(cd_ref)
       photo_inpn &lt;- NA
       condition &lt;- info_species\)</span>condition confusions &lt;- info_species<span class="math inline">\(confusions
-      statut_lr &lt;- info_species\)</span>CODE_STATUT tailles &lt;- especes_nmbe |&gt; dplyr::filter(espece == species) |&gt; dplyr::pull(size) |&gt; format_size() cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, paste0(“&lt;a href=https://www.galerie-insecte.org/galerie/”, stringr::str_replace(species, pattern = ” “, replacement =”_“),”.html target="_blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;“), paste0(”&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/piwigo.png" title="Site de Pierre Oger" style="width: auto; height: 40px;"&gt;</a>&nbsp;“), paste0(”&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/nmbe.jpg" title="araneae Spiders of Europe" style="width: auto; height: 50px;"&gt;</a>&nbsp;“), paste0(”<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="\&quot;_blank\&quot;">&lt;img src="www/media/geonatidf.png" title="Observations dans GéoNat’IdF" style="width: auto; height: 50px;"&gt;</a><br>“),”<br>
+      statut_lr &lt;- info_species\)</span>CODE_STATUT tailles &lt;- especes_nmbe |&gt; dplyr::filter(espece == species) |&gt; dplyr::pull(size) |&gt; format_size() chronic &lt;- paste0(‘www/media/plots/’, cd_ref, ‘.webp’) map &lt;- paste0( ‘https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’<em>‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ‘<em>2022-03-10.jpeg’ ) plot_os &lt;- paste0(’www/media/plots/os</em>’, cd_ref, ‘.webp’) cat( paste0( “### <em>”, species, ”</em> (”, ifelse(is.na(difficulte), “non identifiable à vue”, paste0(“difficulté”, difficulte)), “)”, ifelse( !is.na(statut_lr), paste0(“<span class=", tolower(statut_lr),">&nbsp;”, statut_lr, ”&nbsp;</span>”), “” ), “”, paste0(“&lt;a href=https://www.galerie-insecte.org/galerie/”, stringr::str_replace(species, pattern = ” “, replacement =”</em>”), “.html target="_blank"&gt;&lt;img src="www/media/lmdi.png" title="Galerie du site Le Monde des Insectes" style="width: 50px; height: auto;"&gt;“), paste0(”&nbsp;<a href=", especes_piwigo |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/piwigo.png" title="Site de Pierre Oger" style="width: auto; height: 40px;"&gt;</a>&nbsp;“), paste0(”&nbsp;<a href=", especes_nmbe |> dplyr::filter(espece == species) |> dplyr::pull(url), " target="\&quot;_blank\&quot;">&lt;img src="www/media/nmbe.jpg" title="araneae Spiders of Europe" style="width: auto; height: 50px;"&gt;</a>&nbsp;“), paste0(”<a href=", paste0('https://geonature.arb-idf.fr/atlas/espece/', cd_ref), " target="\&quot;_blank\&quot;">&lt;img src="www/media/geonatidf.png" title="Observations dans GéoNat’IdF" style="width: auto; height: 50px;"&gt;</a><br>“),”<br>
 <div>
 <p>
 “, tailles,”
@@ -469,13 +469,19 @@ sapply( especes<span class="math inline">\(taxon,
 </div>
 “), ’’),”
 </div>
-“, ifelse(!is.na(photo_male)||!is.na(photo_femelle)||!is.na(photo_inpn),”<br>“,”“), ifelse( file.exists(paste0(‘www/media/plots/’, cd_ref, ‘.webp’)), paste0(”&lt;img src=‘“, paste0(‘www/media/plots/’, cd_ref, ‘.webp’),”’ style=‘width: 100%; height: auto; margin-bottom: 20px;’&gt;“),”” ), paste0(“&lt;img src=‘“, paste0( ’https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “’ style=‘width: 100%; height: auto; margin-bottom: 20px;’&gt;”), “
-<div>
-
+“, ifelse(!is.na(photo_male)||!is.na(photo_femelle)||!is.na(photo_inpn),”<br>“,”“), ifelse( file.exists(chronic), paste0(”<img src="&quot;, chronic, &quot;" style="width: 100%; height: auto; margin-bottom: 20px;">“),”” ), “
+<div class="flex-container-photo">
+“,”
+<div class="photo-container">
+“,”&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, map,”’)"&gt;“, paste0(”<img src="&quot;, map, &quot;" style="width: 100%; height: auto; cursor: pointer;">“),”“,”
 </div>
-<p>“, ifelse( file.exists(paste0(‘www/media/plots/os_’, cd_ref, ‘.webp’)), paste0(”&lt;img src=‘“, paste0(‘www/media/plots/os_’, cd_ref, ‘.webp’),”’ style=‘width: 100%; max-width: 350px; height: auto; margin-bottom: 20px;’&gt;“), ’’ ) ) )</p>
-<pre><code>  }</code></pre>
-<p>) } }%&gt;</p>
+“,”
+<div class="photo-container">
+“, ifelse( file.exists(plot_os), paste0(”&lt;a href=‘javascript:void(0)’ onclick="openModal(‘“, plot_os,”’)"&gt;“,”<img src="&quot;, map, &quot;" style="width: 100%; height: auto; cursor: pointer;">“,”” ), ’’ ), “
+</div>
+“,”
+</div>
+<p>” ) ) } ) } }%&gt;</p>
 <div id="myModal" class="modal">
 <p><span class="close" onclick="closeModal()">×</span> <img class="modal-content" id="modalImg"></p>
 </div>
