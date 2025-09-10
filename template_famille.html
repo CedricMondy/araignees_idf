@@ -469,11 +469,11 @@ sapply( especes<span class="math inline">\(taxon,
 </div>
 “), ’’),”
 </div>
-“, ifelse(!is.na(photo_male)||!is.na(photo_femelle)||!is.na(photo_inpn),”<br>“,”“), paste0(”&lt;img src=‘“, paste0( ’https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “’ style=‘width: 100%; height: auto; margin-bottom: 20px;’&gt;”), “
+“, ifelse(!is.na(photo_male)||!is.na(photo_femelle)||!is.na(photo_inpn),”<br>“,”“), ifelse( file.exists(paste0(‘www/media/plots/’, cd_ref, ‘.webp’)), paste0(”&lt;img src=‘“, paste0(‘www/media/plots/’, cd_ref, ‘.webp’),”’ style=‘width: 100%; height: auto; margin-bottom: 20px;’&gt;“),”” ), paste0(“&lt;img src=‘“, paste0( ’https://asfra.fr/Site/User_pages/Atlas/LR_ASFRA_’, family, ’_‘, stringr::str_replace(species, pattern =’\s’, replacement = ‘%20’), ’_2022-03-10.jpeg’ ), “’ style=‘width: 100%; height: auto; margin-bottom: 20px;’&gt;”), “
 <div>
 
 </div>
-<p>“, ifelse( file.exists(paste0(‘www/media/plots/’, cd_ref, ‘.webp’)), paste0(”&lt;img src=‘“, paste0(‘www/media/plots/’, cd_ref, ‘.webp’),”’ style=‘width: 100%; height: auto; margin-bottom: 20px;’&gt;“),”” ), ifelse( file.exists(paste0(‘www/media/plots/os_’, cd_ref, ‘.webp’)), paste0(“&lt;img src=‘“, paste0(‘www/media/plots/os_’, cd_ref, ‘.webp’),”’ style=‘width: 100%; max-width: 350px; height: auto; margin-bottom: 20px;’&gt;”), ’’ ) ) )</p>
+<p>“, ifelse( file.exists(paste0(‘www/media/plots/os_’, cd_ref, ‘.webp’)), paste0(”&lt;img src=‘“, paste0(‘www/media/plots/os_’, cd_ref, ‘.webp’),”’ style=‘width: 100%; max-width: 350px; height: auto; margin-bottom: 20px;’&gt;“), ’’ ) ) )</p>
 <pre><code>  }</code></pre>
 <p>) } }%&gt;</p>
 <div id="myModal" class="modal">
