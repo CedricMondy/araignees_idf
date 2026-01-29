@@ -528,345 +528,1018 @@
     ]
   },
   {
-    "objectID": "Tetragnathidae.html",
-    "href": "Tetragnathidae.html",
-    "title": "Tetragnathidae",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Araignées d'Île-de-France",
+    "section": "",
+    "text": "Ce site reprend la liste des araignées d’Île-de-France identifiables à vue élaborée par Claire Jacquet et Yvan Montardi et regroupe des informations et ressources complémentaires pour chaque espèce.\nLes cartes de distribution des espèces françaises ont été réalisées par l’Association Française d’Arachnologie (AsFrA) dans le cadre de l’établissement de la liste rouge nationale.\nLes tailles indiquées sont reprises du site araneae - Spiders of Europe.\nLes graphiques sur la temporalité des observations sont issus du traitement d’une extraction des données de l’INPN, plateforme nationale du SINP, au niveau national complété par les données de la plateforme régionale (Géonat’IdF) réalisée le 3 mars 2025.\nLes données avec une précision au point ont été croisées avec les données d’occupation du sol produits par l’Institut Paris Region (MOS en 11 postes de 2021 et ECOMOS pour les espaces naturels) pour avoir une idée du contexte paysager dans lequel les observations sont généralement faites en Île-de-France.\nLes photos commentées de critères utiles à l’identification ont bénéficié d’informations provenant de diverses sources dont les principales sont: - le Guide photo des araignées et arachnides d’Europe, - le site Le Monde des insectes, - le site Les carnets nature de Jessica, - le site www.diplode-vie.net, - les dossiers constitués par le groupe des Araignées dans Faune-PACA et - le site Regard d’araignée."
+  },
+  {
+    "objectID": "about.html#le-site",
+    "href": "about.html#le-site",
+    "title": "Araignées d'Île-de-France",
+    "section": "",
+    "text": "Ce site reprend la liste des araignées d’Île-de-France identifiables à vue élaborée par Claire Jacquet et Yvan Montardi et regroupe des informations et ressources complémentaires pour chaque espèce.\nLes cartes de distribution des espèces françaises ont été réalisées par l’Association Française d’Arachnologie (AsFrA) dans le cadre de l’établissement de la liste rouge nationale.\nLes tailles indiquées sont reprises du site araneae - Spiders of Europe.\nLes graphiques sur la temporalité des observations sont issus du traitement d’une extraction des données de l’INPN, plateforme nationale du SINP, au niveau national complété par les données de la plateforme régionale (Géonat’IdF) réalisée le 3 mars 2025.\nLes données avec une précision au point ont été croisées avec les données d’occupation du sol produits par l’Institut Paris Region (MOS en 11 postes de 2021 et ECOMOS pour les espaces naturels) pour avoir une idée du contexte paysager dans lequel les observations sont généralement faites en Île-de-France.\nLes photos commentées de critères utiles à l’identification ont bénéficié d’informations provenant de diverses sources dont les principales sont: - le Guide photo des araignées et arachnides d’Europe, - le site Le Monde des insectes, - le site Les carnets nature de Jessica, - le site www.diplode-vie.net, - les dossiers constitués par le groupe des Araignées dans Faune-PACA et - le site Regard d’araignée."
+  },
+  {
+    "objectID": "about.html#la-liste-des-araignées-dîle-de-france-identifiables-à-vue-claire-jacquet-et-yvan-montardi-v2024-1",
+    "href": "about.html#la-liste-des-araignées-dîle-de-france-identifiables-à-vue-claire-jacquet-et-yvan-montardi-v2024-1",
+    "title": "Araignées d'Île-de-France",
+    "section": "La liste des araignées d’Île-de-France identifiables à vue (Claire Jacquet et Yvan Montardi, V2024-1)",
+    "text": "La liste des araignées d’Île-de-France identifiables à vue (Claire Jacquet et Yvan Montardi, V2024-1)\nCette liste commentée présente les 653 espèces connues pour la région Ile-de-France à ce jour (source OpenObs-decembre-2023 + observations personnelles des auteurs en cours de diﬀusion) et elle indique les 187 espèces qui sont identiﬁables à vue ou sur photo. Elle peut éventuellement s’appliquer aux départements limitrophes, mais pas au-delà. Certaines espèces sont identiﬁables en Ile-de-France car aucune espèce semblable n’a été trouvée (Callilepis ou Icius par exemple), ce qui n’est pas le cas en dehors de la région.\nCette liste est le fruit de la concertation de plusieurs arachnologues et de leur expérience (observation sur le terrain, puis vériﬁcation de l’identiﬁcation sous loupe binoculaire). Identiﬁer au niveau spéciﬁque n’est pas un objectif à atteindre à tout prix, l’objectif est de générer des données de bonne qualité. Ainsi, un individu aux motifs ou couleurs typiques pourra être identiﬁé avec certitude, alors qu’un individu atypique de la même espèce ne pourra pas être identiﬁé sur son seul habitus et ce même par un spécialiste.\nCette liste va évoluer au fur et à mesure de l’amélioration des connaissances de la faune arachnologique de la région.\nDifficulté d’identification\n\n\n\n\n\n\n\n1\nIdentification simple\n\n\n2\nIdentification délicate, risque de confusion\n\n\n3\nIdentification très délicate, espèce de petite taille, risque de confusion important"
+  },
+  {
+    "objectID": "about.html#lauteur",
+    "href": "about.html#lauteur",
+    "title": "Araignées d'Île-de-France",
+    "section": "L’auteur",
+    "text": "L’auteur\nJe m’appelle Cédric Mondy et je suis un naturaliste et photographe amateur ayant un intérêt particulier pour ces chères bêtes à huit pattes. Lorsque j’ai eu connaissance de la liste établie par Claire et Yvan, j’ai voulu la compléter avec des informations que je trouvais utiles. Un peu de code plus tard  et ce site était né."
+  },
+  {
+    "objectID": "Trachelidae.html",
+    "href": "Trachelidae.html",
+    "title": "Trachelidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Trachelidae"
+    ]
+  },
+  {
+    "objectID": "Trachelidae.html#cetonana",
+    "href": "Trachelidae.html#cetonana",
+    "title": "Trachelidae",
+    "section": "Cetonana",
+    "text": "Cetonana\n1 espèce en Île-de-France identifiable à vue\n\nCetonana laticeps (difficulté 3)  LC \n    \n\n\nConfusions possibles :Gnaphosidae\n\n\n\n\n\n\n\nTaille du corps: 5-6 mm (♂) / 5.3-7.2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Trachelidae"
+    ]
+  },
+  {
+    "objectID": "Trachelidae.html#paratrachelas",
+    "href": "Trachelidae.html#paratrachelas",
+    "title": "Trachelidae",
+    "section": "Paratrachelas",
+    "text": "Paratrachelas\n1 espèce en Île-de-France non identifiable à vue\n\nParatrachelas maculatus (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 3.4-5.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Trachelidae"
+    ]
+  },
+  {
+    "objectID": "Cybaeidae.html",
+    "href": "Cybaeidae.html",
+    "title": "Cybaeidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Cybaeidae"
+    ]
+  },
+  {
+    "objectID": "Cybaeidae.html#cryphoeca",
+    "href": "Cybaeidae.html#cryphoeca",
+    "title": "Cybaeidae",
+    "section": "Cryphoeca",
+    "text": "Cryphoeca\n1 espèce en Île-de-France non identifiable à vue\n\nCryphoeca silvicola (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-3.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Cybaeidae"
+    ]
+  },
+  {
+    "objectID": "Macrothelidae.html",
+    "href": "Macrothelidae.html",
+    "title": "Macrothelidae",
+    "section": "",
+    "text": "espèces",
+    "crumbs": [
+      "Accueil",
+      "Macrothelidae"
+    ]
+  },
+  {
+    "objectID": "Macrothelidae.html#macrothele",
+    "href": "Macrothelidae.html#macrothele",
+    "title": "Macrothelidae",
+    "section": "Macrothele",
+    "text": "Macrothele\n1 espèce en Île-de-France identifiable à vue\n\nMacrothele calpeiana (difficulté 1)\n    \n\n\n\n\n\n\n\nTaille du corps: 20.3-26.8 mm (♂) / 28.2-34.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Macrothelidae"
+    ]
+  },
+  {
+    "objectID": "Phrurolithidae.html",
+    "href": "Phrurolithidae.html",
+    "title": "Phrurolithidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Phrurolithidae"
+    ]
+  },
+  {
+    "objectID": "Phrurolithidae.html#phrurolithus",
+    "href": "Phrurolithidae.html#phrurolithus",
+    "title": "Phrurolithidae",
+    "section": "Phrurolithus",
+    "text": "Phrurolithus\n3 espèces en Île-de-France, aucune identifiable à vue\n\nPhrurolithus festivus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.2-2.9 mm (♂) / 2.4-3.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhrurolithus minimus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.1-2.7 mm (♂) / 2.4-3.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhrurolithus nigrinus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-3.0 mm (♂) / 2.0-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Phrurolithidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html",
+    "href": "Hahniidae.html",
+    "title": "Hahniidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html#antistea",
+    "href": "Hahniidae.html#antistea",
+    "title": "Hahniidae",
+    "section": "Antistea",
+    "text": "Antistea\n1 espèce en Île-de-France non identifiable à vue\n\nAntistea elegans (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.3-2.6 mm (♂) / 2.5-4.3 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html#cicurina",
+    "href": "Hahniidae.html#cicurina",
+    "title": "Hahniidae",
+    "section": "Cicurina",
+    "text": "Cicurina\n1 espèce en Île-de-France identifiable à vue\n\nCicurina cicur (difficulté 3)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html#hahnia",
+    "href": "Hahniidae.html#hahnia",
+    "title": "Hahniidae",
+    "section": "Hahnia",
+    "text": "Hahnia\n4 espèces en Île-de-France, aucune identifiable à vue\n\nHahnia helveola (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.2-2.5 mm (♂) / 2.4-3.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHahnia nava (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.5-2 mm (♂) / 1.5-2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHahnia petrobia (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.8-3.2 mm (♂) / 2.4-3.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nHahnia pusilla (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.2-1.6 mm (♂) / 1.2-1.6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html#hahniharmia",
+    "href": "Hahniidae.html#hahniharmia",
+    "title": "Hahniidae",
+    "section": "Hahniharmia",
+    "text": "Hahniharmia\n1 espèce en Île-de-France non identifiable à vue\n\nHahniharmia picta (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-2.2 mm (♂) / 2.0-2.2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html#iberina",
+    "href": "Hahniidae.html#iberina",
+    "title": "Hahniidae",
+    "section": "Iberina",
+    "text": "Iberina\n2 espèces en Île-de-France, aucune identifiable à vue\n\nIberina candida (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.2-1.4 mm (♂) / 1.5-1.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nIberina montana (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.4-2 mm (♂) / 1.4-2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Hahniidae.html#mastigusa",
+    "href": "Hahniidae.html#mastigusa",
+    "title": "Hahniidae",
+    "section": "Mastigusa",
+    "text": "Mastigusa\n1 espèce en Île-de-France non identifiable à vue\n\nMastigusa arietina (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3-3.5 mm (♂) / 3-3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Hahniidae"
+    ]
+  },
+  {
+    "objectID": "Cheiracanthiidae.html",
+    "href": "Cheiracanthiidae.html",
+    "title": "Cheiracanthiidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Cheiracanthiidae"
+    ]
+  },
+  {
+    "objectID": "Cheiracanthiidae.html#cheiracanthium",
+    "href": "Cheiracanthiidae.html#cheiracanthium",
+    "title": "Cheiracanthiidae",
+    "section": "Cheiracanthium",
+    "text": "Cheiracanthium\n6 espèces en Île-de-France dont 3 identifiables à vue\n\nCheiracanthium elegans (difficulté 3)  LC \n    \n\n\nCondition :adulte verdatre, pas jaune\n\n\nConfusions possibles :tt autres Cheiracanthium, Micrommata, Clubiona\n\n\n\n\n\n\n\nTaille du corps: 8.3-9 mm (♂) / 7.35-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium erraticum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-6.5 mm (♂) / 8.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium mildei (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main, sur male uniquement (2 apophyses sur le tibia du pedipalpe)\n\n\nConfusions possibles :tt autres Cheiracanthium\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.8-8.5 mm (♂) / 6.0-10.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium pennyi (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 9.3-9.5 mm (♂) / 9.3-9.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium punctorium (difficulté 1)  LC \n    \n\n\nCondition :male de plus de 8mm de longueur de corps sans chélicères, femelle de plus 10mm de corps\n\n\nConfusions possibles :tt autres Cheiracanthium\n\n\n\n\n\n\n\nTaille du corps: 7.5-12.0 mm (♂) / 10.0-15.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium virescens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.5 mm (♂) / 8.4-9.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Cheiracanthiidae"
+    ]
+  },
+  {
+    "objectID": "Scytodidae.html",
+    "href": "Scytodidae.html",
+    "title": "Scytodidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Scytodidae"
+    ]
+  },
+  {
+    "objectID": "Scytodidae.html#scytodes",
+    "href": "Scytodidae.html#scytodes",
+    "title": "Scytodidae",
+    "section": "Scytodes",
+    "text": "Scytodes\n1 espèce en Île-de-France identifiable à vue\n\nScytodes thoracica (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-4 mm (♂) / 4-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Scytodidae"
+    ]
+  },
+  {
+    "objectID": "Segestriidae.html",
+    "href": "Segestriidae.html",
+    "title": "Segestriidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Segestriidae"
+    ]
+  },
+  {
+    "objectID": "Segestriidae.html#segestria",
+    "href": "Segestriidae.html#segestria",
+    "title": "Segestriidae",
+    "section": "Segestria",
+    "text": "Segestria\n3 espèces en Île-de-France, toutes identifiables à vue\n\nSegestria bavarica (difficulté 2)  LC \n    \n\n\nConfusions possibles :Segestria senoculata\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7-8 mm (♂) / 10-14 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSegestria florentina (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 10-15 mm (♂) / 14-22 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSegestria senoculata (difficulté 2)  LC \n    \n\n\nConfusions possibles :Segestria bavarica\n\n\n\n\n\n\n\nTaille du corps: 6.5-7.5 mm (♂) / 7-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Segestriidae"
+    ]
+  },
+  {
+    "objectID": "Leptonetidae.html",
+    "href": "Leptonetidae.html",
+    "title": "Leptonetidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Leptonetidae"
+    ]
+  },
+  {
+    "objectID": "Leptonetidae.html#leptoneta",
+    "href": "Leptonetidae.html#leptoneta",
+    "title": "Leptonetidae",
+    "section": "Leptoneta",
+    "text": "Leptoneta\n1 espèce en Île-de-France non identifiable à vue\n\nLeptoneta olivacea (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2.7-3 mm (♂) / 2.7-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Leptonetidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html",
+    "href": "Thomisidae.html",
+    "title": "Thomisidae",
     "section": "",
     "text": "espèces, genitalias mâle , genitalias femelle",
     "crumbs": [
       "Accueil",
-      "Tetragnathidae"
+      "Thomisidae"
     ]
   },
   {
-    "objectID": "Tetragnathidae.html#meta",
-    "href": "Tetragnathidae.html#meta",
-    "title": "Tetragnathidae",
-    "section": "Meta",
-    "text": "Meta\n2 espèces en Île-de-France, toutes identifiables à vue\n\nMeta bourneti (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 10-13 mm (♂) / 13-16 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMeta menardi (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 11-12 mm (♂) / 15-17 mm (♀)",
+    "objectID": "Thomisidae.html#bassaniodes",
+    "href": "Thomisidae.html#bassaniodes",
+    "title": "Thomisidae",
+    "section": "Bassaniodes",
+    "text": "Bassaniodes\n1 espèce en Île-de-France non identifiable à vue\n\nBassaniodes robustus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5-6.9 mm (♂) / 7-12 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Tetragnathidae"
+      "Thomisidae"
     ]
   },
   {
-    "objectID": "Tetragnathidae.html#metellina",
-    "href": "Tetragnathidae.html#metellina",
-    "title": "Tetragnathidae",
-    "section": "Metellina",
-    "text": "Metellina\n3 espèces en Île-de-France, toutes identifiables à vue\n\nMetellina mengei (difficulté 1)  LC \n    \n\n\nCondition :si obs adulte entre mai-juin\n\n\nConfusions possibles :Metellina segmentata\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-5.5 mm (♂) / 3.5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMetellina merianae (difficulté 1)  LC \n    \n\n\nConfusions possibles :Metellina segmentata, M. mengei\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7.5-8 mm (♂) / 7.3-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMetellina segmentata (difficulté 1)  LC \n    \n\n\nCondition :si obs adulte entre aout-sept\n\n\nConfusions possibles :Metellina mengei\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5-7.5 mm (♂) / 6.5-9 mm (♀)",
+    "objectID": "Thomisidae.html#coriarachne",
+    "href": "Thomisidae.html#coriarachne",
+    "title": "Thomisidae",
+    "section": "Coriarachne",
+    "text": "Coriarachne\n1 espèce en Île-de-France identifiable à vue\n\nCoriarachne depressa (difficulté 3)  EN \n    \n\n\nCondition :photo indispensable pour validation de l’observation\n\n\nConfusions possibles :Xysticus spp.\n\n\n\n\n\n\n\nTaille du corps: 4.5-5.5 mm (♂) / 4.5-5.5 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Tetragnathidae"
+      "Thomisidae"
     ]
   },
   {
-    "objectID": "Tetragnathidae.html#pachygnatha",
-    "href": "Tetragnathidae.html#pachygnatha",
-    "title": "Tetragnathidae",
-    "section": "Pachygnatha",
-    "text": "Pachygnatha\n3 espèces en Île-de-France, toutes identifiables à vue\n\nPachygnatha clercki (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-5 mm (♂) / 5.5-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPachygnatha degeeri (difficulté 2)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3.0-3.5 mm (♂) / 3.5-4.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPachygnatha listeri (difficulté 3)  LC \n    \n\n\nConfusions possibles :Pachygnatha degeeri\n\n\n\n\n\n\n\nTaille du corps: 3-4.5 mm (♂) / 4.5-5 mm (♀)",
+    "objectID": "Thomisidae.html#cozyptila",
+    "href": "Thomisidae.html#cozyptila",
+    "title": "Thomisidae",
+    "section": "Cozyptila",
+    "text": "Cozyptila\n1 espèce en Île-de-France non identifiable à vue\n\nCozyptila blackwalli (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 3-4.1 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Tetragnathidae"
+      "Thomisidae"
     ]
   },
   {
-    "objectID": "Tetragnathidae.html#tetragnatha",
-    "href": "Tetragnathidae.html#tetragnatha",
-    "title": "Tetragnathidae",
-    "section": "Tetragnatha",
-    "text": "Tetragnatha\n7 espèces en Île-de-France, aucune identifiable à vue\n\nTetragnatha dearmata (non identifiable à vue)  DD \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-7.5 mm (♂) / 8-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha extensa (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-9 mm (♂) / 5-12.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha montana (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-8 mm (♂) / 7-13 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha nigrita (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-8 mm (♂) / 7-11 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha obtusa (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-5.5 mm (♂) / 4.5-7.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha pinicola (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-5 mm (♂) / 5-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha striata (non identifiable à vue)  NT \n    \n\n\n\n\n\n\n\nTaille du corps: 8-10 mm (♂) / 9-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Thomisidae.html#diaea",
+    "href": "Thomisidae.html#diaea",
+    "title": "Thomisidae",
+    "section": "Diaea",
+    "text": "Diaea\n2 espèces en Île-de-France, toutes identifiables à vue\n\nDiaea dorsata (difficulté 1)  LC \n    \n\n\nConfusions possibles :Diaea livens\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 5.0-7.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDiaea livens (difficulté 3)  DD \n    \n\n\nCondition :photo indispensable pour validation de l’observation\n\n\nConfusions possibles :Diaea dorsata\n\n\n\n\n\n\n\nTaille du corps: 4.2 mm (♂) / 5.8 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Tetragnathidae"
+      "Thomisidae"
     ]
   },
   {
-    "objectID": "Gnaphosidae.html",
-    "href": "Gnaphosidae.html",
-    "title": "Gnaphosidae",
+    "objectID": "Thomisidae.html#ebrechtella",
+    "href": "Thomisidae.html#ebrechtella",
+    "title": "Thomisidae",
+    "section": "Ebrechtella",
+    "text": "Ebrechtella\n1 espèce en Île-de-France identifiable à vue\n\nEbrechtella tricuspidata (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3 mm (♂) / 6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#heriaeus",
+    "href": "Thomisidae.html#heriaeus",
+    "title": "Thomisidae",
+    "section": "Heriaeus",
+    "text": "Heriaeus\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nHeriaeus graminicola (difficulté 1)  DD \n    \n\n\nCondition :milieu humide\n\n\n\n\n\n\n\nTaille du corps: 4.4-5.1 mm (♂) / 6.3-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHeriaeus oblongus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-6.0 mm (♂) / 5.6-8.0 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#misumena",
+    "href": "Thomisidae.html#misumena",
+    "title": "Thomisidae",
+    "section": "Misumena",
+    "text": "Misumena\n1 espèce en Île-de-France identifiable à vue\n\nMisumena vatia (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 7.0-11.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#ozyptila",
+    "href": "Thomisidae.html#ozyptila",
+    "title": "Thomisidae",
+    "section": "Ozyptila",
+    "text": "Ozyptila\n8 espèces en Île-de-France, aucune identifiable à vue\n\nOzyptila atomaria (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 4-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila brevipes (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 3-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila claveata (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 3-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila praticola (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-3 mm (♂) / 3-5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila rauda (non identifiable à vue)  NT \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5 mm (♂) / 3.4-3.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nOzyptila sanctuaria (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2.0-3.0 mm (♂) / 2.7-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila simplex (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 4-5.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila trux (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 4-5.4 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#pistius",
+    "href": "Thomisidae.html#pistius",
+    "title": "Thomisidae",
+    "section": "Pistius",
+    "text": "Pistius\n1 espèce en Île-de-France identifiable à vue\n\nPistius truncatus (difficulté 1)  LC \n    \n\n\nConfusions possibles :Male de Thomisus onustus\n\n\n\n\n\n\n\nTaille du corps: 5 mm (♂) / 8-9 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#psammitis",
+    "href": "Thomisidae.html#psammitis",
+    "title": "Thomisidae",
+    "section": "Psammitis",
+    "text": "Psammitis\n1 espèce en Île-de-France non identifiable à vue\n\nPsammitis ninnii (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.2-5.2 mm (♂) / 5.5-7.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#runcinia",
+    "href": "Thomisidae.html#runcinia",
+    "title": "Thomisidae",
+    "section": "Runcinia",
+    "text": "Runcinia\n1 espèce en Île-de-France identifiable à vue\n\nRuncinia grammica (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.3-4.6 mm (♂) / 5.4-7.6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#synema",
+    "href": "Thomisidae.html#synema",
+    "title": "Thomisidae",
+    "section": "Synema",
+    "text": "Synema\n1 espèce en Île-de-France identifiable à vue\n\nSynema globosum (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4 mm (♂) / 6.8-8 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#thomisus",
+    "href": "Thomisidae.html#thomisus",
+    "title": "Thomisidae",
+    "section": "Thomisus",
+    "text": "Thomisus\n1 espèce en Île-de-France identifiable à vue\n\nThomisus onustus (difficulté 1)  LC \n    \n\n\nConfusions possibles :Pistius truncatus\n\n\n\n\n\n\n\nTaille du corps: 2-3.6 mm (♂) / 7-10 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#tmarus",
+    "href": "Thomisidae.html#tmarus",
+    "title": "Thomisidae",
+    "section": "Tmarus",
+    "text": "Tmarus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nTmarus piger (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 4 mm (♂) / 5.9-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTmarus stellio (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4 mm (♂) / 4-5.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Thomisidae.html#xysticus",
+    "href": "Thomisidae.html#xysticus",
+    "title": "Thomisidae",
+    "section": "Xysticus",
+    "text": "Xysticus\n16 espèces en Île-de-France dont 1 identifiable à vue\n\nXysticus acerbus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 6.0-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus audax (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.6 mm (♂) / 3.8-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus bifasciatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.4-6.9 mm (♂) / 6.6-9.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus cor (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.4-3 mm (♂) / 4.2-4.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nXysticus cristatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-6.1 mm (♂) / 4.7-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus erraticus (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 6-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus ferrugineus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.4-5.3 mm (♂) / 5.3-8.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus gallicus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.6-8 mm (♂) / 6.4-11.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus kempeleni (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3.6-4.7 mm (♂) / 5.5-7.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus kochi (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5.4 mm (♂) / 6-10.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus lanio (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.2-6.2 mm (♂) / 6.1-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus lineatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.3-4.5 mm (♂) / 4.5-7.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus luctator (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 5.9-8.4 mm (♂) / 7-13 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus luctuosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 5.5-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus tortuosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.1 mm (♂) / 5.2-6.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nXysticus ulmi (difficulté 2)  LC \n    \n\n\nConfusions possibles :Xysticus spp.\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 5-8.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Thomisidae"
+    ]
+  },
+  {
+    "objectID": "Sparassidae.html",
+    "href": "Sparassidae.html",
+    "title": "Sparassidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Sparassidae"
+    ]
+  },
+  {
+    "objectID": "Sparassidae.html#micrommata",
+    "href": "Sparassidae.html#micrommata",
+    "title": "Sparassidae",
+    "section": "Micrommata",
+    "text": "Micrommata\n2 espèces en Île-de-France, toutes identifiables à vue\n\nMicrommata ligurina (difficulté 1)  LC \n    \n\n\nConfusions possibles :Micrommata virescens\n\n\n\n\n\n\n\nTaille du corps: 8.0 mm (♂) / 10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicrommata virescens (difficulté 1)  LC \n    \n\n\nConfusions possibles :Micrommata ligurina\n\n\n\n\n\n\n\nTaille du corps: 7-10 mm (♂) / 12-16.6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Sparassidae"
+    ]
+  },
+  {
+    "objectID": "Sparassidae.html#olios",
+    "href": "Sparassidae.html#olios",
+    "title": "Sparassidae",
+    "section": "Olios",
+    "text": "Olios\n1 espèce en Île-de-France identifiable à vue\n\nOlios argelasius (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 9-11 mm (♂) / 15-17 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Sparassidae"
+    ]
+  },
+  {
+    "objectID": "Pholcidae.html",
+    "href": "Pholcidae.html",
+    "title": "Pholcidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Pholcidae"
+    ]
+  },
+  {
+    "objectID": "Pholcidae.html#holocnemus",
+    "href": "Pholcidae.html#holocnemus",
+    "title": "Pholcidae",
+    "section": "Holocnemus",
+    "text": "Holocnemus\n1 espèce en Île-de-France identifiable à vue\n\nHolocnemus pluchei (difficulté 1)  LC \n    \n\n\nConfusions possibles :Pholcus\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Pholcidae"
+    ]
+  },
+  {
+    "objectID": "Pholcidae.html#pholcus",
+    "href": "Pholcidae.html#pholcus",
+    "title": "Pholcidae",
+    "section": "Pholcus",
+    "text": "Pholcus\n2 espèces en Île-de-France, toutes identifiables à vue\n\nPholcus opilionoides (difficulté 1)  LC \n    \n\n\nCondition :photo indispensable pour validation de l’observation\n\n\nConfusions possibles :Holocnemus\n\n\n\n\n\n\n\nTaille du corps: 4.0-5.0 mm (♂) / 4.0-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPholcus phalangioides (difficulté 1)  LC \n    \n\n\nConfusions possibles :Holocnemus\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7-10 mm (♂) / 7-8 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Pholcidae"
+    ]
+  },
+  {
+    "objectID": "Pholcidae.html#psilochorus",
+    "href": "Pholcidae.html#psilochorus",
+    "title": "Pholcidae",
+    "section": "Psilochorus",
+    "text": "Psilochorus\n1 espèce en Île-de-France identifiable à vue\n\nPsilochorus simoni (difficulté 2)\n    \n\n\nConfusions possibles :Holocnemus, Pholcus\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 1.9-3.0 mm (♂) / 1.9-3.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Pholcidae"
+    ]
+  },
+  {
+    "objectID": "Atypidae.html",
+    "href": "Atypidae.html",
+    "title": "Atypidae",
+    "section": "",
+    "text": "espèces",
+    "crumbs": [
+      "Accueil",
+      "Atypidae"
+    ]
+  },
+  {
+    "objectID": "Atypidae.html#atypus",
+    "href": "Atypidae.html#atypus",
+    "title": "Atypidae",
+    "section": "Atypus",
+    "text": "Atypus\n2 espèces en Île-de-France, toutes identifiables à vue\n\nAtypus affinis (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main\n\n\n\n\n\n\n\nTaille du corps: 7-9 mm (♂) / 10-15 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nAtypus piceus (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main\n\n\n\n\n\n\n\nTaille du corps: 9 mm (♂) / 10-15 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Atypidae"
+    ]
+  },
+  {
+    "objectID": "Philodromidae.html",
+    "href": "Philodromidae.html",
+    "title": "Philodromidae",
+    "section": "",
+    "text": "espèces, genitalias femelle , genitalias mâle",
+    "crumbs": [
+      "Accueil",
+      "Philodromidae"
+    ]
+  },
+  {
+    "objectID": "Philodromidae.html#philodromus",
+    "href": "Philodromidae.html#philodromus",
+    "title": "Philodromidae",
+    "section": "Philodromus",
+    "text": "Philodromus\n12 espèces en Île-de-France dont 2 identifiables à vue\n\nPhilodromus albidus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.2-3.8 mm (♂) / 4.0-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus aureolus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-6.5 mm (♂) / 4.0-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus buxi (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-5 mm (♂) / 4-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus cespitum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-5.0 mm (♂) / 5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus dispar (difficulté 1)  LC \n    \n\n\nConfusions possibles :Philodromus spp.\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 4-6.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus emarginatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5-6 mm (♂) / 5-7.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus longipalpis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.8-5.5 mm (♂) / 2.8-7.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus margaritatus (difficulté 1)  LC \n    \n\n\nCondition :morphe “fantome” uniquement\n\n\nConfusions possibles :Philodromus spp.\n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 8-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus pinetorum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-4.5 mm (♂) / 5.3-6.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus poecilus (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus praedatus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3.5-5 mm (♂) / 4-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus rufus (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 4.5-6.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Philodromidae"
+    ]
+  },
+  {
+    "objectID": "Philodromidae.html#pulchellodromus",
+    "href": "Philodromidae.html#pulchellodromus",
+    "title": "Philodromidae",
+    "section": "Pulchellodromus",
+    "text": "Pulchellodromus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nPulchellodromus bistigma (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps:\n\n\n\n\n\n\n\n\n\n\n\nPulchellodromus pulchellus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3 mm (♂) / 3.3-4.6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Philodromidae"
+    ]
+  },
+  {
+    "objectID": "Philodromidae.html#rhysodromus",
+    "href": "Philodromidae.html#rhysodromus",
+    "title": "Philodromidae",
+    "section": "Rhysodromus",
+    "text": "Rhysodromus\n1 espèce en Île-de-France identifiable à vue\n\nRhysodromus histrio (difficulté 2)  DD \n    \n\n\nConfusions possibles :Philodromus spp.\n\n\n\n\n\n\n\nTaille du corps: 6.0-7.0 mm (♂) / 6.0-7.8 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Philodromidae"
+    ]
+  },
+  {
+    "objectID": "Philodromidae.html#thanatus",
+    "href": "Philodromidae.html#thanatus",
+    "title": "Philodromidae",
+    "section": "Thanatus",
+    "text": "Thanatus\n4 espèces en Île-de-France dont 1 identifiable à vue\n\nThanatus arenarius (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :confusion avec T. formicinus\n\n\n\n\n\n\n\nTaille du corps: 4.3-6.2 mm (♂) / 5.5-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nThanatus formicinus (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :confusion avec T. arenarius\n\n\n\n\n\n\n\nTaille du corps: 5.2-7.4 mm (♂) / 6.9-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nThanatus sabulosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-3.9 mm (♂) / 4.2-5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nThanatus striatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Philodromus, Tibellus, Micrommata immature\n\n\n\n\n\n\n\nTaille du corps: 3-4.2 mm (♂) / 3.9-6.8 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Philodromidae"
+    ]
+  },
+  {
+    "objectID": "Philodromidae.html#tibellus",
+    "href": "Philodromidae.html#tibellus",
+    "title": "Philodromidae",
+    "section": "Tibellus",
+    "text": "Tibellus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nTibellus maritimus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.5-6.5 mm (♂) / 6.5-12.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTibellus oblongus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 5-7.5 mm (♂) / 6.5-11.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Philodromidae"
+    ]
+  },
+  {
+    "objectID": "Clubionidae.html",
+    "href": "Clubionidae.html",
+    "title": "Clubionidae",
     "section": "",
     "text": "espèces, genitalias mâle , genitalias femelle",
     "crumbs": [
       "Accueil",
-      "Gnaphosidae"
+      "Clubionidae"
     ]
   },
   {
-    "objectID": "Gnaphosidae.html#berlandina",
-    "href": "Gnaphosidae.html#berlandina",
-    "title": "Gnaphosidae",
-    "section": "Berlandina",
-    "text": "Berlandina\n1 espèce en Île-de-France identifiable à vue\n\nBerlandina cinerea (difficulté 2)  VU \n    \n\n\nConfusions possibles :Nomisia aussereri\n\n\n\n\n\n\n\nTaille du corps: 5.15-6.8 mm (♂) / 5.8-8.6 mm (♀)",
+    "objectID": "Clubionidae.html#clubiona",
+    "href": "Clubionidae.html#clubiona",
+    "title": "Clubionidae",
+    "section": "Clubiona",
+    "text": "Clubiona\n20 espèces en Île-de-France dont 2 identifiables à vue\n\nClubiona brevipes (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-6 mm (♂) / 5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona caerulescens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.5-8.0 mm (♂) / 6.0-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona comta (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main\n\n\nConfusions possibles :Clubiona corticalis, Clubiona leucaspis\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 3.0-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona corticalis (difficulté 2)  LC \n    \n\n\nConfusions possibles :Clubiona comta\n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 7-10 mm (♂) / 7-11 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona diversa (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 4.0-5.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona frutetorum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-7.0 mm (♂) / 5.0-7.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona germanica (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-8.0 mm (♂) / 5.0-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona juvenis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-5.1 mm (♂) / 5.0-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona lutescens (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 5.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona marmorata (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 6 mm (♂) / 6-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona neglecta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-7.0 mm (♂) / 5.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona pallidula (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 6.0-9.0 mm (♂) / 7.0-13.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona phragmitis (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.0-11.0 mm (♂) / 7.0-12.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona pseudoneglecta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.3-5.5 mm (♂) / 5.8-6.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona reclusa (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 4.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona similis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 8.0-7.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona stagnatilis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-7.0 mm (♂) / 5.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona subtilis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-3.0 mm (♂) / 3.0-4.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona terrestris (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.0-7.0 mm (♂) / 6.0-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona trivialis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 4.0-6.0 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Gnaphosidae"
+      "Clubionidae"
     ]
   },
   {
-    "objectID": "Gnaphosidae.html#callilepis",
-    "href": "Gnaphosidae.html#callilepis",
-    "title": "Gnaphosidae",
-    "section": "Callilepis",
-    "text": "Callilepis\n1 espèce en Île-de-France identifiable à vue\n\nCallilepis nocturna (difficulté 2)  LC \n    \n\n\nCondition :seule espèce du genre en IdF\n\n\nConfusions possibles :Kishidaia, Poecilochroa, Phaeocedus\n\n\n\n\n\n\n\nTaille du corps: 2.8-4.7 mm (♂) / 3.8-5.9 mm (♀)",
+    "objectID": "Clubionidae.html#porrhoclubiona",
+    "href": "Clubionidae.html#porrhoclubiona",
+    "title": "Clubionidae",
+    "section": "Porrhoclubiona",
+    "text": "Porrhoclubiona\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nPorrhoclubiona genevensis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 4.0-5.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPorrhoclubiona leucaspis (difficulté 1)  LC \n    \n\n\nConfusions possibles :Clubiona corticalis, Clubiona comta\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-4.0 mm (♂) / 4.0-5.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
     "crumbs": [
       "Accueil",
-      "Gnaphosidae"
+      "Clubionidae"
     ]
   },
   {
-    "objectID": "Gnaphosidae.html#civizelotes",
-    "href": "Gnaphosidae.html#civizelotes",
-    "title": "Gnaphosidae",
-    "section": "Civizelotes",
-    "text": "Civizelotes\n1 espèce en Île-de-France non identifiable à vue\n\nCivizelotes civicus (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.4-5.5 mm (♂) / 3.4-5.4 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#drassodes",
-    "href": "Gnaphosidae.html#drassodes",
-    "title": "Gnaphosidae",
-    "section": "Drassodes",
-    "text": "Drassodes\n3 espèces en Île-de-France, aucune identifiable à vue\n\nDrassodes cupreus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 8-19 mm (♂) / 9-15 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassodes lapidosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.0-13.3 mm (♂) / 9.3-14.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassodes pubescens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.0-7.3 mm (♂) / 5.3-9.6 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#drassodex",
-    "href": "Gnaphosidae.html#drassodex",
-    "title": "Gnaphosidae",
-    "section": "Drassodex",
-    "text": "Drassodex\n2 espèces en Île-de-France, aucune identifiable à vue\n\nDrassodex hypocrita (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 7.8-10.2 mm (♂) / 9.5-13.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDrassodex lesserti (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 10.5-14 mm (♂) / 10.7-14 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#drassyllus",
-    "href": "Gnaphosidae.html#drassyllus",
-    "title": "Gnaphosidae",
-    "section": "Drassyllus",
-    "text": "Drassyllus\n5 espèces en Île-de-France, aucune identifiable à vue\n\nDrassyllus lutetianus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.7-5.5 mm (♂) / 5-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus praeficus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-6.7 mm (♂) / 4.9-8.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus pumilus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.5 mm (♂) / 3.0-4.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus pusillus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.6 mm (♂) / 4.0-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus villicus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-4.9 mm (♂) / 5.1-5.8 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#gnaphosa",
-    "href": "Gnaphosidae.html#gnaphosa",
-    "title": "Gnaphosidae",
-    "section": "Gnaphosa",
-    "text": "Gnaphosa\n2 espèces en Île-de-France, aucune identifiable à vue\n\nGnaphosa lucifuga (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 10.5-14.9 mm (♂) / 12.1-18.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nGnaphosa lugubris (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 7.5-10.7 mm (♂) / 8.3-10.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#haplodrassus",
-    "href": "Gnaphosidae.html#haplodrassus",
-    "title": "Gnaphosidae",
-    "section": "Haplodrassus",
-    "text": "Haplodrassus\n7 espèces en Île-de-France, aucune identifiable à vue\n\nHaplodrassus cognatus (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 5.2-8.0 mm (♂) / 5.8-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus dalmatensis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-6 mm (♂) / 3.7-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus kulczynskii (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.04-3.64 mm (♂) / 2.48-4.32 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus minor (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.7-3.9 mm (♂) / 3.5-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus signifer (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.7-7.4 mm (♂) / 5.1-11.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus silvestris (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.2-8 mm (♂) / 6.8-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus umbratilis (non identifiable à vue)  DD \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.9-6.0 mm (♂) / 5.1-7.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#kishidaia",
-    "href": "Gnaphosidae.html#kishidaia",
-    "title": "Gnaphosidae",
-    "section": "Kishidaia",
-    "text": "Kishidaia\n1 espèce en Île-de-France identifiable à vue\n\nKishidaia conspicua (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Poecilochroa, Phaeocedus\n\n\n\n\n\n\n\nTaille du corps: 5.4-6.6 mm (♂) / 5.6-10 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#micaria",
-    "href": "Gnaphosidae.html#micaria",
-    "title": "Gnaphosidae",
-    "section": "Micaria",
-    "text": "Micaria\n9 espèces en Île-de-France dont 3 identifiables à vue\n\nMicaria albovittata (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-5 mm (♂) / 4.5-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria dives (difficulté 3)  LC \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Phrurolithus spp., Micaria spp., Synageles spp. Leptorchestes berolinensis\n\n\n\n\n\n\n\nTaille du corps: 2.1-4 mm (♂) / 2.1-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nMicaria formicaria (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-5.7 mm (♂) / 5.0-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria fulgens (difficulté 3)  LC \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Phrurolithus spp., Micaria spp., Synageles spp. Leptorchestes berolinensis\n\n\n\n\n\n\n\nTaille du corps: 3.5-5.5 mm (♂) / 5.0-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria guttulata (difficulté 3)  LC \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Phrurolithus spp., Micaria spp., Synageles spp. Leptorchestes berolinensis\n\n\n\n\n\n\n\nTaille du corps: 2.5-3.4 mm (♂) / 2.5-3.4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria micans (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps:\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria pulicaria (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 2.7-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria sociabilis (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2.4-4.0 mm (♂) / 3.0-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nMicaria subopaca (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 2.3 mm (♂) / 2.2-2.9 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#nomisia",
-    "href": "Gnaphosidae.html#nomisia",
-    "title": "Gnaphosidae",
-    "section": "Nomisia",
-    "text": "Nomisia\n1 espèce en Île-de-France identifiable à vue\n\nNomisia aussereri (difficulté 2)  LC \n    \n\n\nConfusions possibles :Berlandina cinerea\n\n\n\n\n\n\n\nTaille du corps: 6.7-8.6 mm (♂) / 6.7-11.8 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#phaeocedus",
-    "href": "Gnaphosidae.html#phaeocedus",
-    "title": "Gnaphosidae",
-    "section": "Phaeocedus",
-    "text": "Phaeocedus\n1 espèce en Île-de-France identifiable à vue\n\nPhaeocedus braccatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Kishidaia, Poecilochroa,\n\n\n\n\n\n\n\nTaille du corps: 4.0-4.9 mm (♂) / 4.5-6.9 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#poecilochroa",
-    "href": "Gnaphosidae.html#poecilochroa",
-    "title": "Gnaphosidae",
-    "section": "Poecilochroa",
-    "text": "Poecilochroa\n2 espèces en Île-de-France, toutes identifiables à vue\n\nPoecilochroa albomaculata (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Kishidaia, Poecilochroa, Phaeocedus variana\n\n\n\n\n\n\n\nTaille du corps: 7-8.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPoecilochroa variana (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Kishidaia, Poecilochroa albomaculata, Phaeocedus\n\n\n\n\n\n\n\nTaille du corps: 4.3-6.5 mm (♂) / 5.2-6.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#scotophaeus",
-    "href": "Gnaphosidae.html#scotophaeus",
-    "title": "Gnaphosidae",
-    "section": "Scotophaeus",
-    "text": "Scotophaeus\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nScotophaeus scutulatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Gnaphosa spp.\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6.8-10.9 mm (♂) / 8.3-15.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nScotophaeus westringi (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps:",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#trachyzelotes",
-    "href": "Gnaphosidae.html#trachyzelotes",
-    "title": "Gnaphosidae",
-    "section": "Trachyzelotes",
-    "text": "Trachyzelotes\n1 espèce en Île-de-France identifiable à vue\n\nTrachyzelotes pedestris (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.5-6 mm (♂) / 6.6-9.4 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#urozelotes",
-    "href": "Gnaphosidae.html#urozelotes",
-    "title": "Gnaphosidae",
-    "section": "Urozelotes",
-    "text": "Urozelotes\n1 espèce en Île-de-France non identifiable à vue\n\nUrozelotes rusticus (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 7-8 mm (♂) / 7.8-10.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Gnaphosidae.html#zelotes",
-    "href": "Gnaphosidae.html#zelotes",
-    "title": "Gnaphosidae",
-    "section": "Zelotes",
-    "text": "Zelotes\n7 espèces en Île-de-France, aucune identifiable à vue\n\nZelotes apricorum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.1-8.2 mm (♂) / 5.4-9.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes atrocaeruleus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.6-8.1 mm (♂) / 5.9-8.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes electus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 3.2-5.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nZelotes erebeus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.6-7.3 mm (♂) / 5.6-9.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes latreillei (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-7.5 mm (♂) / 5.3-9.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes petrensis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-6.5 mm (♂) / 3.5-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes subterraneus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.5-7.8 mm (♂) / 6.0-9.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Gnaphosidae"
-    ]
-  },
-  {
-    "objectID": "Eresidae.html",
-    "href": "Eresidae.html",
-    "title": "Eresidae",
+    "objectID": "Nesticidae.html",
+    "href": "Nesticidae.html",
+    "title": "Nesticidae",
     "section": "",
     "text": "espèces, genitalias",
     "crumbs": [
       "Accueil",
-      "Eresidae"
+      "Nesticidae"
     ]
   },
   {
-    "objectID": "Eresidae.html#eresus",
-    "href": "Eresidae.html#eresus",
-    "title": "Eresidae",
-    "section": "Eresus",
-    "text": "Eresus\n1 espèce en Île-de-France identifiable à vue\n\nEresus kollari (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 8-11 mm (♂) / 9-16 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Nesticidae.html#kryptonesticus",
+    "href": "Nesticidae.html#kryptonesticus",
+    "title": "Nesticidae",
+    "section": "Kryptonesticus",
+    "text": "Kryptonesticus\n1 espèce en Île-de-France identifiable à vue\n\nKryptonesticus eremita (difficulté 2)  LC \n    \n\n\nConfusions possibles :Nesticus cellulanus, Theridion, Scytodes\n\n\n\n\n\n\n\nTaille du corps: 3.7-4.7 mm (♂) / 3.8-6 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Eresidae"
+      "Nesticidae"
     ]
   },
   {
-    "objectID": "Oxyopidae.html",
-    "href": "Oxyopidae.html",
-    "title": "Oxyopidae",
+    "objectID": "Nesticidae.html#nesticus",
+    "href": "Nesticidae.html#nesticus",
+    "title": "Nesticidae",
+    "section": "Nesticus",
+    "text": "Nesticus\n1 espèce en Île-de-France identifiable à vue\n\nNesticus cellulanus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Kryptonesticus ememita, Theridion, Scytodes\n\n\n\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 3.5-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Nesticidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html",
+    "href": "Theridiidae.html",
+    "title": "Theridiidae",
     "section": "",
-    "text": "espèces, genitalias",
+    "text": "espèces, genitalias femelle , genitalias mâle",
     "crumbs": [
       "Accueil",
-      "Oxyopidae"
+      "Theridiidae"
     ]
   },
   {
-    "objectID": "Oxyopidae.html#oxyopes",
-    "href": "Oxyopidae.html#oxyopes",
-    "title": "Oxyopidae",
-    "section": "Oxyopes",
-    "text": "Oxyopes\n4 espèces en Île-de-France dont 2 identifiables à vue\n\nOxyopes heterophthalmus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Oxyopes spp.\n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOxyopes lineatus (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Oxyopes nigripalpis\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 6-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOxyopes nigripalpis (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Oxyopes lineatus\n\n\n\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOxyopes ramosus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Oxyopes spp.\n\n\n\n\n\n\n\nTaille du corps: 6 mm (♂) / 6-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Theridiidae.html#anelosimus",
+    "href": "Theridiidae.html#anelosimus",
+    "title": "Theridiidae",
+    "section": "Anelosimus",
+    "text": "Anelosimus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nAnelosimus pulchellus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.5 mm (♂) / 3.5-4.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nAnelosimus vittatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 3-4.1 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Oxyopidae"
+      "Theridiidae"
     ]
   },
   {
-    "objectID": "Zoropsidae.html",
-    "href": "Zoropsidae.html",
-    "title": "Zoropsidae",
+    "objectID": "Theridiidae.html#asagena",
+    "href": "Theridiidae.html#asagena",
+    "title": "Theridiidae",
+    "section": "Asagena",
+    "text": "Asagena\n1 espèce en Île-de-France identifiable à vue\n\nAsagena phalerata (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-5 mm (♂) / 4.5-5.7 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#crustulina",
+    "href": "Theridiidae.html#crustulina",
+    "title": "Theridiidae",
+    "section": "Crustulina",
+    "text": "Crustulina\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nCrustulina guttata (difficulté 2)  LC \n    \n\n\nCondition :loupe à main/photo\n\n\n\n\n\n\n\nTaille du corps: 2-2.5 mm (♂) / 2.0-2.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCrustulina sticta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5 mm (♂) / 2.8-3.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#cryptachaea",
+    "href": "Theridiidae.html#cryptachaea",
+    "title": "Theridiidae",
+    "section": "Cryptachaea",
+    "text": "Cryptachaea\n1 espèce en Île-de-France non identifiable à vue\n\nCryptachaea blattea (non identifiable à vue)\n    \n\n\n\n\n\n\n\nTaille du corps: 1.7-2.4 mm (♂) / 2.2-3.2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#dipoena",
+    "href": "Theridiidae.html#dipoena",
+    "title": "Theridiidae",
+    "section": "Dipoena",
+    "text": "Dipoena\n4 espèces en Île-de-France dont 1 identifiable à vue\n\nDipoena braccata (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 1.6-1.9 mm (♂) / 2.0-3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDipoena melanogaster (difficulté 2)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-3.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDipoena nigroreticulata (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 2-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDipoena torva (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 3-3.5 mm (♂) / 3-3.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#enoplognatha",
+    "href": "Theridiidae.html#enoplognatha",
+    "title": "Theridiidae",
+    "section": "Enoplognatha",
+    "text": "Enoplognatha\n7 espèces en Île-de-France, aucune identifiable à vue\n\nEnoplognatha caricis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0 mm (♂) / 5.0-7.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha latimana (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Enoplognatha ovata\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3-5 mm (♂) / 4-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha mandibularis (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.2-6.0 mm (♂) / 2.4-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha mordax (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 4-6 mm (♂) / 4-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha ovata (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Enoplognatha latimana\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3-5 mm (♂) / 6-7.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha testacea (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.2-3.3 mm (♂) / 2.4-4.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha thoracica (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.6-4.5 mm (♂) / 3.0-5.9 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#episinus",
+    "href": "Theridiidae.html#episinus",
+    "title": "Theridiidae",
+    "section": "Episinus",
+    "text": "Episinus\n3 espèces en Île-de-France, toutes identifiables à vue\n\nEpisinus angulatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Episinus maculipes\n\n\n\n\n\n\n\nTaille du corps: 4.5-5.5 mm (♂) / 4.5-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEpisinus maculipes (difficulté 2)  LC \n    \n\n\nConfusions possibles :Episinus angulatus\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-4.3 mm (♂) / 4.3-5.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEpisinus truncatus (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 5 mm (♂) / 5-6.2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#euryopis",
+    "href": "Theridiidae.html#euryopis",
+    "title": "Theridiidae",
+    "section": "Euryopis",
+    "text": "Euryopis\n3 espèces en Île-de-France dont 1 identifiable à vue\n\nEuryopis flavomaculata (difficulté 2)  LC \n    \n\n\nCondition :loupe à main/photo\n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3-3.5 mm (♂) / 3.5-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEuryopis laeta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3 mm (♂) / 2.5-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nEuryopis quinqueguttata (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2 mm (♂) / 2.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#heterotheridion",
+    "href": "Theridiidae.html#heterotheridion",
+    "title": "Theridiidae",
+    "section": "Heterotheridion",
+    "text": "Heterotheridion\n1 espèce en Île-de-France non identifiable à vue\n\nHeterotheridion nigrovariegatum (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Enoplognatha ovata/latimana\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-3.5 mm (♂) / 3.0-4.1 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#kochiura",
+    "href": "Theridiidae.html#kochiura",
+    "title": "Theridiidae",
+    "section": "Kochiura",
+    "text": "Kochiura\n1 espèce en Île-de-France identifiable à vue\n\nKochiura aulica (difficulté 3)  LC \n    \n\n\nCondition :loupe à main/photo\n\n\nConfusions possibles :Anelosimus spp.\n\n\n\n\n\n\n\nTaille du corps: 3.5-4.5 mm (♂) / 3.5-4.7 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#lasaeola",
+    "href": "Theridiidae.html#lasaeola",
+    "title": "Theridiidae",
+    "section": "Lasaeola",
+    "text": "Lasaeola\n1 espèce en Île-de-France non identifiable à vue\n\nLasaeola coracina (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.5-2.5 mm (♂) / 1.5-2.8 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#neottiura",
+    "href": "Theridiidae.html#neottiura",
+    "title": "Theridiidae",
+    "section": "Neottiura",
+    "text": "Neottiura\n2 espèces en Île-de-France, toutes identifiables à vue\n\nNeottiura bimaculata (difficulté 2)  LC \n    \n\n\nCondition :male uniquement\n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2.3-2.5 mm (♂) / 2.5-3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nNeottiura suaveolens (difficulté 2)  LC \n    \n\n\nCondition :male uniquement\n\n\n\n\n\n\n\nTaille du corps: 2.1-2.9 mm (♂) / 2.2-2.3 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#ohlertidion",
+    "href": "Theridiidae.html#ohlertidion",
+    "title": "Theridiidae",
+    "section": "Ohlertidion",
+    "text": "Ohlertidion\n1 espèce en Île-de-France non identifiable à vue\n\nOhlertidion ohlerti (non identifiable à vue)  NT \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-3.6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#paidiscura",
+    "href": "Theridiidae.html#paidiscura",
+    "title": "Theridiidae",
+    "section": "Paidiscura",
+    "text": "Paidiscura\n1 espèce en Île-de-France non identifiable à vue\n\nPaidiscura pallens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.2-1.5 mm (♂) / 1.6-2.0 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#parasteatoda",
+    "href": "Theridiidae.html#parasteatoda",
+    "title": "Theridiidae",
+    "section": "Parasteatoda",
+    "text": "Parasteatoda\n3 espèces en Île-de-France, toutes identifiables à vue\n\nParasteatoda lunata (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.7-5 mm (♂) / 2.7-5.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nParasteatoda simulans (difficulté 2)  LC \n    \n\n\nCondition :si milieu “naturel”\n\n\n\n\n\n\n\nTaille du corps: 2.7-3 mm (♂) / 4-4.4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nParasteatoda tepidariorum (difficulté 2)  LC \n    \n\n\nCondition :si milieu urbain\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-6.5 mm (♂) / 3.5-7.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#pholcomma",
+    "href": "Theridiidae.html#pholcomma",
+    "title": "Theridiidae",
+    "section": "Pholcomma",
+    "text": "Pholcomma\n1 espèce en Île-de-France non identifiable à vue\n\nPholcomma gibbum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.4-1.9 mm (♂) / 1.4-2.0 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#phoroncidia",
+    "href": "Theridiidae.html#phoroncidia",
+    "title": "Theridiidae",
+    "section": "Phoroncidia",
+    "text": "Phoroncidia\n1 espèce en Île-de-France identifiable à vue\n\nPhoroncidia paradoxa (difficulté 2)  DD \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Uloborus, Hyptiotes\n\n\n\n\n\n\n\nTaille du corps: 1.3-1.5 mm (♂) / 2.0 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#phycosoma",
+    "href": "Theridiidae.html#phycosoma",
+    "title": "Theridiidae",
+    "section": "Phycosoma",
+    "text": "Phycosoma\n1 espèce en Île-de-France non identifiable à vue\n\nPhycosoma inornatum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2 mm (♂) / 2-3 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#phylloneta",
+    "href": "Theridiidae.html#phylloneta",
+    "title": "Theridiidae",
+    "section": "Phylloneta",
+    "text": "Phylloneta\n2 espèces en Île-de-France, aucune identifiable à vue\n\nPhylloneta impressa (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-5.5 mm (♂) / 3.5-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhylloneta sisyphia (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-4.5 mm (♂) / 2.5-5.2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#platnickina",
+    "href": "Theridiidae.html#platnickina",
+    "title": "Theridiidae",
+    "section": "Platnickina",
+    "text": "Platnickina\n1 espèce en Île-de-France identifiable à vue\n\nPlatnickina tincta (difficulté 2)  LC \n    \n\n\nConfusions possibles :Theridion pp., Simitidion simile\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-4 mm (♂) / 2.5-4.2 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#robertus",
+    "href": "Theridiidae.html#robertus",
+    "title": "Theridiidae",
+    "section": "Robertus",
+    "text": "Robertus\n4 espèces en Île-de-France, aucune identifiable à vue\n\nRobertus arundineti (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-2.3 mm (♂) / 2.2-2.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nRobertus lividus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-4.0 mm (♂) / 2.5-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nRobertus mediterraneus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.8 mm (♂) / 3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nRobertus neglectus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.5-2.5 mm (♂) / 2-2.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#rugathodes",
+    "href": "Theridiidae.html#rugathodes",
+    "title": "Theridiidae",
+    "section": "Rugathodes",
+    "text": "Rugathodes\n1 espèce en Île-de-France non identifiable à vue\n\nRugathodes instabilis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 2-3 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#sardinidion",
+    "href": "Theridiidae.html#sardinidion",
+    "title": "Theridiidae",
+    "section": "Sardinidion",
+    "text": "Sardinidion\n1 espèce en Île-de-France non identifiable à vue\n\nSardinidion blackwalli (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.3-3 mm (♂) / 2.5-3.0 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#simitidion",
+    "href": "Theridiidae.html#simitidion",
+    "title": "Theridiidae",
+    "section": "Simitidion",
+    "text": "Simitidion\n1 espèce en Île-de-France identifiable à vue\n\nSimitidion simile (difficulté 2)  LC \n    \n\n\nConfusions possibles :Theridion pp., Platnickina tincta\n\n\n\n\n\n\n\nTaille du corps: 2.2-2.5 mm (♂) / 2.2-3.5 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#steatoda",
+    "href": "Theridiidae.html#steatoda",
+    "title": "Theridiidae",
+    "section": "Steatoda",
+    "text": "Steatoda\n6 espèces en Île-de-France, toutes identifiables à vue\n\nSteatoda albomaculata (difficulté 1)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.3-5.8 mm (♂) / 5.5-6.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda bipunctata (difficulté 1)  LC \n    \n\n\nConfusions possibles :S. nobilis\n\n\n\n\n\n\n\nTaille du corps: 4-5.5 mm (♂) / 4.5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda grossa (difficulté 1)  LC \n    \n\n\nConfusions possibles :S. triangulosa\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.0-10.0 mm (♂) / 6.5-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda nobilis (difficulté 1)\n    \n\n\nConfusions possibles :S. bipunctata\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7.8-10.6 mm (♂) / 9.5-14.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nSteatoda paykulliana (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-8.4 mm (♂) / 8.0-13.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda triangulosa (difficulté 1)  LC \n    \n\n\nConfusions possibles :Steatoda grossa\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-5.0 mm (♂) / 3.5-8.6 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#theonoe",
+    "href": "Theridiidae.html#theonoe",
+    "title": "Theridiidae",
+    "section": "Theonoe",
+    "text": "Theonoe\n1 espèce en Île-de-France non identifiable à vue\n\nTheonoe minutissima (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.0-1.2 mm (♂) / 1.0-1.3 mm (♀)",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "Theridiidae.html#theridion",
+    "href": "Theridiidae.html#theridion",
+    "title": "Theridiidae",
+    "section": "Theridion",
+    "text": "Theridion\n8 espèces en Île-de-France, aucune identifiable à vue\n\nTheridion asopi (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.4 mm (♂) / 3.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nTheridion familiare (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-2.5 mm (♂) / 2.0-3.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nTheridion hemerobium (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.4-3.9 mm (♂) / 3.0-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion melanurum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-4.5 mm (♂) / 2.5-4.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion mystaceum (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 2-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion pictum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.3-3.5 mm (♂) / 3.5-4.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion pinastri (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3 mm (♂) / 3-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion varians (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Theridiidae"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Araignées d'Île-de-France",
     "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Zoropsidae"
-    ]
-  },
-  {
-    "objectID": "Zoropsidae.html#zoropsis",
-    "href": "Zoropsidae.html#zoropsis",
-    "title": "Zoropsidae",
-    "section": "Zoropsis",
-    "text": "Zoropsis\n1 espèce en Île-de-France identifiable à vue\n\nZoropsis spinimana (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 10-13 mm (♂) / 10-19 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Zoropsidae"
-    ]
-  },
-  {
-    "objectID": "Miturgidae.html",
-    "href": "Miturgidae.html",
-    "title": "Miturgidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Miturgidae"
-    ]
-  },
-  {
-    "objectID": "Miturgidae.html#zora",
-    "href": "Miturgidae.html#zora",
-    "title": "Miturgidae",
-    "section": "Zora",
-    "text": "Zora\n5 espèces en Île-de-France dont 1 identifiable à vue\n\nZora armillata (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4 mm (♂) / 4-6.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nZora manicata (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.8-3.5 mm (♂) / 3.9-5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nZora parallela (difficulté 2)  LC \n    \n\n\nConfusions possibles :Pardosa, Zora spp.\n\n\n\n\n\n\n\nTaille du corps: 3.1-3.7 mm (♂) / 4.5-5.4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZora silvestris (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 3.5-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZora spinimana (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.5-5.0 mm (♂) / 5.0-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Miturgidae"
-    ]
+    "text": "Ce site met à disposition la liste élaborée par Claire Jacquet et Yvan Montardi des espèces d’araignées connues pour la région Ile-de-France à ce jour et en particulier celles identifiables à vue (plus de détails ici).\nLorsqu’elles étaient disponibles des informations (distribution, taille, phénologie, habitats) et des liens vers des ressources complémentaires ont également été rassemblés pour chaque espèce. Dans la mesure du possible et des observations réalisées par l’auteur, les espèces sont illustrées par des photos, annotées avec des critères d’identification pour les espèces identifiables à vue.\nIdentiﬁer au niveau spéciﬁque n’est pas un objectif à atteindre à tout prix, l’objectif est de générer des observations de bonne qualité. Ainsi, si un individu aux motifs ou couleurs typiques pourra être identiﬁé avec certitude, un individu atypique de la même espèce ne pourra pas être identiﬁé sur son seul habitus et ce même par un spécialiste.\nEn cas de doutes, ou pour partager vos connaissances et observations, n’hésitez pas à contribuer au forum Le Monde des Insectes  et si vous êtes vraiment mordus, rejoignez nous à l’Asfra ! \nEt n’oubliez pas, saisissez vos observations !"
   },
   {
     "objectID": "Linyphiidae.html",
@@ -1925,989 +2598,344 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Araignées d'Île-de-France",
-    "section": "",
-    "text": "Ce site est la version enrichie de la liste des araignées d’Île-de-France identifiables à vue élaborées par Claire Jacquet et Yvan Montardi.\nIl la complète en reprenant le travail sur les cartes de distribution des espèces françaises réalisé par l’Association Française d’Arachnologie (AsFrA) dans le cadre de l’établissement de la liste rouge nationale.\nLes tailles indiquées sont reprises du site araneae - Spiders of Europe.\nLes graphiques sur la temporalité des observations sont issus du traitement d’une extraction des données de l’INPN, plateforme nationale du SINP, au niveau national complété par les données de la plateforme régionale (Géonat’IdF) réalisée le 3 mars 2025.\nLes données avec une précision au point ont été croisées avec les données d’occupation du sol produits par l’Institut Paris Region (MOS en 11 postes de 2021 et ECOMOS pour les espaces naturels) pour avoir une idée du contexte paysager dans lequel les observations sont généralement faites en Île-de-France.\nLes photos commentées de critères utiles à l’identification ont bénéficié d’informations provenant de diverses sources dont les principales sont: le Guide photo des araignées et arachnides d’Europe, le site Le Monde des insectes, le site Les carnets nature de Jessica, le site www.diplode-vie.net, les dossiers constitués par le groupe des Araignées dans Faune-PACA et le site Regard d’araignée.\nListe des araignées d’Île-de-France identifiables à vue (Claire Jacquet et Yvan Montardi, V2024-1)\nCette liste commentée présente les 653 espèces connues pour la région Ile-de-France à ce jour (source OpenObs-decembre-2023 + observations personnelles des auteurs en cours de diﬀusion) et elle indique les 187 espèces qui sont identiﬁables à vue ou sur photo. Elle peut éventuellement s’appliquer aux départements limitrophes, mais pas au-delà. Certaines espèces sont identiﬁables en Ile-de-France car aucune espèce semblable n’a été trouvée (Callilepis ou Icius par exemple), ce qui n’est pas le cas en dehors de la région.\nCette liste est le fruit de la concertation de plusieurs arachnologues et de leur expérience (observation sur le terrain, puis vériﬁcation de l’identiﬁcation sous loupe binoculaire). Identiﬁer au niveau spéciﬁque n’est pas un objectif à atteindre à tout prix, l’objectif est de générer des données de bonne qualité. Ainsi, un individu aux motifs ou couleurs typiques pourra être identiﬁé avec certitude, alors qu’un individu atypique de la même espèce ne pourra pas être identiﬁé sur son seul habitus et ce même par un spécialiste.\nCette liste va évoluer au fur et à mesure de l’amélioration des connaissances de la faune arachnologique de la région.\nDifficulté d’identification\n\n\n\n\n\n\n\n1\nIdentification simple\n\n\n2\nIdentification délicate, risque de confusion\n\n\n3\nIdentification très délicate, espèce de petite taille, risque de confusion important\n\n\n\n\nEn cas de doutes, ou pour partager vos connaissances et observations, n’hésitez pas à contribuer au forum Le Monde des Insectes ! \nEnﬁn, si vous pensez avoir trouvé une espèce non présente dans cette liste voici la démarche à suivre : 1) photo et capture, 2) contactez les auteurs pour faire valider l’observation (et le cas échéant mettre à jour ce document)\nEt n’oubliez pas, saisissez vos observations !"
-  },
-  {
-    "objectID": "Theridiidae.html",
-    "href": "Theridiidae.html",
-    "title": "Theridiidae",
-    "section": "",
-    "text": "espèces, genitalias femelle , genitalias mâle",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#anelosimus",
-    "href": "Theridiidae.html#anelosimus",
-    "title": "Theridiidae",
-    "section": "Anelosimus",
-    "text": "Anelosimus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nAnelosimus pulchellus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.5 mm (♂) / 3.5-4.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nAnelosimus vittatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 3-4.1 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#asagena",
-    "href": "Theridiidae.html#asagena",
-    "title": "Theridiidae",
-    "section": "Asagena",
-    "text": "Asagena\n1 espèce en Île-de-France identifiable à vue\n\nAsagena phalerata (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-5 mm (♂) / 4.5-5.7 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#crustulina",
-    "href": "Theridiidae.html#crustulina",
-    "title": "Theridiidae",
-    "section": "Crustulina",
-    "text": "Crustulina\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nCrustulina guttata (difficulté 2)  LC \n    \n\n\nCondition :loupe à main/photo\n\n\n\n\n\n\n\nTaille du corps: 2-2.5 mm (♂) / 2.0-2.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCrustulina sticta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5 mm (♂) / 2.8-3.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#cryptachaea",
-    "href": "Theridiidae.html#cryptachaea",
-    "title": "Theridiidae",
-    "section": "Cryptachaea",
-    "text": "Cryptachaea\n1 espèce en Île-de-France non identifiable à vue\n\nCryptachaea blattea (non identifiable à vue)\n    \n\n\n\n\n\n\n\nTaille du corps: 1.7-2.4 mm (♂) / 2.2-3.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#dipoena",
-    "href": "Theridiidae.html#dipoena",
-    "title": "Theridiidae",
-    "section": "Dipoena",
-    "text": "Dipoena\n4 espèces en Île-de-France dont 1 identifiable à vue\n\nDipoena braccata (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 1.6-1.9 mm (♂) / 2.0-3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDipoena melanogaster (difficulté 2)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-3.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDipoena nigroreticulata (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 2-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDipoena torva (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 3-3.5 mm (♂) / 3-3.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#enoplognatha",
-    "href": "Theridiidae.html#enoplognatha",
-    "title": "Theridiidae",
-    "section": "Enoplognatha",
-    "text": "Enoplognatha\n7 espèces en Île-de-France, aucune identifiable à vue\n\nEnoplognatha caricis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0 mm (♂) / 5.0-7.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha latimana (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Enoplognatha ovata\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3-5 mm (♂) / 4-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha mandibularis (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.2-6.0 mm (♂) / 2.4-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha mordax (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 4-6 mm (♂) / 4-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha ovata (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Enoplognatha latimana\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3-5 mm (♂) / 6-7.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha testacea (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.2-3.3 mm (♂) / 2.4-4.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nEnoplognatha thoracica (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.6-4.5 mm (♂) / 3.0-5.9 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#episinus",
-    "href": "Theridiidae.html#episinus",
-    "title": "Theridiidae",
-    "section": "Episinus",
-    "text": "Episinus\n3 espèces en Île-de-France, toutes identifiables à vue\n\nEpisinus angulatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Episinus maculipes\n\n\n\n\n\n\n\nTaille du corps: 4.5-5.5 mm (♂) / 4.5-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEpisinus maculipes (difficulté 2)  LC \n    \n\n\nConfusions possibles :Episinus angulatus\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-4.3 mm (♂) / 4.3-5.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEpisinus truncatus (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 5 mm (♂) / 5-6.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#euryopis",
-    "href": "Theridiidae.html#euryopis",
-    "title": "Theridiidae",
-    "section": "Euryopis",
-    "text": "Euryopis\n3 espèces en Île-de-France dont 1 identifiable à vue\n\nEuryopis flavomaculata (difficulté 2)  LC \n    \n\n\nCondition :loupe à main/photo\n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3-3.5 mm (♂) / 3.5-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nEuryopis laeta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3 mm (♂) / 2.5-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nEuryopis quinqueguttata (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2 mm (♂) / 2.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#heterotheridion",
-    "href": "Theridiidae.html#heterotheridion",
-    "title": "Theridiidae",
-    "section": "Heterotheridion",
-    "text": "Heterotheridion\n1 espèce en Île-de-France non identifiable à vue\n\nHeterotheridion nigrovariegatum (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Enoplognatha ovata/latimana\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-3.5 mm (♂) / 3.0-4.1 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#kochiura",
-    "href": "Theridiidae.html#kochiura",
-    "title": "Theridiidae",
-    "section": "Kochiura",
-    "text": "Kochiura\n1 espèce en Île-de-France identifiable à vue\n\nKochiura aulica (difficulté 3)  LC \n    \n\n\nCondition :loupe à main/photo\n\n\nConfusions possibles :Anelosimus spp.\n\n\n\n\n\n\n\nTaille du corps: 3.5-4.5 mm (♂) / 3.5-4.7 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#lasaeola",
-    "href": "Theridiidae.html#lasaeola",
-    "title": "Theridiidae",
-    "section": "Lasaeola",
-    "text": "Lasaeola\n1 espèce en Île-de-France non identifiable à vue\n\nLasaeola coracina (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.5-2.5 mm (♂) / 1.5-2.8 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#neottiura",
-    "href": "Theridiidae.html#neottiura",
-    "title": "Theridiidae",
-    "section": "Neottiura",
-    "text": "Neottiura\n2 espèces en Île-de-France, toutes identifiables à vue\n\nNeottiura bimaculata (difficulté 2)  LC \n    \n\n\nCondition :male uniquement\n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2.3-2.5 mm (♂) / 2.5-3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nNeottiura suaveolens (difficulté 2)  LC \n    \n\n\nCondition :male uniquement\n\n\n\n\n\n\n\nTaille du corps: 2.1-2.9 mm (♂) / 2.2-2.3 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#ohlertidion",
-    "href": "Theridiidae.html#ohlertidion",
-    "title": "Theridiidae",
-    "section": "Ohlertidion",
-    "text": "Ohlertidion\n1 espèce en Île-de-France non identifiable à vue\n\nOhlertidion ohlerti (non identifiable à vue)  NT \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-3.6 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#paidiscura",
-    "href": "Theridiidae.html#paidiscura",
-    "title": "Theridiidae",
-    "section": "Paidiscura",
-    "text": "Paidiscura\n1 espèce en Île-de-France non identifiable à vue\n\nPaidiscura pallens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.2-1.5 mm (♂) / 1.6-2.0 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#parasteatoda",
-    "href": "Theridiidae.html#parasteatoda",
-    "title": "Theridiidae",
-    "section": "Parasteatoda",
-    "text": "Parasteatoda\n3 espèces en Île-de-France, toutes identifiables à vue\n\nParasteatoda lunata (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.7-5 mm (♂) / 2.7-5.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nParasteatoda simulans (difficulté 2)  LC \n    \n\n\nCondition :si milieu “naturel”\n\n\n\n\n\n\n\nTaille du corps: 2.7-3 mm (♂) / 4-4.4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nParasteatoda tepidariorum (difficulté 2)  LC \n    \n\n\nCondition :si milieu urbain\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-6.5 mm (♂) / 3.5-7.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#pholcomma",
-    "href": "Theridiidae.html#pholcomma",
-    "title": "Theridiidae",
-    "section": "Pholcomma",
-    "text": "Pholcomma\n1 espèce en Île-de-France non identifiable à vue\n\nPholcomma gibbum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.4-1.9 mm (♂) / 1.4-2.0 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#phoroncidia",
-    "href": "Theridiidae.html#phoroncidia",
-    "title": "Theridiidae",
-    "section": "Phoroncidia",
-    "text": "Phoroncidia\n1 espèce en Île-de-France identifiable à vue\n\nPhoroncidia paradoxa (difficulté 2)  DD \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Uloborus, Hyptiotes\n\n\n\n\n\n\n\nTaille du corps: 1.3-1.5 mm (♂) / 2.0 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#phycosoma",
-    "href": "Theridiidae.html#phycosoma",
-    "title": "Theridiidae",
-    "section": "Phycosoma",
-    "text": "Phycosoma\n1 espèce en Île-de-France non identifiable à vue\n\nPhycosoma inornatum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2 mm (♂) / 2-3 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#phylloneta",
-    "href": "Theridiidae.html#phylloneta",
-    "title": "Theridiidae",
-    "section": "Phylloneta",
-    "text": "Phylloneta\n2 espèces en Île-de-France, aucune identifiable à vue\n\nPhylloneta impressa (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-5.5 mm (♂) / 3.5-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhylloneta sisyphia (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-4.5 mm (♂) / 2.5-5.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#platnickina",
-    "href": "Theridiidae.html#platnickina",
-    "title": "Theridiidae",
-    "section": "Platnickina",
-    "text": "Platnickina\n1 espèce en Île-de-France identifiable à vue\n\nPlatnickina tincta (difficulté 2)  LC \n    \n\n\nConfusions possibles :Theridion pp., Simitidion simile\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-4 mm (♂) / 2.5-4.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#robertus",
-    "href": "Theridiidae.html#robertus",
-    "title": "Theridiidae",
-    "section": "Robertus",
-    "text": "Robertus\n4 espèces en Île-de-France, aucune identifiable à vue\n\nRobertus arundineti (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-2.3 mm (♂) / 2.2-2.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nRobertus lividus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-4.0 mm (♂) / 2.5-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nRobertus mediterraneus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.8 mm (♂) / 3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nRobertus neglectus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.5-2.5 mm (♂) / 2-2.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#rugathodes",
-    "href": "Theridiidae.html#rugathodes",
-    "title": "Theridiidae",
-    "section": "Rugathodes",
-    "text": "Rugathodes\n1 espèce en Île-de-France non identifiable à vue\n\nRugathodes instabilis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 2-3 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#sardinidion",
-    "href": "Theridiidae.html#sardinidion",
-    "title": "Theridiidae",
-    "section": "Sardinidion",
-    "text": "Sardinidion\n1 espèce en Île-de-France non identifiable à vue\n\nSardinidion blackwalli (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.3-3 mm (♂) / 2.5-3.0 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#simitidion",
-    "href": "Theridiidae.html#simitidion",
-    "title": "Theridiidae",
-    "section": "Simitidion",
-    "text": "Simitidion\n1 espèce en Île-de-France identifiable à vue\n\nSimitidion simile (difficulté 2)  LC \n    \n\n\nConfusions possibles :Theridion pp., Platnickina tincta\n\n\n\n\n\n\n\nTaille du corps: 2.2-2.5 mm (♂) / 2.2-3.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#steatoda",
-    "href": "Theridiidae.html#steatoda",
-    "title": "Theridiidae",
-    "section": "Steatoda",
-    "text": "Steatoda\n6 espèces en Île-de-France, toutes identifiables à vue\n\nSteatoda albomaculata (difficulté 1)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.3-5.8 mm (♂) / 5.5-6.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda bipunctata (difficulté 1)  LC \n    \n\n\nConfusions possibles :S. nobilis\n\n\n\n\n\n\n\nTaille du corps: 4-5.5 mm (♂) / 4.5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda grossa (difficulté 1)  LC \n    \n\n\nConfusions possibles :S. triangulosa\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.0-10.0 mm (♂) / 6.5-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda nobilis (difficulté 1)\n    \n\n\nConfusions possibles :S. bipunctata\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7.8-10.6 mm (♂) / 9.5-14.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nSteatoda paykulliana (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-8.4 mm (♂) / 8.0-13.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSteatoda triangulosa (difficulté 1)  LC \n    \n\n\nConfusions possibles :Steatoda grossa\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-5.0 mm (♂) / 3.5-8.6 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#theonoe",
-    "href": "Theridiidae.html#theonoe",
-    "title": "Theridiidae",
-    "section": "Theonoe",
-    "text": "Theonoe\n1 espèce en Île-de-France non identifiable à vue\n\nTheonoe minutissima (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.0-1.2 mm (♂) / 1.0-1.3 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Theridiidae.html#theridion",
-    "href": "Theridiidae.html#theridion",
-    "title": "Theridiidae",
-    "section": "Theridion",
-    "text": "Theridion\n8 espèces en Île-de-France, aucune identifiable à vue\n\nTheridion asopi (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.4 mm (♂) / 3.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nTheridion familiare (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-2.5 mm (♂) / 2.0-3.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nTheridion hemerobium (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.4-3.9 mm (♂) / 3.0-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion melanurum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-4.5 mm (♂) / 2.5-4.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion mystaceum (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 2-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion pictum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.3-3.5 mm (♂) / 3.5-4.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion pinastri (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3 mm (♂) / 3-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTheridion varians (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Theridiidae"
-    ]
-  },
-  {
-    "objectID": "Nesticidae.html",
-    "href": "Nesticidae.html",
-    "title": "Nesticidae",
+    "objectID": "Miturgidae.html",
+    "href": "Miturgidae.html",
+    "title": "Miturgidae",
     "section": "",
     "text": "espèces, genitalias",
     "crumbs": [
       "Accueil",
-      "Nesticidae"
+      "Miturgidae"
     ]
   },
   {
-    "objectID": "Nesticidae.html#kryptonesticus",
-    "href": "Nesticidae.html#kryptonesticus",
-    "title": "Nesticidae",
-    "section": "Kryptonesticus",
-    "text": "Kryptonesticus\n1 espèce en Île-de-France identifiable à vue\n\nKryptonesticus eremita (difficulté 2)  LC \n    \n\n\nConfusions possibles :Nesticus cellulanus, Theridion, Scytodes\n\n\n\n\n\n\n\nTaille du corps: 3.7-4.7 mm (♂) / 3.8-6 mm (♀)",
+    "objectID": "Miturgidae.html#zora",
+    "href": "Miturgidae.html#zora",
+    "title": "Miturgidae",
+    "section": "Zora",
+    "text": "Zora\n5 espèces en Île-de-France dont 1 identifiable à vue\n\nZora armillata (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4 mm (♂) / 4-6.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nZora manicata (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.8-3.5 mm (♂) / 3.9-5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nZora parallela (difficulté 2)  LC \n    \n\n\nConfusions possibles :Pardosa, Zora spp.\n\n\n\n\n\n\n\nTaille du corps: 3.1-3.7 mm (♂) / 4.5-5.4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZora silvestris (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 3.5-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZora spinimana (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.5-5.0 mm (♂) / 5.0-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
     "crumbs": [
       "Accueil",
-      "Nesticidae"
+      "Miturgidae"
     ]
   },
   {
-    "objectID": "Nesticidae.html#nesticus",
-    "href": "Nesticidae.html#nesticus",
-    "title": "Nesticidae",
-    "section": "Nesticus",
-    "text": "Nesticus\n1 espèce en Île-de-France identifiable à vue\n\nNesticus cellulanus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Kryptonesticus ememita, Theridion, Scytodes\n\n\n\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 3.5-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Zoropsidae.html",
+    "href": "Zoropsidae.html",
+    "title": "Zoropsidae",
+    "section": "",
+    "text": "espèces, genitalias",
     "crumbs": [
       "Accueil",
-      "Nesticidae"
+      "Zoropsidae"
     ]
   },
   {
-    "objectID": "Clubionidae.html",
-    "href": "Clubionidae.html",
-    "title": "Clubionidae",
+    "objectID": "Zoropsidae.html#zoropsis",
+    "href": "Zoropsidae.html#zoropsis",
+    "title": "Zoropsidae",
+    "section": "Zoropsis",
+    "text": "Zoropsis\n1 espèce en Île-de-France identifiable à vue\n\nZoropsis spinimana (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 10-13 mm (♂) / 10-19 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Zoropsidae"
+    ]
+  },
+  {
+    "objectID": "Oxyopidae.html",
+    "href": "Oxyopidae.html",
+    "title": "Oxyopidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Oxyopidae"
+    ]
+  },
+  {
+    "objectID": "Oxyopidae.html#oxyopes",
+    "href": "Oxyopidae.html#oxyopes",
+    "title": "Oxyopidae",
+    "section": "Oxyopes",
+    "text": "Oxyopes\n4 espèces en Île-de-France dont 2 identifiables à vue\n\nOxyopes heterophthalmus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Oxyopes spp.\n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOxyopes lineatus (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Oxyopes nigripalpis\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 6-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOxyopes nigripalpis (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :Oxyopes lineatus\n\n\n\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOxyopes ramosus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Oxyopes spp.\n\n\n\n\n\n\n\nTaille du corps: 6 mm (♂) / 6-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Oxyopidae"
+    ]
+  },
+  {
+    "objectID": "Eresidae.html",
+    "href": "Eresidae.html",
+    "title": "Eresidae",
+    "section": "",
+    "text": "espèces, genitalias",
+    "crumbs": [
+      "Accueil",
+      "Eresidae"
+    ]
+  },
+  {
+    "objectID": "Eresidae.html#eresus",
+    "href": "Eresidae.html#eresus",
+    "title": "Eresidae",
+    "section": "Eresus",
+    "text": "Eresus\n1 espèce en Île-de-France identifiable à vue\n\nEresus kollari (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 8-11 mm (♂) / 9-16 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "crumbs": [
+      "Accueil",
+      "Eresidae"
+    ]
+  },
+  {
+    "objectID": "Gnaphosidae.html",
+    "href": "Gnaphosidae.html",
+    "title": "Gnaphosidae",
     "section": "",
     "text": "espèces, genitalias mâle , genitalias femelle",
     "crumbs": [
       "Accueil",
-      "Clubionidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Clubionidae.html#clubiona",
-    "href": "Clubionidae.html#clubiona",
-    "title": "Clubionidae",
-    "section": "Clubiona",
-    "text": "Clubiona\n20 espèces en Île-de-France dont 2 identifiables à vue\n\nClubiona brevipes (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-6 mm (♂) / 5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona caerulescens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.5-8.0 mm (♂) / 6.0-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona comta (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main\n\n\nConfusions possibles :Clubiona corticalis, Clubiona leucaspis\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 3.0-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona corticalis (difficulté 2)  LC \n    \n\n\nConfusions possibles :Clubiona comta\n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 7-10 mm (♂) / 7-11 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona diversa (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 4.0-5.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona frutetorum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-7.0 mm (♂) / 5.0-7.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona germanica (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-8.0 mm (♂) / 5.0-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona juvenis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-5.1 mm (♂) / 5.0-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona lutescens (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 5.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona marmorata (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 6 mm (♂) / 6-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nClubiona neglecta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-7.0 mm (♂) / 5.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona pallidula (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 6.0-9.0 mm (♂) / 7.0-13.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona phragmitis (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.0-11.0 mm (♂) / 7.0-12.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona pseudoneglecta (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.3-5.5 mm (♂) / 5.8-6.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona reclusa (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 4.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona similis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 8.0-7.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona stagnatilis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-7.0 mm (♂) / 5.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona subtilis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-3.0 mm (♂) / 3.0-4.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona terrestris (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.0-7.0 mm (♂) / 6.0-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nClubiona trivialis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 4.0-6.0 mm (♀)",
+    "objectID": "Gnaphosidae.html#berlandina",
+    "href": "Gnaphosidae.html#berlandina",
+    "title": "Gnaphosidae",
+    "section": "Berlandina",
+    "text": "Berlandina\n1 espèce en Île-de-France identifiable à vue\n\nBerlandina cinerea (difficulté 2)  VU \n    \n\n\nConfusions possibles :Nomisia aussereri\n\n\n\n\n\n\n\nTaille du corps: 5.15-6.8 mm (♂) / 5.8-8.6 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Clubionidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Clubionidae.html#porrhoclubiona",
-    "href": "Clubionidae.html#porrhoclubiona",
-    "title": "Clubionidae",
-    "section": "Porrhoclubiona",
-    "text": "Porrhoclubiona\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nPorrhoclubiona genevensis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 4.0-5.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPorrhoclubiona leucaspis (difficulté 1)  LC \n    \n\n\nConfusions possibles :Clubiona corticalis, Clubiona comta\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-4.0 mm (♂) / 4.0-5.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Gnaphosidae.html#callilepis",
+    "href": "Gnaphosidae.html#callilepis",
+    "title": "Gnaphosidae",
+    "section": "Callilepis",
+    "text": "Callilepis\n1 espèce en Île-de-France identifiable à vue\n\nCallilepis nocturna (difficulté 2)  LC \n    \n\n\nCondition :seule espèce du genre en IdF\n\n\nConfusions possibles :Kishidaia, Poecilochroa, Phaeocedus\n\n\n\n\n\n\n\nTaille du corps: 2.8-4.7 mm (♂) / 3.8-5.9 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Clubionidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Philodromidae.html",
-    "href": "Philodromidae.html",
-    "title": "Philodromidae",
-    "section": "",
-    "text": "espèces, genitalias femelle , genitalias mâle",
+    "objectID": "Gnaphosidae.html#civizelotes",
+    "href": "Gnaphosidae.html#civizelotes",
+    "title": "Gnaphosidae",
+    "section": "Civizelotes",
+    "text": "Civizelotes\n1 espèce en Île-de-France non identifiable à vue\n\nCivizelotes civicus (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.4-5.5 mm (♂) / 3.4-5.4 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Philodromidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Philodromidae.html#philodromus",
-    "href": "Philodromidae.html#philodromus",
-    "title": "Philodromidae",
-    "section": "Philodromus",
-    "text": "Philodromus\n12 espèces en Île-de-France dont 2 identifiables à vue\n\nPhilodromus albidus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.2-3.8 mm (♂) / 4.0-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus aureolus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-6.5 mm (♂) / 4.0-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus buxi (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-5 mm (♂) / 4-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus cespitum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-5.0 mm (♂) / 5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus dispar (difficulté 1)  LC \n    \n\n\nConfusions possibles :Philodromus spp.\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 4-6.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus emarginatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5-6 mm (♂) / 5-7.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus longipalpis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.8-5.5 mm (♂) / 2.8-7.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus margaritatus (difficulté 1)  LC \n    \n\n\nCondition :morphe “fantome” uniquement\n\n\nConfusions possibles :Philodromus spp.\n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 8-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus pinetorum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-4.5 mm (♂) / 5.3-6.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus poecilus (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus praedatus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3.5-5 mm (♂) / 4-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhilodromus rufus (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 4.5-6.5 mm (♀)",
+    "objectID": "Gnaphosidae.html#drassodes",
+    "href": "Gnaphosidae.html#drassodes",
+    "title": "Gnaphosidae",
+    "section": "Drassodes",
+    "text": "Drassodes\n3 espèces en Île-de-France, aucune identifiable à vue\n\nDrassodes cupreus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 8-19 mm (♂) / 9-15 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassodes lapidosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.0-13.3 mm (♂) / 9.3-14.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassodes pubescens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.0-7.3 mm (♂) / 5.3-9.6 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Philodromidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Philodromidae.html#pulchellodromus",
-    "href": "Philodromidae.html#pulchellodromus",
-    "title": "Philodromidae",
-    "section": "Pulchellodromus",
-    "text": "Pulchellodromus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nPulchellodromus bistigma (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps:\n\n\n\n\n\n\n\n\n\n\n\nPulchellodromus pulchellus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3 mm (♂) / 3.3-4.6 mm (♀)",
+    "objectID": "Gnaphosidae.html#drassodex",
+    "href": "Gnaphosidae.html#drassodex",
+    "title": "Gnaphosidae",
+    "section": "Drassodex",
+    "text": "Drassodex\n2 espèces en Île-de-France, aucune identifiable à vue\n\nDrassodex hypocrita (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 7.8-10.2 mm (♂) / 9.5-13.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDrassodex lesserti (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 10.5-14 mm (♂) / 10.7-14 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Philodromidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Philodromidae.html#rhysodromus",
-    "href": "Philodromidae.html#rhysodromus",
-    "title": "Philodromidae",
-    "section": "Rhysodromus",
-    "text": "Rhysodromus\n1 espèce en Île-de-France identifiable à vue\n\nRhysodromus histrio (difficulté 2)  DD \n    \n\n\nConfusions possibles :Philodromus spp.\n\n\n\n\n\n\n\nTaille du corps: 6.0-7.0 mm (♂) / 6.0-7.8 mm (♀)",
+    "objectID": "Gnaphosidae.html#drassyllus",
+    "href": "Gnaphosidae.html#drassyllus",
+    "title": "Gnaphosidae",
+    "section": "Drassyllus",
+    "text": "Drassyllus\n5 espèces en Île-de-France, aucune identifiable à vue\n\nDrassyllus lutetianus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.7-5.5 mm (♂) / 5-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus praeficus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-6.7 mm (♂) / 4.9-8.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus pumilus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.5 mm (♂) / 3.0-4.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus pusillus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.6 mm (♂) / 4.0-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDrassyllus villicus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-4.9 mm (♂) / 5.1-5.8 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Philodromidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Philodromidae.html#thanatus",
-    "href": "Philodromidae.html#thanatus",
-    "title": "Philodromidae",
-    "section": "Thanatus",
-    "text": "Thanatus\n4 espèces en Île-de-France dont 1 identifiable à vue\n\nThanatus arenarius (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :confusion avec T. formicinus\n\n\n\n\n\n\n\nTaille du corps: 4.3-6.2 mm (♂) / 5.5-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nThanatus formicinus (non identifiable à vue)  LC \n    \n\n\nConfusions possibles :confusion avec T. arenarius\n\n\n\n\n\n\n\nTaille du corps: 5.2-7.4 mm (♂) / 6.9-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nThanatus sabulosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-3.9 mm (♂) / 4.2-5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nThanatus striatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Philodromus, Tibellus, Micrommata immature\n\n\n\n\n\n\n\nTaille du corps: 3-4.2 mm (♂) / 3.9-6.8 mm (♀)",
+    "objectID": "Gnaphosidae.html#gnaphosa",
+    "href": "Gnaphosidae.html#gnaphosa",
+    "title": "Gnaphosidae",
+    "section": "Gnaphosa",
+    "text": "Gnaphosa\n2 espèces en Île-de-France, aucune identifiable à vue\n\nGnaphosa lucifuga (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 10.5-14.9 mm (♂) / 12.1-18.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nGnaphosa lugubris (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 7.5-10.7 mm (♂) / 8.3-10.5 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Philodromidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Philodromidae.html#tibellus",
-    "href": "Philodromidae.html#tibellus",
-    "title": "Philodromidae",
-    "section": "Tibellus",
-    "text": "Tibellus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nTibellus maritimus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.5-6.5 mm (♂) / 6.5-12.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTibellus oblongus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 5-7.5 mm (♂) / 6.5-11.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Gnaphosidae.html#haplodrassus",
+    "href": "Gnaphosidae.html#haplodrassus",
+    "title": "Gnaphosidae",
+    "section": "Haplodrassus",
+    "text": "Haplodrassus\n7 espèces en Île-de-France, aucune identifiable à vue\n\nHaplodrassus cognatus (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 5.2-8.0 mm (♂) / 5.8-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus dalmatensis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-6 mm (♂) / 3.7-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus kulczynskii (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.04-3.64 mm (♂) / 2.48-4.32 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus minor (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.7-3.9 mm (♂) / 3.5-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus signifer (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.7-7.4 mm (♂) / 5.1-11.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus silvestris (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.2-8 mm (♂) / 6.8-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHaplodrassus umbratilis (non identifiable à vue)  DD \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.9-6.0 mm (♂) / 5.1-7.5 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Philodromidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Atypidae.html",
-    "href": "Atypidae.html",
-    "title": "Atypidae",
-    "section": "",
-    "text": "espèces",
+    "objectID": "Gnaphosidae.html#kishidaia",
+    "href": "Gnaphosidae.html#kishidaia",
+    "title": "Gnaphosidae",
+    "section": "Kishidaia",
+    "text": "Kishidaia\n1 espèce en Île-de-France identifiable à vue\n\nKishidaia conspicua (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Poecilochroa, Phaeocedus\n\n\n\n\n\n\n\nTaille du corps: 5.4-6.6 mm (♂) / 5.6-10 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Atypidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Atypidae.html#atypus",
-    "href": "Atypidae.html#atypus",
-    "title": "Atypidae",
-    "section": "Atypus",
-    "text": "Atypus\n2 espèces en Île-de-France, toutes identifiables à vue\n\nAtypus affinis (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main\n\n\n\n\n\n\n\nTaille du corps: 7-9 mm (♂) / 10-15 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nAtypus piceus (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main\n\n\n\n\n\n\n\nTaille du corps: 9 mm (♂) / 10-15 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Gnaphosidae.html#micaria",
+    "href": "Gnaphosidae.html#micaria",
+    "title": "Gnaphosidae",
+    "section": "Micaria",
+    "text": "Micaria\n9 espèces en Île-de-France dont 3 identifiables à vue\n\nMicaria albovittata (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-5 mm (♂) / 4.5-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria dives (difficulté 3)  LC \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Phrurolithus spp., Micaria spp., Synageles spp. Leptorchestes berolinensis\n\n\n\n\n\n\n\nTaille du corps: 2.1-4 mm (♂) / 2.1-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nMicaria formicaria (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 4.0-5.7 mm (♂) / 5.0-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria fulgens (difficulté 3)  LC \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Phrurolithus spp., Micaria spp., Synageles spp. Leptorchestes berolinensis\n\n\n\n\n\n\n\nTaille du corps: 3.5-5.5 mm (♂) / 5.0-6.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria guttulata (difficulté 3)  LC \n    \n\n\nCondition :photo indispensable pour validation de la donnée\n\n\nConfusions possibles :Phrurolithus spp., Micaria spp., Synageles spp. Leptorchestes berolinensis\n\n\n\n\n\n\n\nTaille du corps: 2.5-3.4 mm (♂) / 2.5-3.4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria micans (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps:\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria pulicaria (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 2.7-4.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicaria sociabilis (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2.4-4.0 mm (♂) / 3.0-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nMicaria subopaca (non identifiable à vue)  EN \n    \n\n\n\n\n\n\n\nTaille du corps: 2.3 mm (♂) / 2.2-2.9 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Atypidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Pholcidae.html",
-    "href": "Pholcidae.html",
-    "title": "Pholcidae",
-    "section": "",
-    "text": "espèces, genitalias",
+    "objectID": "Gnaphosidae.html#nomisia",
+    "href": "Gnaphosidae.html#nomisia",
+    "title": "Gnaphosidae",
+    "section": "Nomisia",
+    "text": "Nomisia\n1 espèce en Île-de-France identifiable à vue\n\nNomisia aussereri (difficulté 2)  LC \n    \n\n\nConfusions possibles :Berlandina cinerea\n\n\n\n\n\n\n\nTaille du corps: 6.7-8.6 mm (♂) / 6.7-11.8 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Pholcidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Pholcidae.html#holocnemus",
-    "href": "Pholcidae.html#holocnemus",
-    "title": "Pholcidae",
-    "section": "Holocnemus",
-    "text": "Holocnemus\n1 espèce en Île-de-France identifiable à vue\n\nHolocnemus pluchei (difficulté 1)  LC \n    \n\n\nConfusions possibles :Pholcus\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7.5 mm (♀)",
+    "objectID": "Gnaphosidae.html#phaeocedus",
+    "href": "Gnaphosidae.html#phaeocedus",
+    "title": "Gnaphosidae",
+    "section": "Phaeocedus",
+    "text": "Phaeocedus\n1 espèce en Île-de-France identifiable à vue\n\nPhaeocedus braccatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Kishidaia, Poecilochroa,\n\n\n\n\n\n\n\nTaille du corps: 4.0-4.9 mm (♂) / 4.5-6.9 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Pholcidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Pholcidae.html#pholcus",
-    "href": "Pholcidae.html#pholcus",
-    "title": "Pholcidae",
-    "section": "Pholcus",
-    "text": "Pholcus\n2 espèces en Île-de-France, toutes identifiables à vue\n\nPholcus opilionoides (difficulté 1)  LC \n    \n\n\nCondition :photo indispensable pour validation de l’observation\n\n\nConfusions possibles :Holocnemus\n\n\n\n\n\n\n\nTaille du corps: 4.0-5.0 mm (♂) / 4.0-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPholcus phalangioides (difficulté 1)  LC \n    \n\n\nConfusions possibles :Holocnemus\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7-10 mm (♂) / 7-8 mm (♀)",
+    "objectID": "Gnaphosidae.html#poecilochroa",
+    "href": "Gnaphosidae.html#poecilochroa",
+    "title": "Gnaphosidae",
+    "section": "Poecilochroa",
+    "text": "Poecilochroa\n2 espèces en Île-de-France, toutes identifiables à vue\n\nPoecilochroa albomaculata (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Kishidaia, Poecilochroa, Phaeocedus variana\n\n\n\n\n\n\n\nTaille du corps: 7-8.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nPoecilochroa variana (difficulté 2)  LC \n    \n\n\nConfusions possibles :Callilepis, Kishidaia, Poecilochroa albomaculata, Phaeocedus\n\n\n\n\n\n\n\nTaille du corps: 4.3-6.5 mm (♂) / 5.2-6.5 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Pholcidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Pholcidae.html#psilochorus",
-    "href": "Pholcidae.html#psilochorus",
-    "title": "Pholcidae",
-    "section": "Psilochorus",
-    "text": "Psilochorus\n1 espèce en Île-de-France identifiable à vue\n\nPsilochorus simoni (difficulté 2)\n    \n\n\nConfusions possibles :Holocnemus, Pholcus\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 1.9-3.0 mm (♂) / 1.9-3.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Gnaphosidae.html#scotophaeus",
+    "href": "Gnaphosidae.html#scotophaeus",
+    "title": "Gnaphosidae",
+    "section": "Scotophaeus",
+    "text": "Scotophaeus\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nScotophaeus scutulatus (difficulté 2)  LC \n    \n\n\nConfusions possibles :Gnaphosa spp.\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6.8-10.9 mm (♂) / 8.3-15.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nScotophaeus westringi (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps:",
     "crumbs": [
       "Accueil",
-      "Pholcidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Sparassidae.html",
-    "href": "Sparassidae.html",
-    "title": "Sparassidae",
-    "section": "",
-    "text": "espèces, genitalias",
+    "objectID": "Gnaphosidae.html#trachyzelotes",
+    "href": "Gnaphosidae.html#trachyzelotes",
+    "title": "Gnaphosidae",
+    "section": "Trachyzelotes",
+    "text": "Trachyzelotes\n1 espèce en Île-de-France identifiable à vue\n\nTrachyzelotes pedestris (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.5-6 mm (♂) / 6.6-9.4 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Sparassidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Sparassidae.html#micrommata",
-    "href": "Sparassidae.html#micrommata",
-    "title": "Sparassidae",
-    "section": "Micrommata",
-    "text": "Micrommata\n2 espèces en Île-de-France, toutes identifiables à vue\n\nMicrommata ligurina (difficulté 1)  LC \n    \n\n\nConfusions possibles :Micrommata virescens\n\n\n\n\n\n\n\nTaille du corps: 8.0 mm (♂) / 10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMicrommata virescens (difficulté 1)  LC \n    \n\n\nConfusions possibles :Micrommata ligurina\n\n\n\n\n\n\n\nTaille du corps: 7-10 mm (♂) / 12-16.6 mm (♀)",
+    "objectID": "Gnaphosidae.html#urozelotes",
+    "href": "Gnaphosidae.html#urozelotes",
+    "title": "Gnaphosidae",
+    "section": "Urozelotes",
+    "text": "Urozelotes\n1 espèce en Île-de-France non identifiable à vue\n\nUrozelotes rusticus (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 7-8 mm (♂) / 7.8-10.2 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Sparassidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Sparassidae.html#olios",
-    "href": "Sparassidae.html#olios",
-    "title": "Sparassidae",
-    "section": "Olios",
-    "text": "Olios\n1 espèce en Île-de-France identifiable à vue\n\nOlios argelasius (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 9-11 mm (♂) / 15-17 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
+    "objectID": "Gnaphosidae.html#zelotes",
+    "href": "Gnaphosidae.html#zelotes",
+    "title": "Gnaphosidae",
+    "section": "Zelotes",
+    "text": "Zelotes\n7 espèces en Île-de-France, aucune identifiable à vue\n\nZelotes apricorum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.1-8.2 mm (♂) / 5.4-9.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes atrocaeruleus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.6-8.1 mm (♂) / 5.9-8.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes electus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 3.2-5.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nZelotes erebeus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.6-7.3 mm (♂) / 5.6-9.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes latreillei (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-7.5 mm (♂) / 5.3-9.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes petrensis (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-6.5 mm (♂) / 3.5-8.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nZelotes subterraneus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.5-7.8 mm (♂) / 6.0-9.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
     "crumbs": [
       "Accueil",
-      "Sparassidae"
+      "Gnaphosidae"
     ]
   },
   {
-    "objectID": "Thomisidae.html",
-    "href": "Thomisidae.html",
-    "title": "Thomisidae",
+    "objectID": "Tetragnathidae.html",
+    "href": "Tetragnathidae.html",
+    "title": "Tetragnathidae",
     "section": "",
     "text": "espèces, genitalias mâle , genitalias femelle",
     "crumbs": [
       "Accueil",
-      "Thomisidae"
+      "Tetragnathidae"
     ]
   },
   {
-    "objectID": "Thomisidae.html#bassaniodes",
-    "href": "Thomisidae.html#bassaniodes",
-    "title": "Thomisidae",
-    "section": "Bassaniodes",
-    "text": "Bassaniodes\n1 espèce en Île-de-France non identifiable à vue\n\nBassaniodes robustus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5-6.9 mm (♂) / 7-12 mm (♀)",
+    "objectID": "Tetragnathidae.html#meta",
+    "href": "Tetragnathidae.html#meta",
+    "title": "Tetragnathidae",
+    "section": "Meta",
+    "text": "Meta\n2 espèces en Île-de-France, toutes identifiables à vue\n\nMeta bourneti (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 10-13 mm (♂) / 13-16 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMeta menardi (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 11-12 mm (♂) / 15-17 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Thomisidae"
+      "Tetragnathidae"
     ]
   },
   {
-    "objectID": "Thomisidae.html#coriarachne",
-    "href": "Thomisidae.html#coriarachne",
-    "title": "Thomisidae",
-    "section": "Coriarachne",
-    "text": "Coriarachne\n1 espèce en Île-de-France identifiable à vue\n\nCoriarachne depressa (difficulté 3)  EN \n    \n\n\nCondition :photo indispensable pour validation de l’observation\n\n\nConfusions possibles :Xysticus spp.\n\n\n\n\n\n\n\nTaille du corps: 4.5-5.5 mm (♂) / 4.5-5.5 mm (♀)",
+    "objectID": "Tetragnathidae.html#metellina",
+    "href": "Tetragnathidae.html#metellina",
+    "title": "Tetragnathidae",
+    "section": "Metellina",
+    "text": "Metellina\n3 espèces en Île-de-France, toutes identifiables à vue\n\nMetellina mengei (difficulté 1)  LC \n    \n\n\nCondition :si obs adulte entre mai-juin\n\n\nConfusions possibles :Metellina segmentata\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-5.5 mm (♂) / 3.5-7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMetellina merianae (difficulté 1)  LC \n    \n\n\nConfusions possibles :Metellina segmentata, M. mengei\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7.5-8 mm (♂) / 7.3-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nMetellina segmentata (difficulté 1)  LC \n    \n\n\nCondition :si obs adulte entre aout-sept\n\n\nConfusions possibles :Metellina mengei\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5-7.5 mm (♂) / 6.5-9 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Thomisidae"
+      "Tetragnathidae"
     ]
   },
   {
-    "objectID": "Thomisidae.html#cozyptila",
-    "href": "Thomisidae.html#cozyptila",
-    "title": "Thomisidae",
-    "section": "Cozyptila",
-    "text": "Cozyptila\n1 espèce en Île-de-France non identifiable à vue\n\nCozyptila blackwalli (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 3-4.1 mm (♀)",
+    "objectID": "Tetragnathidae.html#pachygnatha",
+    "href": "Tetragnathidae.html#pachygnatha",
+    "title": "Tetragnathidae",
+    "section": "Pachygnatha",
+    "text": "Pachygnatha\n3 espèces en Île-de-France, toutes identifiables à vue\n\nPachygnatha clercki (difficulté 1)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-5 mm (♂) / 5.5-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPachygnatha degeeri (difficulté 2)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3.0-3.5 mm (♂) / 3.5-4.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPachygnatha listeri (difficulté 3)  LC \n    \n\n\nConfusions possibles :Pachygnatha degeeri\n\n\n\n\n\n\n\nTaille du corps: 3-4.5 mm (♂) / 4.5-5 mm (♀)",
     "crumbs": [
       "Accueil",
-      "Thomisidae"
+      "Tetragnathidae"
     ]
   },
   {
-    "objectID": "Thomisidae.html#diaea",
-    "href": "Thomisidae.html#diaea",
-    "title": "Thomisidae",
-    "section": "Diaea",
-    "text": "Diaea\n2 espèces en Île-de-France, toutes identifiables à vue\n\nDiaea dorsata (difficulté 1)  LC \n    \n\n\nConfusions possibles :Diaea livens\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 5.0-7.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nDiaea livens (difficulté 3)  DD \n    \n\n\nCondition :photo indispensable pour validation de l’observation\n\n\nConfusions possibles :Diaea dorsata\n\n\n\n\n\n\n\nTaille du corps: 4.2 mm (♂) / 5.8 mm (♀)",
+    "objectID": "Tetragnathidae.html#tetragnatha",
+    "href": "Tetragnathidae.html#tetragnatha",
+    "title": "Tetragnathidae",
+    "section": "Tetragnatha",
+    "text": "Tetragnatha\n7 espèces en Île-de-France, aucune identifiable à vue\n\nTetragnatha dearmata (non identifiable à vue)  DD \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-7.5 mm (♂) / 8-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha extensa (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-9 mm (♂) / 5-12.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha montana (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-8 mm (♂) / 7-13 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha nigrita (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 6-8 mm (♂) / 7-11 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha obtusa (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-5.5 mm (♂) / 4.5-7.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha pinicola (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-5 mm (♂) / 5-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTetragnatha striata (non identifiable à vue)  NT \n    \n\n\n\n\n\n\n\nTaille du corps: 8-10 mm (♂) / 9-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
     "crumbs": [
       "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#ebrechtella",
-    "href": "Thomisidae.html#ebrechtella",
-    "title": "Thomisidae",
-    "section": "Ebrechtella",
-    "text": "Ebrechtella\n1 espèce en Île-de-France identifiable à vue\n\nEbrechtella tricuspidata (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3 mm (♂) / 6 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#heriaeus",
-    "href": "Thomisidae.html#heriaeus",
-    "title": "Thomisidae",
-    "section": "Heriaeus",
-    "text": "Heriaeus\n2 espèces en Île-de-France dont 1 identifiable à vue\n\nHeriaeus graminicola (difficulté 1)  DD \n    \n\n\nCondition :milieu humide\n\n\n\n\n\n\n\nTaille du corps: 4.4-5.1 mm (♂) / 6.3-7.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHeriaeus oblongus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.5-6.0 mm (♂) / 5.6-8.0 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#misumena",
-    "href": "Thomisidae.html#misumena",
-    "title": "Thomisidae",
-    "section": "Misumena",
-    "text": "Misumena\n1 espèce en Île-de-France identifiable à vue\n\nMisumena vatia (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.0-5.0 mm (♂) / 7.0-11.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#ozyptila",
-    "href": "Thomisidae.html#ozyptila",
-    "title": "Thomisidae",
-    "section": "Ozyptila",
-    "text": "Ozyptila\n8 espèces en Île-de-France, aucune identifiable à vue\n\nOzyptila atomaria (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 4-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila brevipes (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 3-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila claveata (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 3-4 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila praticola (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 2.5-3 mm (♂) / 3-5.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila rauda (non identifiable à vue)  NT \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5 mm (♂) / 3.4-3.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nOzyptila sanctuaria (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 2.0-3.0 mm (♂) / 2.7-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila simplex (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2-3 mm (♂) / 4-5.1 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nOzyptila trux (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 4-5.4 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#pistius",
-    "href": "Thomisidae.html#pistius",
-    "title": "Thomisidae",
-    "section": "Pistius",
-    "text": "Pistius\n1 espèce en Île-de-France identifiable à vue\n\nPistius truncatus (difficulté 1)  LC \n    \n\n\nConfusions possibles :Male de Thomisus onustus\n\n\n\n\n\n\n\nTaille du corps: 5 mm (♂) / 8-9 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#psammitis",
-    "href": "Thomisidae.html#psammitis",
-    "title": "Thomisidae",
-    "section": "Psammitis",
-    "text": "Psammitis\n1 espèce en Île-de-France non identifiable à vue\n\nPsammitis ninnii (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.2-5.2 mm (♂) / 5.5-7.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#runcinia",
-    "href": "Thomisidae.html#runcinia",
-    "title": "Thomisidae",
-    "section": "Runcinia",
-    "text": "Runcinia\n1 espèce en Île-de-France identifiable à vue\n\nRuncinia grammica (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.3-4.6 mm (♂) / 5.4-7.6 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#synema",
-    "href": "Thomisidae.html#synema",
-    "title": "Thomisidae",
-    "section": "Synema",
-    "text": "Synema\n1 espèce en Île-de-France identifiable à vue\n\nSynema globosum (difficulté 1)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4 mm (♂) / 6.8-8 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#thomisus",
-    "href": "Thomisidae.html#thomisus",
-    "title": "Thomisidae",
-    "section": "Thomisus",
-    "text": "Thomisus\n1 espèce en Île-de-France identifiable à vue\n\nThomisus onustus (difficulté 1)  LC \n    \n\n\nConfusions possibles :Pistius truncatus\n\n\n\n\n\n\n\nTaille du corps: 2-3.6 mm (♂) / 7-10 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#tmarus",
-    "href": "Thomisidae.html#tmarus",
-    "title": "Thomisidae",
-    "section": "Tmarus",
-    "text": "Tmarus\n2 espèces en Île-de-France, aucune identifiable à vue\n\nTmarus piger (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 4 mm (♂) / 5.9-6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nTmarus stellio (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4 mm (♂) / 4-5.5 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Thomisidae.html#xysticus",
-    "href": "Thomisidae.html#xysticus",
-    "title": "Thomisidae",
-    "section": "Xysticus",
-    "text": "Xysticus\n16 espèces en Île-de-France dont 1 identifiable à vue\n\nXysticus acerbus (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.0-6.0 mm (♂) / 6.0-10.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus audax (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.6 mm (♂) / 3.8-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus bifasciatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.4-6.9 mm (♂) / 6.6-9.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus cor (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.4-3 mm (♂) / 4.2-4.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nXysticus cristatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-6.1 mm (♂) / 4.7-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus erraticus (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 6-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus ferrugineus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.4-5.3 mm (♂) / 5.3-8.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus gallicus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4.6-8 mm (♂) / 6.4-11.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus kempeleni (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 3.6-4.7 mm (♂) / 5.5-7.6 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus kochi (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4-5.4 mm (♂) / 6-10.8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus lanio (non identifiable à vue)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 4.2-6.2 mm (♂) / 6.1-8.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus lineatus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.3-4.5 mm (♂) / 4.5-7.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus luctator (non identifiable à vue)  LC \n    \n\n\n\n\n\nMâle :\n\n\n\n\nTaille du corps: 5.9-8.4 mm (♂) / 7-13 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus luctuosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 4-5 mm (♂) / 5.5-8 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nXysticus tortuosus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 3.5-4.1 mm (♂) / 5.2-6.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nXysticus ulmi (difficulté 2)  LC \n    \n\n\nConfusions possibles :Xysticus spp.\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3-4 mm (♂) / 5-8.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Thomisidae"
-    ]
-  },
-  {
-    "objectID": "Leptonetidae.html",
-    "href": "Leptonetidae.html",
-    "title": "Leptonetidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Leptonetidae"
-    ]
-  },
-  {
-    "objectID": "Leptonetidae.html#leptoneta",
-    "href": "Leptonetidae.html#leptoneta",
-    "title": "Leptonetidae",
-    "section": "Leptoneta",
-    "text": "Leptoneta\n1 espèce en Île-de-France non identifiable à vue\n\nLeptoneta olivacea (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2.7-3 mm (♂) / 2.7-3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Leptonetidae"
-    ]
-  },
-  {
-    "objectID": "Segestriidae.html",
-    "href": "Segestriidae.html",
-    "title": "Segestriidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Segestriidae"
-    ]
-  },
-  {
-    "objectID": "Segestriidae.html#segestria",
-    "href": "Segestriidae.html#segestria",
-    "title": "Segestriidae",
-    "section": "Segestria",
-    "text": "Segestria\n3 espèces en Île-de-France, toutes identifiables à vue\n\nSegestria bavarica (difficulté 2)  LC \n    \n\n\nConfusions possibles :Segestria senoculata\n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 7-8 mm (♂) / 10-14 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSegestria florentina (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 10-15 mm (♂) / 14-22 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nSegestria senoculata (difficulté 2)  LC \n    \n\n\nConfusions possibles :Segestria bavarica\n\n\n\n\n\n\n\nTaille du corps: 6.5-7.5 mm (♂) / 7-10 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Segestriidae"
-    ]
-  },
-  {
-    "objectID": "Scytodidae.html",
-    "href": "Scytodidae.html",
-    "title": "Scytodidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Scytodidae"
-    ]
-  },
-  {
-    "objectID": "Scytodidae.html#scytodes",
-    "href": "Scytodidae.html#scytodes",
-    "title": "Scytodidae",
-    "section": "Scytodes",
-    "text": "Scytodes\n1 espèce en Île-de-France identifiable à vue\n\nScytodes thoracica (difficulté 1)  LC \n    \n\n\n\n\n\nFemelle :\n\n\n\n\nTaille du corps: 3.5-4 mm (♂) / 4-5.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Scytodidae"
-    ]
-  },
-  {
-    "objectID": "Cheiracanthiidae.html",
-    "href": "Cheiracanthiidae.html",
-    "title": "Cheiracanthiidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Cheiracanthiidae"
-    ]
-  },
-  {
-    "objectID": "Cheiracanthiidae.html#cheiracanthium",
-    "href": "Cheiracanthiidae.html#cheiracanthium",
-    "title": "Cheiracanthiidae",
-    "section": "Cheiracanthium",
-    "text": "Cheiracanthium\n6 espèces en Île-de-France dont 3 identifiables à vue\n\nCheiracanthium elegans (difficulté 3)  LC \n    \n\n\nCondition :adulte verdatre, pas jaune\n\n\nConfusions possibles :tt autres Cheiracanthium, Micrommata, Clubiona\n\n\n\n\n\n\n\nTaille du corps: 8.3-9 mm (♂) / 7.35-12 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium erraticum (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5.0-6.5 mm (♂) / 8.0-9.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium mildei (difficulté 3)  LC \n    \n\n\nCondition :avec loupe à main, sur male uniquement (2 apophyses sur le tibia du pedipalpe)\n\n\nConfusions possibles :tt autres Cheiracanthium\n\n\n\n\n\nMâle :\n\n\nFemelle :\n\n\n\n\nTaille du corps: 5.8-8.5 mm (♂) / 6.0-10.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium pennyi (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 9.3-9.5 mm (♂) / 9.3-9.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium punctorium (difficulté 1)  LC \n    \n\n\nCondition :male de plus de 8mm de longueur de corps sans chélicères, femelle de plus 10mm de corps\n\n\nConfusions possibles :tt autres Cheiracanthium\n\n\n\n\n\n\n\nTaille du corps: 7.5-12.0 mm (♂) / 10.0-15.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nCheiracanthium virescens (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 6.5 mm (♂) / 8.4-9.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Cheiracanthiidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html",
-    "href": "Hahniidae.html",
-    "title": "Hahniidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html#antistea",
-    "href": "Hahniidae.html#antistea",
-    "title": "Hahniidae",
-    "section": "Antistea",
-    "text": "Antistea\n1 espèce en Île-de-France non identifiable à vue\n\nAntistea elegans (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.3-2.6 mm (♂) / 2.5-4.3 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html#cicurina",
-    "href": "Hahniidae.html#cicurina",
-    "title": "Hahniidae",
-    "section": "Cicurina",
-    "text": "Cicurina\n1 espèce en Île-de-France identifiable à vue\n\nCicurina cicur (difficulté 3)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 5-7 mm (♂) / 5-7 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html#hahnia",
-    "href": "Hahniidae.html#hahnia",
-    "title": "Hahniidae",
-    "section": "Hahnia",
-    "text": "Hahnia\n4 espèces en Île-de-France, aucune identifiable à vue\n\nHahnia helveola (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.2-2.5 mm (♂) / 2.4-3.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHahnia nava (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.5-2 mm (♂) / 1.5-2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nHahnia petrobia (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.8-3.2 mm (♂) / 2.4-3.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\nHahnia pusilla (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.2-1.6 mm (♂) / 1.2-1.6 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html#hahniharmia",
-    "href": "Hahniidae.html#hahniharmia",
-    "title": "Hahniidae",
-    "section": "Hahniharmia",
-    "text": "Hahniharmia\n1 espèce en Île-de-France non identifiable à vue\n\nHahniharmia picta (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-2.2 mm (♂) / 2.0-2.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html#iberina",
-    "href": "Hahniidae.html#iberina",
-    "title": "Hahniidae",
-    "section": "Iberina",
-    "text": "Iberina\n2 espèces en Île-de-France, aucune identifiable à vue\n\nIberina candida (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.2-1.4 mm (♂) / 1.5-1.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nIberina montana (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 1.4-2 mm (♂) / 1.4-2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Hahniidae.html#mastigusa",
-    "href": "Hahniidae.html#mastigusa",
-    "title": "Hahniidae",
-    "section": "Mastigusa",
-    "text": "Mastigusa\n1 espèce en Île-de-France non identifiable à vue\n\nMastigusa arietina (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3-3.5 mm (♂) / 3-3.5 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Hahniidae"
-    ]
-  },
-  {
-    "objectID": "Phrurolithidae.html",
-    "href": "Phrurolithidae.html",
-    "title": "Phrurolithidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Phrurolithidae"
-    ]
-  },
-  {
-    "objectID": "Phrurolithidae.html#phrurolithus",
-    "href": "Phrurolithidae.html#phrurolithus",
-    "title": "Phrurolithidae",
-    "section": "Phrurolithus",
-    "text": "Phrurolithus\n3 espèces en Île-de-France, aucune identifiable à vue\n\nPhrurolithus festivus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.2-2.9 mm (♂) / 2.4-3.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhrurolithus minimus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.1-2.7 mm (♂) / 2.4-3.3 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n\nPhrurolithus nigrinus (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.0-3.0 mm (♂) / 2.0-4.0 mm (♀)\n\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Phrurolithidae"
-    ]
-  },
-  {
-    "objectID": "Macrothelidae.html",
-    "href": "Macrothelidae.html",
-    "title": "Macrothelidae",
-    "section": "",
-    "text": "espèces",
-    "crumbs": [
-      "Accueil",
-      "Macrothelidae"
-    ]
-  },
-  {
-    "objectID": "Macrothelidae.html#macrothele",
-    "href": "Macrothelidae.html#macrothele",
-    "title": "Macrothelidae",
-    "section": "Macrothele",
-    "text": "Macrothele\n1 espèce en Île-de-France identifiable à vue\n\nMacrothele calpeiana (difficulté 1)\n    \n\n\n\n\n\n\n\nTaille du corps: 20.3-26.8 mm (♂) / 28.2-34.7 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Macrothelidae"
-    ]
-  },
-  {
-    "objectID": "Cybaeidae.html",
-    "href": "Cybaeidae.html",
-    "title": "Cybaeidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Cybaeidae"
-    ]
-  },
-  {
-    "objectID": "Cybaeidae.html#cryphoeca",
-    "href": "Cybaeidae.html#cryphoeca",
-    "title": "Cybaeidae",
-    "section": "Cryphoeca",
-    "text": "Cryphoeca\n1 espèce en Île-de-France non identifiable à vue\n\nCryphoeca silvicola (non identifiable à vue)  LC \n    \n\n\n\n\n\n\n\nTaille du corps: 2.5-3.5 mm (♂) / 2.5-3.9 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Cybaeidae"
-    ]
-  },
-  {
-    "objectID": "Trachelidae.html",
-    "href": "Trachelidae.html",
-    "title": "Trachelidae",
-    "section": "",
-    "text": "espèces, genitalias",
-    "crumbs": [
-      "Accueil",
-      "Trachelidae"
-    ]
-  },
-  {
-    "objectID": "Trachelidae.html#cetonana",
-    "href": "Trachelidae.html#cetonana",
-    "title": "Trachelidae",
-    "section": "Cetonana",
-    "text": "Cetonana\n1 espèce en Île-de-France identifiable à vue\n\nCetonana laticeps (difficulté 3)  LC \n    \n\n\nConfusions possibles :Gnaphosidae\n\n\n\n\n\n\n\nTaille du corps: 5-6 mm (♂) / 5.3-7.2 mm (♀)",
-    "crumbs": [
-      "Accueil",
-      "Trachelidae"
-    ]
-  },
-  {
-    "objectID": "Trachelidae.html#paratrachelas",
-    "href": "Trachelidae.html#paratrachelas",
-    "title": "Trachelidae",
-    "section": "Paratrachelas",
-    "text": "Paratrachelas\n1 espèce en Île-de-France non identifiable à vue\n\nParatrachelas maculatus (non identifiable à vue)  DD \n    \n\n\n\n\n\n\n\nTaille du corps: 3.0-4.0 mm (♂) / 3.4-5.2 mm (♀)\n\n\n\n\n\n\n\n\n\n\n×",
-    "crumbs": [
-      "Accueil",
-      "Trachelidae"
+      "Tetragnathidae"
     ]
   },
   {
