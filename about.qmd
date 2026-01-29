@@ -1,0 +1,47 @@
+---
+header-includes:
+  - <script data-goatcounter="https://araignee-idf.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+---
+
+## Le site
+
+Ce site reprend la liste des araignées d'Île-de-France identifiables à vue élaborée par Claire Jacquet et Yvan Montardi et regroupe des informations et ressources complémentaires pour chaque espèce.
+
+Les cartes de distribution des espèces françaises ont été réalisées par [l'Association Française d'Arachnologie (AsFrA)](https://asfra.fr/Site/Main_public.html) dans le cadre de l'établissement de la [liste rouge nationale](https://inpn.mnhn.fr/docs/LR_FCE/Liste_rouge_araignees_metropole_2023_fascicule.pdf).
+
+Les tailles indiquées sont reprises du site [araneae - Spiders of Europe](https://araneae.nmbe.ch){target="'_blank'"}.
+
+Les graphiques sur la temporalité des observations sont issus du traitement d'une extraction des données de l'INPN, plateforme nationale du SINP, au niveau national complété par les données de la plateforme régionale (Géonat'IdF) réalisée le 3 mars 2025.
+
+Les données avec une précision au point ont été croisées avec les données d'occupation du sol produits par l'Institut Paris Region ([MOS](https://www.institutparisregion.fr/nos-travaux/publications/occupation-du-sol-en-ile-de-france-2021/) en 11 postes de 2021 et [ECOMOS](data-iau-idf.opendata.arcgis.com/datasets/7605369b7c9f4655bd5acaa5676a4663_19) pour les espaces naturels) pour avoir une idée du contexte paysager dans lequel les observations sont généralement faites en Île-de-France.
+
+Les photos commentées de critères utiles à l'identification ont bénéficié d'informations provenant de diverses sources dont les principales sont: 
+- le [Guide photo des araignées et arachnides d'Europe](https://www.delachauxetniestle.com/livre/guide-photo-des-araignees-et-arachnides-deurope-1/9782603019542), 
+- le site [Le Monde des insectes](https://www.insecte.org/forum/viewforum.php?f=42), 
+- le site [Les carnets nature de Jessica](https://jessica-joachim.com/arachnides-2/arachnides/), 
+- le site [www.diplode-vie.net](http://www.dipode-vie.net/Arachnides/Index.html), 
+- les dossiers constitués par le [groupe des Araignées dans Faune-PACA](https://www.faune-paca.org/index.php?m_id=20109) et 
+- le site [Regard d'araignée](https://araignee-sauteuse.fr/).
+
+## La liste des araignées d'Île-de-France identifiables à vue (Claire Jacquet et Yvan Montardi, V2024-1)
+
+[Cette liste commentée](https://geonature.arb-idf.fr/node/256) présente les 653 espèces connues pour la région Ile-de-France à ce jour (source OpenObs-decembre-2023 + observations personnelles des auteurs en cours de diﬀusion) et elle indique les 187 espèces qui sont identiﬁables à vue ou sur photo. Elle peut éventuellement s’appliquer aux départements limitrophes, mais pas au-delà. Certaines espèces sont identiﬁables en Ile-de-France car aucune espèce semblable n’a été trouvée (Callilepis ou Icius par exemple), ce qui n’est pas le cas en dehors de la région.
+
+Cette liste est le fruit de la concertation de plusieurs arachnologues et de leur expérience (observation sur le terrain, puis vériﬁcation de l’identiﬁcation sous loupe binoculaire). Identiﬁer au niveau spéciﬁque n’est pas un objectif à atteindre à tout prix, l’objectif est de générer des données de bonne qualité. Ainsi, un individu aux motifs ou couleurs typiques pourra être identiﬁé avec certitude, alors qu’un individu atypique de la même espèce ne pourra pas être identiﬁé sur son seul habitus et ce même par un spécialiste.
+
+Cette liste va évoluer au fur et à mesure de l’amélioration des connaissances de la faune arachnologique de la région.
+
+**Difficulté d'identification**
+
+|  |  |
+|------------------------------------|------------------------------------|
+| 1 | Identification simple |
+| 2 | Identification délicate, risque de confusion |
+| 3 | Identification très délicate, espèce de petite taille, risque de confusion important |
+
+<br>
+
+## L'auteur
+
+Je m'appelle Cédric Mondy et je suis un naturaliste et photographe amateur ayant un intérêt particulier pour ces chères bêtes à huit pattes. Lorsque j'ai eu connaissance de la liste établie par Claire et Yvan, j'ai voulu la compléter avec des informations que je trouvais utiles. Un peu de code plus tard [![](www/media/github-logo.png){width="25"}](https://github.com/CedricMondy/araignees_idf) et ce site était né.

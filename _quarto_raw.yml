@@ -3,11 +3,13 @@ project:
 website:
   title: Araignées d'Île-de-France
   favicon: www/favicon.png
-  reader-mode: true
+  reader-mode: false
   navbar:
     left:
     - href: index.qmd
       text: Accueil
+    - href: about.qmd
+      text: A propos
 format:
   html:
     theme: cosmo
