@@ -66,18 +66,21 @@ purrr::walk(
 
 
 panneau_gauche <- list(
-  list(
-    text = "Familles",
-    contents = list.files(pattern = "dae.qmd") |>
-      stringr::str_remove(pattern = "\\.qmd") |>
-      lapply(
-        function(famille) {
-          list(
-            text = famille,
-            href = paste0(famille, ".html")
-          )
-        }
-      )
+  style = "docked",
+  contents = list(
+    list(
+      section = "Liste des familles",
+      contents = list.files(pattern = "dae.qmd") |>
+        stringr::str_remove(pattern = "\\.qmd") |>
+        lapply(
+          function(famille) {
+            list(
+              text = famille,
+              href = paste0(famille, ".html")
+            )
+          }
+        )
+    )
   )
 )
 
