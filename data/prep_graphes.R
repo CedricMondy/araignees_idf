@@ -89,7 +89,7 @@ synthese <- geonat |>
     stade_vie = dplyr::case_when(
       stade_vie %in% c("Adulte", "Imago") ~ "adulte",
       stade_vie %in% c("Immature", "Juvénile", "Sub-adulte") ~ "juvénile",
-      stade_vie %in% c("Inconnu", "Indéterminé") ~ "inconnu",
+      is.na(stade_vie) | stade_vie %in% c("Inconnu", "Indéterminé") ~ "inconnu",
       TRUE ~ stade_vie
     )
   ) |>
