@@ -84,6 +84,8 @@ panneau_gauche <- list(
   )
 )
 
+source("prep_graphes_index.R")
+
 quarto_config <- yaml::read_yaml("_quarto_raw.yml")
 quarto_config$website$sidebar <- panneau_gauche
 yaml::write_yaml(quarto_config, "_quarto.yml")
