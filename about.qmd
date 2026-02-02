@@ -2,6 +2,7 @@
 header-includes:
   - <script data-goatcounter="https://araignee-idf.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+toc: false
 ---
 
 ## Le site
