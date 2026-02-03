@@ -4,7 +4,7 @@ header-includes:
         async src="//gc.zgo.at/count.js"></script>
 ---
 
-![](www/media/home.webp){max-height=650}
+![](www/media/home.webp){style="max-height: 650px;max-width= 100%"}
 
 Ce site met à disposition la liste élaborée par Claire Jacquet et Yvan Montardi des espèces d'araignées connues à ce jour pour la région Ile-de-France et en particulier celles identifiables à vue  ([plus de détails ici](about.html)). 
 
