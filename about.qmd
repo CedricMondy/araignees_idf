@@ -45,4 +45,6 @@ Cette liste va évoluer au fur et à mesure de l’amélioration des connaissanc
 
 ## L'auteur
 
-Cédric Mondy, naturaliste et photographe amateur ayant un intérêt particulier pour ces chères bêtes à huit pattes. Lorsque j'ai eu connaissance de la liste établie par Claire et Yvan, j'ai voulu la compléter avec des informations que je trouvais utiles. Un peu de code plus tard [![](www/media/github-logo.png){width="25"}](https://github.com/CedricMondy/araignees_idf) et ce site était né.
+Cédric Mondy, naturaliste et photographe amateur ayant un intérêt particulier pour ces chères bêtes à huit pattes. 
+
+> Lorsque j'ai eu connaissance de la liste établie par Claire et Yvan, j'ai voulu la compléter avec des informations que je trouvais utiles. Un peu de code plus tard [![](www/media/github-logo.png){width="25"}](https://github.com/CedricMondy/araignees_idf) et ce site était né.
