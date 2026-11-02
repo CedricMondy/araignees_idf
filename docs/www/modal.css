@@ -9,32 +9,77 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
-  padding-top: 60px; /* Ajoute un espace de 60px en haut pour compenser le bandeau */
+  padding-top: 65px;
 }
 
 /* Style de l'image dans la modale */
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 80%;
-  max-height: 80%;
+  width: auto;
+  max-height: 650px;
 }
 
 /* Bouton pour fermer la modale */
 .close {
   position: absolute;
-  top: 75px;
-  right: 35px;
+  z-index: 2000;
+  top: 65px;
+  right: 25px;
   color: white;
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
 }
 
+/* Media query pour les appareils mobiles */
+@media screen and (max-width: 768px) {
+  .modal {
+    padding-top: 130px;
+  }
+
+  .modal-content {
+    max-width: 100%; /* Utilise toute la largeur disponible sur mobile */
+    width: 100%; /* Force la largeur à 100% sur mobile */
+    height: auto; /* Maintient le ratio d'aspect */
+  }
+
+  /* Ajustez la position du bouton de fermeture pour les petits écrans */
+  .close {
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+  }
+
+}
+
 .flex-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  flex-direction: row;
+  gap: 10px;
+}
+.flex-container-photo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.photo-container {
+  width: 48%; /* Ajustez selon vos besoins */
+}
+
+/* Media query pour les écrans mobiles */
+@media screen and (max-width: 768px) {
+  .flex-container-photo {
+    flex-direction: column;
+  }
+
+  .photo-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .confusion-box {
@@ -85,4 +130,24 @@
   background-color: #d3050c;
   color: black;
   font-weight: bold;
+}
+
+.column-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-right {
+  width: 40%;
+}
+
+.graph-top, .graph-bottom {
+  width: 100%;
+}
+
+.graph-top img, .graph-bottom img, .column-right img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
